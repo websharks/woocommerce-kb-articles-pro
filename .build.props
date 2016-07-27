@@ -1,0 +1,28 @@
+project_title                               = WooCommerce KB Articles Pro
+
+project_owner                               = websharks
+project_slug                                = woocommerce-kb-articles-pro
+project_text_domain                         = woocommerce-kb-articles
+
+project_namespace                           = WebSharks\\WpSharks\\WooCommerceKBArticles\\Pro
+project_sub_namespace                       = WpSharksWooCommerceKBArticlesPro
+
+project_lite_title                          = WP Sharks WooCommerce KB Articles
+project_lite_slug                           = woocommerce-kb-articles
+project_lite_text_domain                    = woocommerce-kb-articles
+
+project_lite_namespace                      = WebSharks\\WpSharks\\WooCommerceKBArticles
+project_lite_sub_namespace                  = WpSharksWooCommerceKBArticles
+
+project_version                             = %y%m%d.%now
+
+project_php_required_version                = 7.0.4
+project_php_tested_up_to_version            = ${php.version}
+project_php_required_bits                   = 64
+project_php_required_extensions             =
+
+project_wp_required_version                 = 0.0.0
+project_wp_tested_up_to_version             = 0.0.0
+
+project_wp_sharks_core_required_version     = 000000
+project_wp_sharks_core_tested_up_to_version = 000000

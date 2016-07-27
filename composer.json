@@ -1,0 +1,54 @@
+{
+  "name": "websharks/woocommerce-kb-articles-pro",
+  "homepage": "https://github.com/websharks/woocommerce-kb-articles-pro",
+  "description": "WooCommerce KB Articles Pro plugin for WordPress.",
+  "keywords": ["websharks", "wpsharks", "woocommerce-kb-articles"],
+
+  "type": "project",
+  "license": "GPL-3.0+",
+
+  "authors": [{
+    "name": "wpsharks",
+    "homepage": "https://wpsharks.com",
+    "role": "company"
+  }, {
+    "name": "jaswsinc",
+    "homepage": "https://jaswsinc.com",
+    "role": "developer"
+  }, {
+    "name": "raamdev",
+    "homepage": "http://raam.org",
+    "role": "developer"
+  }],
+
+  "support": {
+    "source": "https://github.com/websharks/woocommerce-kb-articles-pro",
+    "issues": "https://github.com/websharks/woocommerce-kb-articles-pro/issues"
+  },
+
+  "require": {
+    "php-64bit": ">=7.0.4",
+    "websharks/wp-php-rv": "dev-master",
+    "websharks/wp-sharks-core-rv": "dev-master"
+  },
+  "require-dev": {},
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "autoload": {
+    "psr-4": {
+      "WebSharks\\WpSharks\\WooCommerceKBArticles\\Pro\\Classes\\": "src/includes/classes",
+      "WebSharks\\WpSharks\\WooCommerceKBArticles\\Pro\\Functions\\": "src/includes/functions",
+      "WebSharks\\WpSharks\\WooCommerceKBArticles\\Pro\\Interfaces\\": "src/includes/interfaces",
+      "WebSharks\\WpSharks\\WooCommerceKBArticles\\Pro\\Traits\\": "src/includes/traits"
+    }
+  },
+
+  "config": {
+    "vendor-dir": "src/vendor",
+    "preferred-install": "dist"
+  },
+
+  "repositories": []
+}
