@@ -147,6 +147,13 @@ class App extends SCoreClasses\App
         if ($this->Wp->is_admin) {
             add_action('admin_init', [$this->Utils->PostMetaBox, 'onAdminInit']);
         }
-        add_action('init', [$this->Utils->PostType, 'onInit'], 6); // Right after other WooCommerce post types.
+        // After other WooCommerce post types.
+        add_action('init', [$this->Utils->PostType, 'onInit'], 6);
+
+        add_filter('query_vars', [$this->Utils->PostType, 'onQueryVars']);
+        add_action('pre_get_posts', [$this->Utils->PostType, 'onPreGetPosts']);
+
+        add_filter('post_type_link', [$this->Utils->PostType, 'onPostTypeLink'], 10, 2);
+        add_filter('term_link', [$this->Utils->PostType, 'onTermLink'], 10, 3);
     }
 }

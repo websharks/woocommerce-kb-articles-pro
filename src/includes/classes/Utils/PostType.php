@@ -146,24 +146,11 @@ class PostType extends SCoreClasses\SCore\Base\Core
 
         add_rewrite_tag('%kb_product%', '([^/]+)', 'kb_product=');
         add_rewrite_tag('%kb_article%', '([^/]+)', 'post_type=kb_article&name=');
-
         add_permastruct('kb_article', 'kb/articles/%kb_product%/%kb_article%', [
             'with_front' => false,
+            'walk_dirs'  => false,
             'ep_mask'    => EP_PERMALINK,
         ]);
-        add_filter('post_type_link', function ($link, \WP_Post $WP_Post) {
-            if ($WP_Post->post_type !== 'kb_article') {
-                return $link; // Not applicable.
-            }
-            $product_id = s::getPostMeta($WP_Post->ID, '_product_id');
-            $WC_Product = $product_id ? wc_get_product($product_id) : null;
-
-            if ($WC_Product && $WC_Product->exists() && $WC_Product->post->post_name) {
-                return $link = str_replace('%kb_product%', $WC_Product->post->post_name, $link);
-            } else {
-                return $link = str_replace('%kb_product%', 'product', $link);
-            }
-        }, 10, 2);
 
         # Post type category.
 
@@ -212,6 +199,15 @@ class PostType extends SCoreClasses\SCore\Base\Core
                 ],
             ]
         );
+        # Post type category rewrites.
+
+        add_rewrite_tag('%kb_cat_product%', '([^/]+)', 'kb_product=');
+        add_rewrite_tag('%kb_cat%', '(.+?)', 'taxonomy=kb_cat&term=');
+        add_permastruct('kb_cat', 'kb/cats/%kb_cat_product%/%kb_cat%', [
+            'with_front' => false,
+            'walk_dirs'  => false,
+            'ep_mask'    => EP_NONE,
+        ]);
 
         # Post type tag.
 
@@ -260,32 +256,105 @@ class PostType extends SCoreClasses\SCore\Base\Core
                 ],
             ]
         );
-        # Post type category/tag rewrites.
+        # Post type tag rewrites.
 
-        add_rewrite_tag('%kb_cat_product%', '([^/]+)', 'kb_product=');
         add_rewrite_tag('%kb_tag_product%', '([^/]+)', 'kb_product=');
-
-        add_rewrite_tag('%kb_cat%', '(.+?)', 'taxonomy=kb_cat&term=');
         add_rewrite_tag('%kb_tag%', '([^/]+)', 'taxonomy=kb_tag&term=');
-
-        add_permastruct('kb_cat', 'kb/cats/%kb_cat_product%/%kb_cat%', [
-            'with_front' => false,
-            'ep_mask'    => EP_NONE,
-        ]);
         add_permastruct('kb_tag', 'kb/tags/%kb_tag_product%/%kb_tag%', [
             'with_front' => false,
+            'walk_dirs'  => false,
             'ep_mask'    => EP_NONE,
         ]);
-        add_filter('term_link', function ($link, \WP_Term $WP_Term, $taxonomy) {
-            if ($taxonomy !== 'kb_cat' && $taxonomy !== 'kb_tag') {
-                return $link; // Not applicable.
-            }
-            if (($product_slug = (string) get_query_var('kb_product'))) {
-                return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], $product_slug, $link);
-            } else {
-                return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], 'product', $link);
-            }
-        }, 10, 3);
+    }
+
+    /**
+     * On `query_vars` filter.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @param array $query_vars Public query vars.
+     *
+     * @return array Filtered public query vars.
+     */
+    public function onQueryVars(array $query_vars): array
+    {
+        return array_merge($query_vars, ['kb_product']);
+    }
+
+    /**
+     * On `pre_get_posts` hook.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @param \WP_Query $WP_Query The query.
+     */
+    public function onPreGetPosts(\WP_Query $WP_Query)
+    {
+        if (!($kb_product = $WP_Query->get('kb_product'))) {
+            return; // Nothing to do.
+        }
+        $meta_query = [
+            'key'   => '_product_id',
+            'value' => s::wcProductIdBySlug($kb_product),
+        ];
+        if (($existing_meta_queries = $WP_Query->get('meta_query'))) {
+            $WP_Query->set('meta_query', ['relation' => 'AND', $meta_query, $existing_meta_queries]);
+        } else {
+            $WP_Query->set('meta_query', $meta_query);
+        }
+    }
+
+    /**
+     * On `post_type_link` filter.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @param string|scalar $link    Current link.
+     * @param \WP_Post      $WP_Post Post.
+     *
+     * @return string Post type link.
+     */
+    public function onPostTypeLink($link, \WP_Post $WP_Post): string
+    {
+        $link = (string) $link;
+
+        if ($WP_Post->post_type !== 'kb_article') {
+            return $link; // Not applicable.
+        }
+        $product_id = s::getPostMeta($WP_Post->ID, '_product_id');
+        $WC_Product = $product_id ? wc_get_product($product_id) : null;
+
+        if ($WC_Product && $WC_Product->exists()) {
+            return $link = str_replace('%kb_product%', $WC_Product->post->post_name, $link);
+        } else {
+            return $link = str_replace('%kb_product%', 'product', $link);
+        }
+    }
+
+    /**
+     * On `term_link` filter.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @param string|scalar $link     Current link.
+     * @param \WP_Term      $WP_Term  Term.
+     * @param string|scalar $taxonomy Taxonomy.
+     *
+     * @return string Post type link.
+     */
+    public function onTermLink($link, \WP_Term $WP_Term, $taxonomy): string
+    {
+        $link     = (string) $link;
+        $taxonomy = (string) $taxonomy;
+
+        if ($taxonomy !== 'kb_cat' && $taxonomy !== 'kb_tag') {
+            return $link; // Not applicable.
+        }
+        if (($kb_product = (string) get_query_var('kb_product'))) {
+            return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], $kb_product, $link);
+        } else {
+            return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], 'product', $link);
+        }
     }
 
     /**
