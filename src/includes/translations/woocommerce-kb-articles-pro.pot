@@ -1,0 +1,653 @@
+# Copyright (C) 2016 WooCommerce KB Articles Pro
+# This file is distributed under the same license as the WooCommerce KB Articles Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce KB Articles Pro 160728.5421\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
+"POT-Creation-Date: 2016-07-28 01:30:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/App.php:107
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/App.php:107
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/App.php:107
+#: .~build/woocommerce-kb-articles/src/includes/classes/App.php:107
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/App.php:107
+#: src/includes/classes/App.php:107
+msgid "Fancy Permalinks"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/App.php:108
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/App.php:108
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/App.php:108
+#: .~build/woocommerce-kb-articles/src/includes/classes/App.php:108
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/App.php:108
+#: src/includes/classes/App.php:108
+msgid "a Permalink Structure other than <em>plain</em>"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/App.php:113
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/App.php:113
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/App.php:113
+#: .~build/woocommerce-kb-articles/src/includes/classes/App.php:113
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/App.php:113
+#: src/includes/classes/App.php:113
+msgid "<a href=\"%1$s\">change your Permalink settings</a> to anything but <em>plain</em>"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostMetaBox.php:47
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostMetaBox.php:47
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostMetaBox.php:47
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostMetaBox.php:47
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostMetaBox.php:47
+#: src/includes/classes/Utils/PostMetaBox.php:47
+msgid "Product-Specific KB"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:110
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:110
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:110
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:110
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:110
+#: src/includes/classes/Utils/PostType.php:110
+msgid "Knowledge base articles."
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:113
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:134
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:113
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:134
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:113
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:134
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:113
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:134
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:113
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:134
+#: src/includes/classes/Utils/PostType.php:113
+#: src/includes/classes/Utils/PostType.php:134
+msgid "KB Articles"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:114
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:133
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:114
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:133
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:114
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:133
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:114
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:133
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:114
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:133
+#: src/includes/classes/Utils/PostType.php:114
+#: src/includes/classes/Utils/PostType.php:133
+msgid "KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:115
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:115
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:115
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:115
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:115
+#: src/includes/classes/Utils/PostType.php:115
+msgid "Add KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:116
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:116
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:116
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:116
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:116
+#: src/includes/classes/Utils/PostType.php:116
+msgid "Add New KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:117
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:117
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:117
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:117
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:117
+#: src/includes/classes/Utils/PostType.php:117
+msgid "Edit KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:118
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:118
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:118
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:118
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:118
+#: src/includes/classes/Utils/PostType.php:118
+msgid "New KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:119
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:119
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:119
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:119
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:119
+#: src/includes/classes/Utils/PostType.php:119
+msgid "View KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:120
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:120
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:120
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:120
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:120
+#: src/includes/classes/Utils/PostType.php:120
+msgid "Search KB Articles"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:121
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:121
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:121
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:121
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:121
+#: src/includes/classes/Utils/PostType.php:121
+msgid "No KB Articles found"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:122
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:122
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:122
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:122
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:122
+#: src/includes/classes/Utils/PostType.php:122
+msgid "No KB Articles found in Trash"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:123
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:123
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:123
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:123
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:123
+#: src/includes/classes/Utils/PostType.php:123
+msgid "Parent KB Article:"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:124
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:124
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:124
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:124
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:124
+#: src/includes/classes/Utils/PostType.php:124
+msgid "KB Article Archives"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:125
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:125
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:125
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:125
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:125
+#: src/includes/classes/Utils/PostType.php:125
+msgid "Insert into KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:126
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:126
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:126
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:126
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:126
+#: src/includes/classes/Utils/PostType.php:126
+msgid "Upload to this KB Article"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:127
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:127
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:127
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:127
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:127
+#: src/includes/classes/Utils/PostType.php:127
+msgid "Set Featured Image"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:128
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:128
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:128
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:128
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:128
+#: src/includes/classes/Utils/PostType.php:128
+msgid "Remove Featured Image"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:129
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:129
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:129
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:129
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:129
+#: src/includes/classes/Utils/PostType.php:129
+msgid "Use as Featured Image"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:130
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:130
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:130
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:130
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:130
+#: src/includes/classes/Utils/PostType.php:130
+msgid "Filter KB Articles List"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:131
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:131
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:131
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:131
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:131
+#: src/includes/classes/Utils/PostType.php:131
+msgid "KB Articles List Navigation"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:132
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:132
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:132
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:132
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:132
+#: src/includes/classes/Utils/PostType.php:132
+msgid "KB Articles List"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:135
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:135
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:135
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:135
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:135
+#: src/includes/classes/Utils/PostType.php:135
+msgid "All KB Articles"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:180
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:180
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:180
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:180
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:180
+#: src/includes/classes/Utils/PostType.php:180
+msgid "KB categories."
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:183
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:203
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:183
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:203
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:183
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:203
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:183
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:203
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:183
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:203
+msgid "Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:184
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:202
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:184
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:202
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:184
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:202
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:184
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:202
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:184
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:202
+msgid "Category"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:185
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:185
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:185
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:185
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:185
+msgid "Search Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:186
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:186
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:186
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:186
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:186
+msgid "Popular Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:187
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:204
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:187
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:204
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:187
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:204
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:187
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:204
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:187
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:204
+msgid "All Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:188
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:188
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:188
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:188
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:188
+msgid "Parent Category"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:189
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:189
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:189
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:189
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:189
+msgid "Parent Category:"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:190
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:190
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:190
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:190
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:190
+msgid "Edit Category"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:191
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:191
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:191
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:191
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:191
+msgid "View Category"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:192
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:192
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:192
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:192
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:192
+msgid "Update Category"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:193
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:193
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:193
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:193
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:193
+msgid "Add New Category"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:194
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:194
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:194
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:194
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:194
+msgid "New Category Name"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:195
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:195
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:195
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:195
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:195
+msgid "Separate Categories w/ Commas"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:196
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:196
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:196
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:196
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:196
+msgid "Add or Remove Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:197
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:197
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:197
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:197
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:197
+msgid "Choose From the Most Used Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:198
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:198
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:198
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:198
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:198
+msgid "No Categories Found"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:199
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:199
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:199
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:199
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:199
+msgid "No Categories"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:200
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:200
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:200
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:200
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:200
+msgid "Categories List Navigation"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:201
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:201
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:201
+#: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:201
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:201
+msgid "Categories List"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product.php:37
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product.php:37
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product.php:37
+#: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product.php:37
+#: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product.php:37
+#: src/includes/templates/admin/menu-pages/post-meta-box/product.php:37
+msgid "WooCommerce Product"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product.php:38
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product.php:38
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product.php:38
+#: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product.php:38
+#: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product.php:38
+#: src/includes/templates/admin/menu-pages/post-meta-box/product.php:38
+msgid "Choose a product."
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:34
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:34
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:34
+#: .~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:34
+#: .~build/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:34
+#: src/includes/templates/s-core/notices/on-install.php:34
+msgid "<strong>%1$s</strong> v%2$s installed successfully."
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:35
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:35
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:35
+#: .~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:35
+#: .~build/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:35
+#: src/includes/templates/s-core/notices/on-install.php:35
+msgid "~ Start by creating your first KB article: <a href=\"%1$s\" class=\"button\" style=\"text-decoration:none;\">Create KB Article</a>"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:183
+#: src/includes/classes/Utils/PostType.php:203
+msgid "KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:184
+#: src/includes/classes/Utils/PostType.php:202
+msgid "KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:185
+msgid "Search KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:186
+msgid "Popular KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:187
+#: src/includes/classes/Utils/PostType.php:204
+msgid "All KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:188
+msgid "Parent KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:189
+msgid "Parent KB Category:"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:190
+msgid "Edit KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:191
+msgid "View KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:192
+msgid "Update KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:193
+msgid "Add New KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:194
+msgid "New KB Category Name"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:195
+msgid "Separate KB Categories w/ Commas"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:196
+msgid "Add or Remove KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:197
+msgid "Choose From the Most Used KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:198
+msgid "No KB Categories Found"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:199
+msgid "No KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:200
+msgid "KB Categories List Navigation"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:201
+msgid "KB Categories List"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:228
+msgid "KB tags."
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:231
+#: src/includes/classes/Utils/PostType.php:251
+msgid "KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:232
+#: src/includes/classes/Utils/PostType.php:250
+msgid "KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:233
+msgid "Search KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:234
+msgid "Popular KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:235
+#: src/includes/classes/Utils/PostType.php:252
+msgid "All KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:236
+msgid "Parent KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:237
+msgid "Parent KB Tag:"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:238
+msgid "Edit KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:239
+msgid "View KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:240
+msgid "Update KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:241
+msgid "Add New KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:242
+msgid "New KB Tag Name"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:243
+msgid "Separate KB Tags w/ Commas"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:244
+msgid "Add or Remove KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:245
+msgid "Choose From the Most Used KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:246
+msgid "No KB Tags Found"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:247
+msgid "No KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:248
+msgid "KB Tags List Navigation"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:249
+msgid "KB Tags List"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce KB Articles Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpsharks.com/product/woocommerce-kb-articles-pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WP Sharks™ plugin woocommerce-kb-articles."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Sharks™"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpsharks.com"
+msgstr ""

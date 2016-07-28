@@ -31,23 +31,23 @@ use function get_defined_vars as vars;
 /**
  * Application.
  *
- * @since 000000 Initial release.
+ * @since 16xxxx Initial release.
  */
 class App extends SCoreClasses\App
 {
     /**
      * Version.
      *
-     * @since 000000
+     * @since 16xxxx
      *
      * @var string Version.
      */
-    const VERSION = '160727.10411'; //v//
+    const VERSION = '160728.5421'; //v//
 
     /**
      * Constructor.
      *
-     * @since 000000 Initial release.
+     * @since 16xxxx Initial release.
      *
      * @param array $instance Instance args.
      */
@@ -55,118 +55,67 @@ class App extends SCoreClasses\App
     {
         $instance_base = [
             '©di' => [
-                /*
-                    '©default_rule' => [
-                        'new_instances' => [
-                        ],
+                '©default_rule' => [
+                    'new_instances' => [
                     ],
-                */
+                ],
             ],
 
             '§specs' => [
-                /*
-                    '§is_pro'          => false,
-                    '§in_wp'           => false,
-                    '§is_network_wide' => false,
+                '§in_wp'           => false,
+                '§is_network_wide' => false,
 
-                    '§type'            => 'plugin',
-                    '§file'            => dirname(__FILE__, 4).'/plugin.php',
-                */
+                '§type' => 'plugin',
+                '§file' => dirname(__FILE__, 4).'/plugin.php',
             ],
             '©brand' => [
-                /*
-                    '©acronym'     => '',
-                    '©name'        => '',
+                '©acronym' => 'WC KBAs',
+                '©name'    => 'WooCommerce KB Articles',
 
-                    '©slug'        => '',
-                    '©var'         => '',
+                '©slug' => 'woocommerce-kb-articles',
+                '©var'  => 'woocommerce_kb_articles',
 
-                    '©short_slug'  => '',
-                    '©short_var'   => '',
+                '©short_slug' => 'wc-kbas',
+                '©short_var'  => 'wc_kbas',
 
-                    '©text_domain' => '',
-                */
+                '©text_domain' => 'woocommerce-kb-articles',
             ],
 
-            '§pro_option_keys' => [
-                /*
-                    '[key]',
-                */
-            ],
-            '§default_options' => [
-                /*
-                    '[key]' => '[value]',
-                */
-            ],
+            '§pro_option_keys' => [],
+            '§default_options' => [],
 
-            '§conflicts' => [
-                '§plugins' => [
-                    /*
-                        '[slug]'  => '[name]',
-                    */
-                ],
-                '§themes' => [
-                    /*
-                        '[slug]'  => '[name]',
-                    */
-                ],
-                '§deactivatable_plugins' => [
-                    /*
-                        '[slug]'  => '[name]',
-                    */
-                ],
-            ],
             '§dependencies' => [
                 '§plugins' => [
-                    /*
-                        '[slug]' => [
-                            'name'        => '',
-                            'url'         => '',
-                            'archive_url' => '',
-                            'in_wp'       => true,
-                            'test'        => function(string $slug) {},
-
-                            A test function is optional.
-                            A successful test must return nothing.
-                            A failed test must return an array with:
-                                - `reason`      = One of: `needs-upgrade|needs-downgrade`.
-                                - `min_version` = Min version, if `reason=needs-upgrade`.
-                                - `max_version` = Max version, if `reason=needs-downgrade`.
-                        ],
-                    */
-                ],
-                '§themes' => [
-                    /*
-                        '[slug]' => [
-                            'name'        => '',
-                            'url'         => '',
-                            'archive_url' => '',
-                            'in_wp'       => true,
-                            'test'        => function(string $slug) {},
-
-                            A test function is optional.
-                            A successful test must return nothing.
-                            A failed test must return an array with:
-                                - `reason`      = One of: `needs-upgrade|needs-downgrade`.
-                                - `min_version` = Min version, if `reason=needs-upgrade`.
-                                - `max_version` = Max version, if `reason=needs-downgrade`.
-                        ],
-                    */
+                    'woocommerce' => [
+                        'in_wp'       => true,
+                        'name'        => 'WooCommerce',
+                        'url'         => 'https://wordpress.org/plugins/woocommerce/',
+                        'archive_url' => 'https://wordpress.org/plugins/woocommerce/developers/',
+                        'test'        => function (string $slug) {
+                            $min_version = '2.6.2'; // Update when necessary.
+                            if (version_compare(WC_VERSION, $min_version, '<')) {
+                                return [
+                                    'min_version' => $min_version,
+                                    'reason'      => 'needs-upgrade',
+                                ];
+                            }
+                        },
+                    ],
                 ],
                 '§others' => [
-                    /*
-                        '[arbitrary key]' => [
-                            'name'        => '', // Short plain-text name; i.e., '[name]' Required
-                            'description' => '', // Brief rich-text description; i.e., It requires [description].
-                            'test'        => function(string $key) {},
+                    'fancy_permalinks' => [
+                        'name'        => __('Fancy Permalinks', 'woocommerce-kb-articles'),
+                        'description' => __('a Permalink Structure other than <em>plain</em>', 'woocommerce-kb-articles'),
 
-                            A test function is required.
-                            A successful test must return nothing.
-                            A failed test must return an array with:
-                                - `how_to_resolve` = Brief rich-text description; i.e., → To resolve, [how_to_resolve].
-                                - `cap_to_resolve` = Cap required to satisfy; e.g., `manage_options`.
-                        ],
-                    */
+                        'test' => function (string $key) {
+                            if (!get_option('permalink_structure')) {
+                                return [
+                                    'how_to_resolve' => sprintf(__('<a href="%1$s">change your Permalink settings</a> to anything but <em>plain</em>', 'woocommerce-kb-articles'), esc_url(admin_url('/options-permalink.php'))),
+                                    'cap_to_resolve' => 'manage_options',
+                                ];
+                            }
+                        },
+                    ],
                 ],
             ],
         ];
@@ -176,20 +125,28 @@ class App extends SCoreClasses\App
     /**
      * Early hook setup handler.
      *
-     * @since 000000 Initial release.
+     * @since 16xxxx Initial release.
      */
     protected function onSetupEarlyHooks()
     {
         parent::onSetupEarlyHooks();
+
+        s::addAction('other_install_routines', [$this->Utils->Installer, 'onOtherInstallRoutines']);
+        s::addAction('other_uninstall_routines', [$this->Utils->Uninstaller, 'onOtherUninstallRoutines']);
     }
 
     /**
      * Other hook setup handler.
      *
-     * @since 000000 Initial release.
+     * @since 16xxxx Initial release.
      */
     protected function onSetupOtherHooks()
     {
         parent::onSetupOtherHooks();
+
+        if ($this->Wp->is_admin) {
+            add_action('admin_init', [$this->Utils->PostMetaBox, 'onAdminInit']);
+        }
+        add_action('init', [$this->Utils->PostType, 'onInit'], 6); // Right after other WooCommerce post types.
     }
 }

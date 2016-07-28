@@ -1,6 +1,6 @@
 <?php
 /**
- * Foo (example).
+ * Install utils.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
@@ -29,19 +29,36 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Foo (example).
+ * Install utils.
  *
- * @since 000000 Initial release.
+ * @since 16xxxx Initial release.
  */
-class Foo extends SCoreClasses\SCore\Base\Core
+class Installer extends SCoreClasses\SCore\Base\Core
 {
     /**
-     * Foo invoke (example).
+     * Other install routines.
      *
-     * @since 000000 Initial release.
+     * @since 16xxxx Initial release.
      */
-    public function __invoke()
+    public function onOtherInstallRoutines()
     {
-        return; // Just an example.
+        $this->addPostTypeCaps();
+    }
+
+    /**
+     * Add post type caps.
+     *
+     * @since 16xxxx Initial release.
+     */
+    protected function addPostTypeCaps()
+    {
+        foreach (['administrator'] as $_Role) {
+            if (!is_object($_Role = get_role($_Role))) {
+                continue; // Not possible.
+            }
+            foreach (a::postTypeCaps() as $_cap) {
+                $_Role->add_cap($_cap);
+            }
+        } // unset($_Role, $_cap); // Housekeeping.
     }
 }

@@ -1,12 +1,12 @@
 <?php
 /**
- * Facades.
+ * Post meta box utils.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Base;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -29,11 +29,26 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Pseudo-static facades.
+ * Post meta box utils.
  *
- * @since 160727 Initial release.
+ * @since 16xxxx Initial release.
  */
-abstract class Facades
+class PostMetaBox extends SCoreClasses\SCore\Base\Core
 {
-    use Traits\Facades\PostType;
+    /**
+     * On admin init.
+     *
+     * @since 16xxxx Initial release.
+     */
+    public function onAdminInit()
+    {
+        s::addPostMetaBox([
+            'include_post_types' => 'kb_article',
+            'title'              => __('Product-Specific KB', 'woocommerce-kb-articles'),
+            'slug'               => 'product',
+            'context'            => 'side',
+            'priority'           => 'high',
+            'template_file'      => 'admin/menu-pages/post-meta-box/product.php',
+        ]);
+    }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Foo (example).
+ * Post type.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
@@ -29,21 +29,30 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Foo (example).
+ * Post type.
  *
- * @since 000000
+ * @since 16xxxx
  */
-trait Foo
+trait PostType
 {
     /**
-     * @since 000000 Foo example.
+     * @since 16xxxx Initial release.
+     * @see Classes\Utils\PostType::$caps
+     */
+    public static function postTypeCaps()
+    {
+        return $GLOBALS[static::class]->Utils->PostType->caps;
+    }
+
+    /**
+     * @since 16xxxx Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
-     * @see Classes\Utils\Foo::__invoke()
+     * @see Classes\Utils\PostType::createUrl()
      */
-    public static function foo(...$args)
+    public static function createUrl(...$args)
     {
-        return $GLOBALS[static::class]->Utils->Foo->__invoke(...$args);
+        return $GLOBALS[static::class]->Utils->PostType->createUrl(...$args);
     }
 }

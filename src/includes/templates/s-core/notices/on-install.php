@@ -1,12 +1,12 @@
 <?php
 /**
- * Facades.
+ * Template.
  *
  * @author @jaswsinc
- * @copyright WP Sharks™
+ * @copyright WebSharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Base;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -28,12 +28,9 @@ use WebSharks\Core\WpSharksCore\Traits as CoreTraits;
 use function assert as debug;
 use function get_defined_vars as vars;
 
-/**
- * Pseudo-static facades.
- *
- * @since 160727 Initial release.
- */
-abstract class Facades
-{
-    use Traits\Facades\PostType;
-}
+extract($this->vars); // Template variables.
+?>
+<p>
+    <?= sprintf(__('<strong>%1$s</strong> v%2$s installed successfully.', 'woocommerce-kb-articles'), esc_html($this->App->Config->©brand['©name']), esc_html($this->App::VERSION)) ?><br />
+    <?= sprintf(__('~ Start by creating your first KB article: <a href="%1$s" class="button" style="text-decoration:none;">Create KB Article</a>', 'woocommerce-kb-articles'), esc_url(a::createUrl())) ?>
+</p>

@@ -1,12 +1,12 @@
 <?php
 /**
- * Facades.
+ * Template.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Base;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -28,12 +28,23 @@ use WebSharks\Core\WpSharksCore\Traits as CoreTraits;
 use function assert as debug;
 use function get_defined_vars as vars;
 
-/**
- * Pseudo-static facades.
- *
- * @since 160727 Initial release.
- */
-abstract class Facades
-{
-    use Traits\Facades\PostType;
-}
+extract($this->vars); // Template variables.
+$Form = $this->s::postMetaBoxForm('product');
+?>
+<?= $Form->openTable(); ?>
+
+    <?= $Form->selectRow([
+        'label' => __('WooCommerce Product', 'woocommerce-kb-articles'),
+        'tip'   => __('Choose a product.', 'woocommerce-kb-articles'),
+
+        'name'    => '_product_id',
+        'value'   => s::getPostMeta($post_id, '_product_id'),
+        'options' => s::postSelectOptions([
+            'allow_empty'        => true,
+            'allow_arbitrary'    => false,
+            'include_post_types' => ['product'],
+            'current_post_ids'   => [s::getPostMeta($post_id, '_product_id')],
+        ]),
+    ]); ?>
+
+<?= $Form->closeTable(); ?>
