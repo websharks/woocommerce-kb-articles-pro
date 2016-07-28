@@ -42,7 +42,7 @@ class App extends SCoreClasses\App
      *
      * @var string Version.
      */
-    const VERSION = '160728.5421'; //v//
+    const VERSION = '160728.16169'; //v//
 
     /**
      * Constructor.
@@ -82,7 +82,14 @@ class App extends SCoreClasses\App
             ],
 
             '§pro_option_keys' => [],
-            '§default_options' => [],
+            '§default_options' => [
+                'permalinks' => [
+                    'articles_base' => 'kb-articles',
+                    'cats_base'     => 'kb-cats',
+                    'tags_base'     => 'kb-tags',
+                    'general_slug'  => 'general',
+                ],
+            ],
 
             '§dependencies' => [
                 '§plugins' => [

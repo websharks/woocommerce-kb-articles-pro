@@ -45,6 +45,15 @@ class PostType extends SCoreClasses\SCore\Base\Core
     public $caps;
 
     /**
+     * Permalink options.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @var array Permalink options.
+     */
+    protected $permalink_options;
+
+    /**
      * Class constructor.
      *
      * @since 16xxxx Initial release.
@@ -72,6 +81,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
 
             'read_private_kb_articles',
         ];
+        $this->permalink_options = s::getOption('permalinks');
     }
 
     /**
@@ -146,7 +156,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
 
         add_rewrite_tag('%kb_product%', '([^/]+)', 'kb_product=');
         add_rewrite_tag('%kb_article%', '([^/]+)', 'post_type=kb_article&name=');
-        add_permastruct('kb_article', 'kb/articles/%kb_product%/%kb_article%', [
+        add_permastruct('kb_article', $this->permalink_options['articles_base'].'/%kb_product%/%kb_article%', [
             'with_front' => false,
             'walk_dirs'  => false,
             'ep_mask'    => EP_PERMALINK,
@@ -203,7 +213,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
 
         add_rewrite_tag('%kb_cat_product%', '([^/]+)', 'kb_product=');
         add_rewrite_tag('%kb_cat%', '(.+?)', 'taxonomy=kb_cat&term=');
-        add_permastruct('kb_cat', 'kb/cats/%kb_cat_product%/%kb_cat%', [
+        add_permastruct('kb_cat', $this->permalink_options['cats_base'].'/%kb_cat_product%/%kb_cat%', [
             'with_front' => false,
             'walk_dirs'  => false,
             'ep_mask'    => EP_NONE,
@@ -260,7 +270,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
 
         add_rewrite_tag('%kb_tag_product%', '([^/]+)', 'kb_product=');
         add_rewrite_tag('%kb_tag%', '([^/]+)', 'taxonomy=kb_tag&term=');
-        add_permastruct('kb_tag', 'kb/tags/%kb_tag_product%/%kb_tag%', [
+        add_permastruct('kb_tag', $this->permalink_options['tags_base'].'/%kb_tag_product%/%kb_tag%', [
             'with_front' => false,
             'walk_dirs'  => false,
             'ep_mask'    => EP_NONE,
@@ -327,7 +337,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
         if ($WC_Product && $WC_Product->exists()) {
             return $link = str_replace('%kb_product%', $WC_Product->post->post_name, $link);
         } else {
-            return $link = str_replace('%kb_product%', 'product', $link);
+            return $link = str_replace('%kb_product%', $this->permalink_options['general_slug'], $link);
         }
     }
 
@@ -353,7 +363,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
         if (($kb_product = (string) get_query_var('kb_product'))) {
             return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], $kb_product, $link);
         } else {
-            return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], 'product', $link);
+            return $link = str_replace(['%kb_cat_product%', '%kb_tag_product%'], $this->permalink_options['general_slug'], $link);
         }
     }
 

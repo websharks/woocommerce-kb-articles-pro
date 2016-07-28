@@ -35,7 +35,7 @@ $Form = $this->s::postMetaBoxForm('product');
 
     <?= $Form->selectRow([
         'label' => __('WooCommerce Product', 'woocommerce-kb-articles'),
-        'tip'   => __('Choose a product.', 'woocommerce-kb-articles'),
+        'tip'   => __('Choose a product if you\'d like this article to be connected to a specific product.', 'woocommerce-kb-articles'),
 
         'name'    => '_product_id',
         'value'   => s::getPostMeta($post_id, '_product_id'),
