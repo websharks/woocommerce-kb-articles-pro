@@ -1,0 +1,163 @@
+/*
+ * Dependencies. Requires a local copy of the WP Sharks Core.
+ */
+@import '../../../../../wp-sharks-core/src/client-s/css/bourbon/bourbon';
+
+/*
+ * Slug/var.
+ */
+$post-type: 'kb_article';
+$brand-slug: 'woocommerce-kb-articles';
+$brand-var: 'woocommerce_kb_articles';
+
+/*
+ * Color variables.
+ */
+$border-color: rgba(0, 0, 0, 0.05);
+
+/*
+ * Single KB article.
+ */
+.single-#{$post-type}:not(#x) {
+  #content #primary {
+    .entry-header {
+      .entry-title {
+        > .entry-modified {
+          font-size:         .35em;
+          float:              right;
+          font-weight:        normal;
+          cursor:             default;
+          margin:             1.3em 0 0 3em;
+
+          > time {
+            font-weight:      bold;
+          }
+        }
+
+        > a,
+        > .-sep {
+          font-size:         .75em;
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      .entry-meta {
+        float:                left;
+        font-size:           .857em;
+        width:                17.6470588235%;
+        margin-right:         5.8823529412%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .entry-content {
+        margin-right:         0;
+        float:                right;
+        width:                76.4705882353%;
+      }
+    }
+  }
+}
+
+/*
+ * KB article archive.
+ */
+.post-type-archive-#{$post-type}:not(#x) {
+  #content #primary {
+    .page-header {
+      margin-bottom:          1em;
+      border-bottom:          1px solid $border-color;
+
+      .page-title {
+        .-s {
+          line-height:        1.5;
+          font-size:         .75em;
+          border-radius:     .15em;
+          padding:           .05em .25em;
+        }
+      }
+    }
+
+    .#{$post-type} {
+      margin:                 0 0 1em;
+
+      .entry-header {
+        margin:               0;
+        padding:              0;
+        border:               0;
+
+        .entry-title {
+          margin:             0;
+          padding:            0;
+          border:             0;
+          font-size:          1.8em;
+
+          > .entry-modified {
+            opacity:          0.75;
+            font-size:       .5em;
+            margin-top:      .5em;
+            float:            right;
+            font-weight:      normal;
+            cursor:           default;
+
+            > time {
+              font-weight:    bold;
+            }
+
+            @media (max-width: 767px) {
+              display:        none;
+            }
+          }
+
+          > a {
+            width:            70%;
+            white-space:      nowrap;
+            text-overflow:    ellipsis;
+            overflow:         hidden;
+            display:          inline-block;
+
+            .fa {
+              opacity:        0.25;
+              text-decoration: none;
+              color:          initial;
+              display:        inline-block;
+              margin:         0 .25em 0 0;
+            }
+
+            &:hover {
+              .fa {
+                opacity:      1;
+              }
+            }
+          }
+        }
+      }
+
+      .entry-content {
+        opacity:              0.5;
+        font-size:           .85em;
+        margin:               0 0 0 .25em;
+
+        > p {
+          margin:             0;
+        }
+
+        .-hst {
+          font-weight:        bold;
+        }
+      }
+
+      .-hst {
+        text-decoration:      none;
+        font-style:           normal;
+        border-bottom:        1px dashed;
+        display:              inline-block;
+      }
+    }
+
+    .navigation.pagination {
+      margin-top:             1em;
+    }
+  }
+}

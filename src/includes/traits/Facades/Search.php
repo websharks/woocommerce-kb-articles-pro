@@ -1,12 +1,12 @@
 <?php
 /**
- * Template.
+ * Search.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Traits\Facades;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -28,23 +28,22 @@ use WebSharks\Core\WpSharksCore\Traits as CoreTraits;
 use function assert as debug;
 use function get_defined_vars as vars;
 
-extract($this->vars); // Template variables.
-$Form = $this->s::postMetaBoxForm('product');
-?>
-<?= $Form->openTable(); ?>
-
-    <?= $Form->selectRow([
-        'label' => __('WooCommerce Product', 'woocommerce-kb-articles'),
-        'tip'   => __('Choose a product if you\'d like this article to be connected to a specific product.', 'woocommerce-kb-articles'),
-
-        'name'    => '_product_id',
-        'value'   => s::getPostMeta($post_id, '_product_id'),
-        'options' => s::postSelectOptions([
-            'allow_empty'        => true,
-            'allow_arbitrary'    => false,
-            'include_post_types' => ['product'],
-            'current_post_ids'   => [s::getPostMeta($post_id, '_product_id')],
-        ]),
-    ]); ?>
-
-<?= $Form->closeTable(); ?>
+/**
+ * Search.
+ *
+ * @since 16xxxx
+ */
+trait Search
+{
+    /**
+     * @since 16xxxx Initial release.
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\Search::highlightTerms()
+     */
+    public static function highlightSearchTerms(...$args)
+    {
+        return $GLOBALS[static::class]->Utils->Search->highlightTerms(...$args);
+    }
+}

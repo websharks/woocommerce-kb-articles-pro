@@ -1,12 +1,12 @@
 <?php
 /**
- * Post meta box utils.
+ * Styles/scripts.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Traits\Facades;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -29,25 +29,21 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Post meta box utils.
+ * Styles/scripts.
  *
- * @since 16xxxx Initial release.
+ * @since 16xxxx
  */
-class PostMetaBox extends SCoreClasses\SCore\Base\Core
+trait StylesScripts
 {
     /**
-     * On admin init.
-     *
      * @since 16xxxx Initial release.
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\StylesScripts::mayApply()
      */
-    public function onAdminInit()
+    public static function stylesScriptsMayApply(...$args)
     {
-        s::addPostMetaBox([
-            'include_post_types' => 'kb_article',
-            'slug'               => 'article-product-id',
-            'title'              => __('Product-Specific KB', 'woocommerce-kb-articles'),
-            'template_file'      => 'admin/menu-pages/post-meta-box/article-product-id.php',
-            'context'            => 'side', 'priority' => 'high',
-        ]);
+        return $GLOBALS[static::class]->Utils->StylesScripts->mayApply(...$args);
     }
 }

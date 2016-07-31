@@ -1,6 +1,6 @@
 <?php
 /**
- * Post type.
+ * Title utils.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
@@ -29,27 +29,57 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Post type.
+ * Title utils.
  *
  * @since 16xxxx
  */
-trait PostType
+trait Title
 {
     /**
      * @since 16xxxx Initial release.
-     * @see Classes\Utils\PostType::$caps
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\Title::forSingle()
      */
-    public static function postTypeCaps()
+    public static function singleTitle(...$args)
     {
-        return $GLOBALS[static::class]->Utils->PostType->caps;
+        return $GLOBALS[static::class]->Utils->Title->forSingle(...$args);
     }
 
     /**
      * @since 16xxxx Initial release.
-     * @see Classes\Utils\PostType::$vendor_caps
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\Title::forArchive()
      */
-    public static function postTypeVendorCaps()
+    public static function archiveTitle(...$args)
     {
-        return $GLOBALS[static::class]->Utils->PostType->vendor_caps;
+        return $GLOBALS[static::class]->Utils->Title->forArchive(...$args);
+    }
+
+    /**
+     * @since 16xxxx Initial release.
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\Title::singleParts()
+     */
+    public static function singleTitleParts(...$args)
+    {
+        return $GLOBALS[static::class]->Utils->Title->singleParts(...$args);
+    }
+
+    /**
+     * @since 16xxxx Initial release.
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\Title::archiveParts()
+     */
+    public static function archiveTitleParts(...$args)
+    {
+        return $GLOBALS[static::class]->Utils->Title->archiveParts(...$args);
     }
 }

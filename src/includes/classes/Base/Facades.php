@@ -36,4 +36,8 @@ use function get_defined_vars as vars;
 abstract class Facades
 {
     use Traits\Facades\PostType;
+    use Traits\Facades\Search;
+    use Traits\Facades\StylesScripts;
+    use Traits\Facades\Title;
+    use Traits\Facades\Urls;
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Post meta box utils.
+ * Storefront utils.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
@@ -29,25 +29,44 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Post meta box utils.
+ * Storefront utils.
  *
  * @since 16xxxx Initial release.
  */
-class PostMetaBox extends SCoreClasses\SCore\Base\Core
+class Storefront extends SCoreClasses\SCore\Base\Core
 {
     /**
-     * On admin init.
+     * On `wp` hook.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @param \WP $WP Instance.
+     */
+    public function onWp(\WP $WP)
+    {
+        if ($this->Wp->is_admin) {
+            return; // Not applicable.
+        }
+        if (is_singular('kb_article')) {
+            remove_action('storefront_single_post_after', 'storefront_post_nav');
+        }
+        if (is_search() && is_post_type_archive('kb_article')) {
+            remove_action('storefront_loop_post', 'storefront_post_meta', 20);
+            remove_action('storefront_loop_post', 'storefront_post_content', 30);
+            add_action('storefront_loop_post', 'the_excerpt', 30);
+        }
+    }
+
+    /**
+     * Scripts/styles.
      *
      * @since 16xxxx Initial release.
      */
-    public function onAdminInit()
+    public function onWpEnqueueScripts()
     {
-        s::addPostMetaBox([
-            'include_post_types' => 'kb_article',
-            'slug'               => 'article-product-id',
-            'title'              => __('Product-Specific KB', 'woocommerce-kb-articles'),
-            'template_file'      => 'admin/menu-pages/post-meta-box/article-product-id.php',
-            'context'            => 'side', 'priority' => 'high',
-        ]);
+        if (!a::stylesScriptsMayApply()) {
+            return; // Not applicable.
+        }
+        wp_enqueue_style($this->App->Config->©brand['©slug'].'-storefront', c::appUrl('/client-s/css/site/storefront.min.css'), [], $this->App::VERSION);
     }
 }

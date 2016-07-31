@@ -3,7 +3,7 @@
  * Template.
  *
  * @author @jaswsinc
- * @copyright WebSharks™
+ * @copyright WP Sharks™
  */
 declare (strict_types = 1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
@@ -29,8 +29,26 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 extract($this->vars); // Template variables.
+$Form = $this->s::postMetaBoxForm('article-product-id');
 ?>
-<p>
-    <?= sprintf(__('<strong>%1$s</strong> v%2$s installed successfully.', 'woocommerce-kb-articles'), esc_html($this->App->Config->©brand['©name']), esc_html($this->App::VERSION)) ?><br />
-    <?= sprintf(__('~ Start by creating your first KB Article: <a href="%1$s" class="button" style="text-decoration:none;">Create KB Article</a>', 'woocommerce-kb-articles'), esc_url(a::createUrl())) ?>
-</p>
+<?= $Form->openTable(); ?>
+
+    <?php // Current product ID.
+    $_product_id = (int) ($_REQUEST['_product_id'] ?? s::getPostMeta($post_id, '_product_id'));
+    ?>
+    <?= $Form->selectRow([
+        'label' => __('WooCommerce Product', 'woocommerce-kb-articles'),
+        'tip'   => __('Connects article to a specific WooCommerce product.', 'woocommerce-kb-articles').'<hr />'.
+                   __('Product-specific KB article permalinks are prefixed with the product slug.', 'woocommerce-kb-articles'),
+
+        'name'    => '_product_id',
+        'value'   => $_product_id,
+        'options' => s::postSelectOptions([
+            'allow_empty'        => true,
+            'allow_arbitrary'    => false,
+            'include_post_types' => ['product'],
+            'current_post_ids'   => [$_product_id],
+        ]),
+    ]); ?>
+
+<?= $Form->closeTable(); ?>

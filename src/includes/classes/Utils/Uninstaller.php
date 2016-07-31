@@ -44,41 +44,23 @@ class Uninstaller extends SCoreClasses\SCore\Base\Core
      */
     public function onOtherUninstallRoutines(int $site_counter)
     {
-        $this->deletePostTypeCaps($site_counter);
-        $this->deletePostTypePosts($site_counter);
+        $this->deletePosts($site_counter);
+        $this->deleteTaxonomies($site_counter);
+        $this->deleteCaps($site_counter);
     }
 
     /**
-     * Remove all post type caps.
-     *
-     * @since 16xxxx KB article utils.
-     *
-     * @param int $site_counter Site counter.
-     */
-    protected function deletePostTypeCaps(int $site_counter)
-    {
-        foreach (array_keys(wp_roles()->roles) as $_Role) {
-            if (!is_object($_Role = get_role($_Role))) {
-                continue; // Not possible.
-            }
-            foreach (a::postTypeCaps() as $_cap) {
-                $_Role->remove_cap($_cap);
-            }
-        } // unset($_Role, $_cap); // Housekeeping.
-    }
-
-    /**
-     * Delete post type posts.
+     * Delete posts.
      *
      * @since 16xxxx Initial release.
      *
      * @param int $site_counter Site counter.
      */
-    protected function deletePostTypePosts(int $site_counter)
+    protected function deletePosts(int $site_counter)
     {
         $WpDb = s::wpDb();
 
-        $sql = /* Restriction post IDs. */ '
+        $sql = /* All post IDs. */ '
             SELECT `ID`
                 FROM `'.esc_sql($WpDb->posts).'`
             WHERE `post_type` = \'kb_article\'
@@ -86,8 +68,61 @@ class Uninstaller extends SCoreClasses\SCore\Base\Core
         if (!($results = $WpDb->get_results($sql))) {
             return; // Nothing to delete.
         }
-        foreach ($results as $_key => $_result) {
+        foreach ($results as $_result) {
             wp_delete_post($_result->ID, true);
-        } // unset($_key, $_result); // Housekeeping.
+        } // unset($_result); // Housekeeping.
+    }
+
+    /**
+     * Delete taxonomies.
+     *
+     * @since 16xxxx Initial release.
+     *
+     * @param int $site_counter Site counter.
+     */
+    protected function deleteTaxonomies(int $site_counter)
+    {
+        $term_ids = get_terms([
+            'taxonomy'   => 'kb_category',
+            'hide_empty' => false,
+            'fields'     => 'ids',
+        ]);
+        $term_ids = is_array($term_ids) ? $term_ids : [];
+
+        foreach ($term_ids as $_term_id) {
+            wp_delete_term($_term_id, 'kb_category');
+        } // unset($_term_id); // Houskeeping.
+
+        $term_ids = get_terms([
+            'taxonomy'   => 'kb_tag',
+            'hide_empty' => false,
+            'fields'     => 'ids',
+        ]);
+        $term_ids = is_array($term_ids) ? $term_ids : [];
+
+        foreach ($term_ids as $_term_id) {
+            wp_delete_term($_term_id, 'kb_tag');
+        } // unset($_term_id); // Houskeeping.
+    }
+
+    /**
+     * Delete caps.
+     *
+     * @since 16xxxx KB article utils.
+     *
+     * @param int $site_counter Site counter.
+     */
+    protected function deleteCaps(int $site_counter)
+    {
+        $caps = a::postTypeCaps(); // All caps.
+
+        foreach (array_keys(wp_roles()->roles) as $_role) {
+            if (!($_WP_Role = get_role($_role))) {
+                continue; // Not possible.
+            }
+            foreach ($caps as $_cap) {
+                $_WP_Role->remove_cap($_cap);
+            } // unset($_cap);
+        } // unset($_role, $_WP_Role);
     }
 }

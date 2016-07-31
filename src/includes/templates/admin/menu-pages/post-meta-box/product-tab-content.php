@@ -1,12 +1,12 @@
 <?php
 /**
- * Post meta box utils.
+ * Template.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -28,26 +28,19 @@ use WebSharks\Core\WpSharksCore\Traits as CoreTraits;
 use function assert as debug;
 use function get_defined_vars as vars;
 
-/**
- * Post meta box utils.
- *
- * @since 16xxxx Initial release.
- */
-class PostMetaBox extends SCoreClasses\SCore\Base\Core
-{
-    /**
-     * On admin init.
-     *
-     * @since 16xxxx Initial release.
-     */
-    public function onAdminInit()
-    {
-        s::addPostMetaBox([
-            'include_post_types' => 'kb_article',
-            'slug'               => 'article-product-id',
-            'title'              => __('Product-Specific KB', 'woocommerce-kb-articles'),
-            'template_file'      => 'admin/menu-pages/post-meta-box/article-product-id.php',
-            'context'            => 'side', 'priority' => 'high',
-        ]);
-    }
-}
+extract($this->vars); // Template variables.
+$Form = $this->s::postMetaBoxForm('product-tab-content');
+?>
+<?= $Form->openTable('', '', ['class' => '-block-display']); ?>
+
+    <?php // Current tab content.
+    $default_tab_content = s::getOption('product_tab_default_content');
+    $_tab_content        = (string) s::getPostMeta(null, '_tab_content', $default_tab_content);
+    ?>
+    <?= $Form->textareaRow([
+        'label' => __('Tab Content', 'woocommerce-kb-articles'),
+        'tip'   => __('Content displayed in the Knowledge Base tab.', 'woocommerce-kb-articles'),
+        'name'  => '_tab_content', 'value' => $_tab_content,
+    ]); ?>
+
+<?= $Form->closeTable(); ?>

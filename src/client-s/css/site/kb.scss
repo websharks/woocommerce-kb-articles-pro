@@ -1,0 +1,175 @@
+/*
+ * Dependencies. Requires a local copy of the WP Sharks Core.
+ */
+@import '../../../../../wp-sharks-core/src/client-s/css/bourbon/bourbon';
+
+/*
+ * Slug/var.
+ */
+$post-type: 'kb_article';
+$brand-slug: 'woocommerce-kb-articles';
+$brand-var: 'woocommerce_kb_articles';
+
+/*
+ * Color variables.
+ */
+$border-color: rgba(0, 0, 0, 0.05);
+
+/*
+ * Shortcode styles.
+ */
+.#{$brand-slug}-shortcode:not(#x) {
+  .fa {
+    vertical-align:           middle;
+  }
+
+  .-list {
+    margin:                   0;
+    padding:                  0;
+    list-style:               none;
+
+    .-list-item {
+      width:                  100%;
+      white-space:            nowrap;
+      text-overflow:          ellipsis;
+      overflow:               hidden;
+
+      .fa {
+        opacity:              0.25;
+        margin:               0 .25em 0 0;
+        display:              inline-block;
+      }
+
+      &:hover {
+        .fa {
+          opacity:            1;
+        }
+      }
+    }
+  }
+
+  .-search-box {
+    font-size:               .75em;
+
+    &.--top {
+      margin:                 0 0 1em;
+    }
+
+    &.--bottom {
+      margin:                 1em 0 0;
+    }
+
+    .-form {
+      .-s {
+        width:                100%;
+        box-sizing:           border-box;
+      }
+    }
+  }
+
+  .-taxonomies {
+    width:                    30%;
+    float:                    right;
+    text-align:               right;
+
+    .-categories {
+      + .-tags {
+        margin-top:           2em;
+      }
+    }
+
+    + .-articles {
+      width:                  65%;
+      float:                  left;
+    }
+  }
+
+  .-articles {
+    .-article {
+      margin:                 1em 0 0;
+
+      &:first-child {
+        margin-top:           0;
+      }
+
+      .-title {
+        margin:               0;
+        padding:              0;
+      }
+
+      .-excerpt {
+        opacity:              0.5;
+        font-size:           .85em;
+        margin:               0 0 0 .25em;
+
+        > p {
+          margin:             0;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * Widget styles.
+ */
+.widget.#{$brand-slug}-authors {
+  > ul,
+  > ul > li {
+    margin:                   0;
+    padding:                  0;
+    list-style:               none;
+  }
+
+  > ul > li {
+    margin:                   1em 0 0;
+    padding:                  0 0 1em;
+    border-bottom:            1px solid $border-color;
+
+    &:first-child {
+      margin-top:             0;
+    }
+
+    .-avatar {
+      width:                  32px;
+      height:                 32px;
+      float:                  right;
+    }
+
+    .-name {
+      line-height:            32px;
+    }
+
+    .-count {
+      margin:                 0 0 0 .5em;
+      display:                inline-block;
+    }
+  }
+}
+
+/*
+ * Single product styles.
+ */
+.single-product:not(#x) {
+  #content #primary {
+    .woocommerce-tabs {
+      #tab-kb.wc-tab {
+        > h2 {
+          position:           relative;
+
+          > .-stand-alone-link {
+            right:            0;
+            top:             .5em;
+            font-size:       .5em;
+            display:          none;
+            position:         absolute;
+
+            @media (min-width: 1024px) {
+              display:        inline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

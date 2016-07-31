@@ -42,23 +42,38 @@ class Installer extends SCoreClasses\SCore\Base\Core
      */
     public function onOtherInstallRoutines()
     {
-        $this->addPostTypeCaps();
+        $this->addCaps();
     }
 
     /**
-     * Add post type caps.
+     * Add capabilities.
      *
      * @since 16xxxx Initial release.
      */
-    protected function addPostTypeCaps()
+    protected function addCaps()
     {
-        foreach (['administrator'] as $_Role) {
-            if (!is_object($_Role = get_role($_Role))) {
+        $caps = a::postTypeCaps();
+
+        foreach (['administrator', 'editor', 'shop_manager'] as $_role) {
+            if (!($_WP_Role = get_role($_role))) {
                 continue; // Not possible.
             }
-            foreach (a::postTypeCaps() as $_cap) {
-                $_Role->add_cap($_cap);
-            }
-        } // unset($_Role, $_cap); // Housekeeping.
+            foreach ($caps as $_cap) {
+                $_WP_Role->add_cap($_cap);
+            } // unset($_cap);
+        } // unset($_role, $_WP_Role);
+
+        if ($this->Wp->is_woocommerce_product_vendors_active) {
+            $vendor_caps = a::postTypeVendorCaps();
+
+            foreach (['wc_product_vendors_admin_vendor', 'wc_product_vendors_manager_vendor'] as $_role) {
+                if (!($_WP_Role = get_role($_role))) {
+                    continue; // Not possible.
+                }
+                foreach ($vendor_caps as $_cap) {
+                    $_WP_Role->add_cap($_cap);
+                } // unset($_cap);
+            } // unset($_role, $_WP_Role);
+        }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Post meta box utils.
+ * Search utils.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
@@ -29,25 +29,39 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Post meta box utils.
+ * Search utils.
  *
  * @since 16xxxx Initial release.
  */
-class PostMetaBox extends SCoreClasses\SCore\Base\Core
+class Search extends SCoreClasses\SCore\Base\Core
 {
     /**
-     * On admin init.
+     * Highlight search terms.
      *
      * @since 16xxxx Initial release.
+     *
+     * @param string $string Input string.
+     *
+     * @return string String w/ highlighted search terms.
      */
-    public function onAdminInit()
+    public function highlightTerms(string $string): string
     {
-        s::addPostMetaBox([
-            'include_post_types' => 'kb_article',
-            'slug'               => 'article-product-id',
-            'title'              => __('Product-Specific KB', 'woocommerce-kb-articles'),
-            'template_file'      => 'admin/menu-pages/post-meta-box/article-product-id.php',
-            'context'            => 'side', 'priority' => 'high',
-        ]);
+        static $search_terms, $regex;
+
+        if (!isset($search_terms, $search_terms_regex)) {
+            if (is_search()) {
+                $search_terms       = (array) get_query_var('search_terms');
+                $search_terms_regex = '/('.implode('|', c::escRegex($search_terms)).')/ui';
+            } else {
+                $search_terms = $search_regex = '';
+            }
+        } // This caches a repeat task to help optimize this routine.
+
+        if (!$string || !$search_terms || !$search_terms_regex) {
+            return $string; // Nothing to do.
+        }
+        return $string = preg_replace_callback($search_terms_regex, function ($m) {
+            return '<i class="-hst">'.esc_html($m[0]).'</i>';
+        }, $string);
     }
 }

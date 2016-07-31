@@ -1,6 +1,6 @@
 <?php
 /**
- * Post meta box utils.
+ * Menu page utils.
  *
  * @author @jaswsinc
  * @copyright WP Sharks™
@@ -29,25 +29,31 @@ use function assert as debug;
 use function get_defined_vars as vars;
 
 /**
- * Post meta box utils.
+ * Menu page utils.
  *
  * @since 16xxxx Initial release.
  */
-class PostMetaBox extends SCoreClasses\SCore\Base\Core
+class MenuPage extends SCoreClasses\SCore\Base\Core
 {
     /**
-     * On admin init.
+     * Adds menu pages.
      *
      * @since 16xxxx Initial release.
      */
-    public function onAdminInit()
+    public function onAdminMenu()
     {
-        s::addPostMetaBox([
-            'include_post_types' => 'kb_article',
-            'slug'               => 'article-product-id',
-            'title'              => __('Product-Specific KB', 'woocommerce-kb-articles'),
-            'template_file'      => 'admin/menu-pages/post-meta-box/article-product-id.php',
-            'context'            => 'side', 'priority' => 'high',
+        s::addMenuPageItem([
+            'menu_title'    => __('Options'),
+            'parent_page'   => 'edit.php?post_type=kb_article',
+            'template_file' => 'admin/menu-pages/options/default.php',
+
+            'tabs' => [
+                'default' => sprintf(__('%1$s'), esc_html($this->App->Config->©brand['©name'])),
+                'restore' => [
+                    'label' => __('Restore Default Options'),
+                    'url'   => s::restoreDefaultOptionsUrl(), 'onclick' => 'confirm',
+                ],
+            ],
         ]);
     }
 }
