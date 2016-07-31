@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Shortcode utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Shortcode extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Class constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param Classes\App $App Instance.
      */

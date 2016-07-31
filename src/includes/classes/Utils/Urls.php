@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Post type utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Urls extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Permalink options.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @var array Permalink options.
      */
@@ -47,7 +47,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * Class constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param Classes\App $App Instance.
      */
@@ -61,7 +61,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * On `template_redirect` hook.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     public function onTemplateRedirect()
     {
@@ -73,7 +73,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * On `post_type_link` filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string|scalar $link    Current link.
      * @param \WP_Post      $WP_Post Post.
@@ -102,7 +102,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * On `post_type_archive_link` filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string|scalar $link      Current link.
      * @param string|scalar $post_type Post type.
@@ -129,7 +129,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * On `term_link` filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string|scalar $link     Current link.
      * @param \WP_Term      $WP_Term  Term.
@@ -161,7 +161,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * On `author_link` filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string|scalar $link     Current link.
      * @param int|scalar    $user_id  Author ID.
@@ -185,7 +185,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * KB articles index URL.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param int|null $product_id Product ID.
      *
@@ -202,7 +202,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * KB articles by author URL.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param int|null $user_id    Author ID.
      * @param int|null $product_id Product ID.
@@ -225,7 +225,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
     /**
      * Create KB article URL.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param int|null $product_id Product ID.
      *

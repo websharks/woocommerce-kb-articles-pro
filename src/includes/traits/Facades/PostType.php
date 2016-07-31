@@ -31,12 +31,12 @@ use function get_defined_vars as vars;
 /**
  * Post type.
  *
- * @since 16xxxx
+ * @since 160731.38548
  */
 trait PostType
 {
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      * @see Classes\Utils\PostType::$caps
      */
     public static function postTypeCaps()
@@ -45,7 +45,7 @@ trait PostType
     }
 
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      * @see Classes\Utils\PostType::$vendor_caps
      */
     public static function postTypeVendorCaps()

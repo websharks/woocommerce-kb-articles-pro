@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Uninstall utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Uninstaller extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Other uninstall routines.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param int $site_counter Site counter.
      */
@@ -52,7 +52,7 @@ class Uninstaller extends SCoreClasses\SCore\Base\Core
     /**
      * Delete posts.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param int $site_counter Site counter.
      */
@@ -76,7 +76,7 @@ class Uninstaller extends SCoreClasses\SCore\Base\Core
     /**
      * Delete taxonomies.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param int $site_counter Site counter.
      */
@@ -108,7 +108,7 @@ class Uninstaller extends SCoreClasses\SCore\Base\Core
     /**
      * Delete caps.
      *
-     * @since 16xxxx KB article utils.
+     * @since 160731.38548 KB article utils.
      *
      * @param int $site_counter Site counter.
      */

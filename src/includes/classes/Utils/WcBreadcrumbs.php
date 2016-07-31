@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * WC breadcrumb utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class WcBreadcrumbs extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On breadcrumbs.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $crumbs Current crumbs.
      *

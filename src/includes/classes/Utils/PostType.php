@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Post type utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class PostType extends SCoreClasses\SCore\Base\Core
 {
     /**
      * All caps.
      *
-     * @since 16xxxx
+     * @since 160731.38548
      *
      * @var array All caps.
      */
@@ -47,7 +47,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * All vendor caps.
      *
-     * @since 16xxxx
+     * @since 160731.38548
      *
      * @var array All vendor caps.
      */
@@ -65,7 +65,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * Class constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param Classes\App $App Instance.
      */
@@ -100,7 +100,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * On WP init hook.
      *
-     * @since 16xxxx KB article utils.
+     * @since 160731.38548 KB article utils.
      */
     public function onInit()
     {
@@ -352,7 +352,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * On `pre_get_posts` hook.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param \WP_Query $WP_Query The query.
      */
@@ -384,7 +384,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * On `get_terms` filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array      $clauses    An array of clauses.
      * @param array|null $taxonomies An array of taxonomies.
@@ -436,7 +436,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * On `query_vars` filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $query_vars Public query vars.
      *

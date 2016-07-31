@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Post type utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class PostTypeCols extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Custom columns.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $columns Columns.
      *
@@ -52,7 +52,7 @@ class PostTypeCols extends SCoreClasses\SCore\Base\Core
     /**
      * Sortable columns.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $columns Columns.
      *
@@ -66,7 +66,7 @@ class PostTypeCols extends SCoreClasses\SCore\Base\Core
     /**
      * Sortable columns.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string|scalar $column  Column name.
      * @param int|scalar    $post_id KB article ID.

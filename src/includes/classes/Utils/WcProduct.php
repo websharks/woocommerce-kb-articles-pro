@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * WC product utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class WcProduct extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Permalink options.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @var array Permalink options.
      */
@@ -47,7 +47,7 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
     /**
      * Class constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param Classes\App $App Instance.
      */
@@ -61,7 +61,7 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
     /**
      * On `init` hook.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     public function onInit()
     {
@@ -76,7 +76,7 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
     /**
      * On admin init.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     public function onAdminInit()
     {
@@ -91,7 +91,7 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
     /**
      * On product tabs (front-end).
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $tabs Product tabs.
      *

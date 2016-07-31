@@ -31,26 +31,26 @@ use function get_defined_vars as vars;
 /**
  * Menu page utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class MenuPage extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Adds menu pages.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     public function onAdminMenu()
     {
         s::addMenuPageItem([
-            'menu_title'    => __('Options'),
+            'menu_title'    => __('Options', 'woocommerce-kb-articles'),
             'parent_page'   => 'edit.php?post_type=kb_article',
             'template_file' => 'admin/menu-pages/options/default.php',
 
             'tabs' => [
-                'default' => sprintf(__('%1$s'), esc_html($this->App->Config->©brand['©name'])),
+                'default' => sprintf(__('%1$s', 'woocommerce-kb-articles'), esc_html($this->App->Config->©brand['©name'])),
                 'restore' => [
-                    'label' => __('Restore Default Options'),
+                    'label' => __('Restore Default Options', 'woocommerce-kb-articles'),
                     'url'   => s::restoreDefaultOptionsUrl(), 'onclick' => 'confirm',
                 ],
             ],

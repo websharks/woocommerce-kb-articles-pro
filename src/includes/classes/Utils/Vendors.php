@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Vendor utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Vendors extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On default caps.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $caps Default capabilities.
      *
@@ -52,7 +52,7 @@ class Vendors extends SCoreClasses\SCore\Base\Core
     /**
      * On `pre_get_posts` hook.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param \WP_Query $WP_Query The query.
      */

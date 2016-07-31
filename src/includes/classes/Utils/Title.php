@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Article title utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Title extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Single post type title.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @return array Single title.
      */
@@ -75,7 +75,7 @@ class Title extends SCoreClasses\SCore\Base\Core
     /**
      * Post type archive title.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @return string Archive title.
      */
@@ -122,7 +122,7 @@ class Title extends SCoreClasses\SCore\Base\Core
     /**
      * Article title parts.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string $title Avoids `get_the_title()`.
      *
@@ -156,7 +156,7 @@ class Title extends SCoreClasses\SCore\Base\Core
     /**
      * Archive title parts.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @return array Archive title parts.
      */

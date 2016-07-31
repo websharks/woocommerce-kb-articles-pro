@@ -31,12 +31,12 @@ use function get_defined_vars as vars;
 /**
  * Title utils.
  *
- * @since 16xxxx
+ * @since 160731.38548
  */
 trait Title
 {
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -48,7 +48,7 @@ trait Title
     }
 
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -60,7 +60,7 @@ trait Title
     }
 
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -72,7 +72,7 @@ trait Title
     }
 
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *

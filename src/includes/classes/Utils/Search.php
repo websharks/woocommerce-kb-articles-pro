@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Search utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Search extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Highlight search terms.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string $string Input string.
      *

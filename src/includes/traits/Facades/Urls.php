@@ -31,12 +31,12 @@ use function get_defined_vars as vars;
 /**
  * Article URLs.
  *
- * @since 16xxxx
+ * @since 160731.38548
  */
 trait Urls
 {
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -48,7 +48,7 @@ trait Urls
     }
 
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -60,7 +60,7 @@ trait Urls
     }
 
     /**
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *

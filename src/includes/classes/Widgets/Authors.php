@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Authors widget.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Authors extends SCoreClasses\SCore\Base\Widget
 {
     /**
      * Class constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     public function __construct()
     {
@@ -58,7 +58,7 @@ class Authors extends SCoreClasses\SCore\Base\Widget
     /**
      * Outputs the options form on admin.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param SCoreClasses\SCore\WidgetForm $Form    Instance.
      * @param array                         $options Options.
@@ -72,8 +72,8 @@ class Authors extends SCoreClasses\SCore\Base\Widget
             'label'   => __('Show Avatars?', 'woocommerce-kb-articles'),
             'value'   => $options['show_avatars'],
             'options' => [
-                '0' => __('No'),
-                '1' => __('Yes'),
+                '0' => __('No', 'woocommerce-kb-articles'),
+                '1' => __('Yes', 'woocommerce-kb-articles'),
             ],
         ]);
         $markup .= $Form->selectRow([
@@ -81,8 +81,8 @@ class Authors extends SCoreClasses\SCore\Base\Widget
             'label'   => __('Show Article Counts?', 'woocommerce-kb-articles'),
             'value'   => $options['show_counts'],
             'options' => [
-                '0' => __('No'),
-                '1' => __('Yes'),
+                '0' => __('No', 'woocommerce-kb-articles'),
+                '1' => __('Yes', 'woocommerce-kb-articles'),
             ],
         ]);
         return $markup;
@@ -91,7 +91,7 @@ class Authors extends SCoreClasses\SCore\Base\Widget
     /**
      * Widget content markup.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $options Options.
      *

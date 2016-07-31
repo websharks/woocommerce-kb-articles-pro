@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Template utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Template extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Single template filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string $template Template path.
      *
@@ -60,7 +60,7 @@ class Template extends SCoreClasses\SCore\Base\Core
     /**
      * Archive template filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string $template Template path.
      *
@@ -82,7 +82,7 @@ class Template extends SCoreClasses\SCore\Base\Core
     /**
      * Search template filter.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param string $template Template path.
      *

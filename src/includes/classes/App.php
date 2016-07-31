@@ -31,23 +31,23 @@ use function get_defined_vars as vars;
 /**
  * Application.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class App extends SCoreClasses\App
 {
     /**
      * Version.
      *
-     * @since 16xxxx
+     * @since 160731.38548
      *
      * @var string Version.
      */
-    const VERSION = '160731.25446'; //v//
+    const VERSION = '160731.38548'; //v//
 
     /**
      * Constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param array $instance Instance args.
      */
@@ -153,7 +153,7 @@ class App extends SCoreClasses\App
     /**
      * Early hook setup handler.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     protected function onSetupEarlyHooks()
     {
@@ -166,7 +166,7 @@ class App extends SCoreClasses\App
     /**
      * Other hook setup handler.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     protected function onSetupOtherHooks()
     {

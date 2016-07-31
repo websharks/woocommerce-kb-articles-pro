@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Storefront utils.
  *
- * @since 16xxxx Initial release.
+ * @since 160731.38548 Initial release.
  */
 class Storefront extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On `wp` hook.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      *
      * @param \WP $WP Instance.
      */
@@ -60,7 +60,7 @@ class Storefront extends SCoreClasses\SCore\Base\Core
     /**
      * Scripts/styles.
      *
-     * @since 16xxxx Initial release.
+     * @since 160731.38548 Initial release.
      */
     public function onWpEnqueueScripts()
     {
