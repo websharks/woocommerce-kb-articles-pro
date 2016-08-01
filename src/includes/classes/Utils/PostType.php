@@ -192,7 +192,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
                     'singular_name' => __('KB Category', 'woocommerce-kb-articles'),
 
                     'name_admin_bar' => __('KB Category', 'woocommerce-kb-articles'),
-                    'menu_name'      => __('KB Categories', 'woocommerce-kb-articles'),
+                    'menu_name'      => __('Categories', 'woocommerce-kb-articles'),
 
                     'all_items'           => __('All Categories', 'woocommerce-kb-articles'),
                     'add_new_item'        => __('Add New Category', 'woocommerce-kb-articles'),
@@ -246,7 +246,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
                     'singular_name' => __('KB Tag', 'woocommerce-kb-articles'),
 
                     'name_admin_bar' => __('KB Tag', 'woocommerce-kb-articles'),
-                    'menu_name'      => __('KB Tags', 'woocommerce-kb-articles'),
+                    'menu_name'      => __('Tags', 'woocommerce-kb-articles'),
 
                     'all_items'           => __('All Tags', 'woocommerce-kb-articles'),
                     'add_new_item'        => __('Add New Tag', 'woocommerce-kb-articles'),

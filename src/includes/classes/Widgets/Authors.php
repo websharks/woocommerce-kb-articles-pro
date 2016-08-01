@@ -106,7 +106,7 @@ class Authors extends SCoreClasses\SCore\Base\Widget
         } elseif (is_singular('kb_article') || is_post_type_archive('kb_article')) {
             $product_id = s::wcProductIdBySlug((string) get_query_var('kb_product'));
         }
-        if ($product_id) { // Product-specific authors.
+        if (!empty($product_id)) { // Product-specific authors.
 
             $sql = /* Get all KB authors for this product KB. */ '
                 SELECT DISTINCT `posts`.`post_author`, COUNT(`posts`.`ID`) AS `count`
@@ -140,11 +140,16 @@ class Authors extends SCoreClasses\SCore\Base\Widget
         foreach ((array) $WpDb->get_results($sql) as $_result) {
             $author_counts[$_result->post_author] = (int) $_result->count;
             $authors[$_result->post_author]       = (int) $_result->post_author;
-        }
+        } // unset($_result); // Housekeeping.
+
         if (!$authors) {
             return ''; // No authors; nothing to do here.
         }
-        $author_args = ['include' => $authors, 'orderby' => 'display_name'];
+        arsort($author_counts, SORT_NUMERIC);
+        uksort($authors, function ($a, $b) use ($author_counts) {
+            return $author_counts[$b] <=> $author_counts[$a];
+        });
+        $author_args = ['include' => $authors, 'orderby' => 'include'];
         $author_args = s::applyFilters('widget_author_args', $author_args);
         $authors     = get_users($author_args);
 

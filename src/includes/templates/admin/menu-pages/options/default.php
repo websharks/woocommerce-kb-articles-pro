@@ -6,7 +6,7 @@
  * @copyright WP Sharks™
  */
 declare (strict_types = 1);
-namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
+namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Interfaces;
@@ -77,6 +77,8 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
         ]); ?>
 
     <?= $Form->closeTable(); ?>
+
+    <hr />
 
     <?= $Form->openTable(
         __('Permalink Options', 'woocommerce-kb-articles'),
@@ -157,6 +159,8 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
         ]); ?>
 
     <?= $Form->closeTable(); ?>
+
+    <hr />
 
     <?= $Form->openTable(
         __('Permalink Endpoint Options', 'woocommerce-kb-articles'),
