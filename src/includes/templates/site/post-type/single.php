@@ -61,10 +61,10 @@ $App = c::app(); // Plugin instance.
                         <?= get_the_author_posts_link(); ?>
                     </div>
 
-                    <?php if ($WC_Product && $WC_Product->exists()) : ?>
+                    <?php if ($product_id && $WC_Product && $WC_Product->exists()) : ?>
                         <div class="cat-links">
                             <div class="label"><i class="fa fa-shopping-cart"></i> <?= __('For Product', 'woocommerce-kb-articles'); ?></div>
-                            <a href="<?= esc_url(get_permalink($WC_Product->ID)); ?>"><?= $WC_Product->get_title(); ?></a>
+                            <a href="<?= esc_url(get_permalink($product_id)); ?>"><?= $WC_Product->get_title(); ?></a>
                         </div>
                     <?php endif; ?>
 
