@@ -39,6 +39,8 @@ $App = c::app(); // Plugin instance.
             $post_id       = (int) get_the_ID();
             $modified_date = get_the_modified_date();
             $date          = get_the_date();
+            $product_id    = s::wcProductIdBySlug((string) get_query_var('kb_product'));
+            $WC_Product    = $product_id ? wc_get_product($product_id) : null;
             ?>
 
             <article id="post-<?= $post_id; ?>" <?php post_class(); ?>>
@@ -58,6 +60,13 @@ $App = c::app(); // Plugin instance.
                         <div class="label"><?= __('Written by', 'woocommerce-kb-articles'); ?></div>
                         <?= get_the_author_posts_link(); ?>
                     </div>
+
+                    <?php if ($WC_Product && $WC_Product->exists()) : ?>
+                        <div class="cat-links">
+                            <div class="label"><i class="fa fa-shopping-cart"></i> <?= __('For Product', 'woocommerce-kb-articles'); ?></div>
+                            <a href="<?= esc_url(get_permalink($WC_Product->ID)); ?>"><?= $WC_Product->get_title(); ?></a>
+                        </div>
+                    <?php endif; ?>
 
                     <?php if (($categories = get_the_term_list($post_id, 'kb_category', '', __(', ', 'woocommerce-kb-articles')))) : ?>
                         <div class="cat-links">

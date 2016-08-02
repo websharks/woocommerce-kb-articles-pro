@@ -192,9 +192,6 @@ class App extends SCoreClasses\App
         add_filter('woocommerce_product_tabs', [$this->Utils->WcProduct, 'onWcProductTabs']);
         add_filter('woocommerce_get_breadcrumb', [$this->Utils->WcBreadcrumbs, 'onWcGetBreadcrumb']);
 
-        if ($this->Wp->template === 'storefront') {
-            add_action('wp', [$this->Utils->Storefront, 'onWp']);
-        }
         if ($this->Wp->is_woocommerce_product_vendors_active) {
             add_action('pre_get_posts', [$this->Utils->Vendors, 'onPreGetPosts']);
             add_filter('wcpv_default_admin_vendor_role_caps', [$this->Utils->Vendors, 'onDefaultCaps']);
@@ -212,6 +209,7 @@ class App extends SCoreClasses\App
         add_action('wp_enqueue_scripts', [$this->Utils->StylesScripts, 'onWpEnqueueScripts']);
 
         if ($this->Wp->template === 'storefront') {
+            add_action('wp', [$this->Utils->Storefront, 'onWp']);
             add_action('wp_enqueue_scripts', [$this->Utils->Storefront, 'onWpEnqueueScripts']);
         }
         add_filter('single_template', [$this->Utils->Template, 'onSingleTemplate']);
@@ -220,6 +218,7 @@ class App extends SCoreClasses\App
 
         add_action('widgets_init', function () {
             register_widget(Classes\Widgets\Search::class);
+            register_widget(Classes\Widgets\Product::class);
             register_widget(Classes\Widgets\Authors::class);
             register_widget(Classes\Widgets\Categories::class);
         });
