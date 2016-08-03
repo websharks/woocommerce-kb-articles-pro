@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WooCommerce KB Articles Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce KB Articles Pro 160802.34473\n"
+"Project-Id-Version: WooCommerce KB Articles Pro 160803.25650\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
-"POT-Creation-Date: 2016-08-02 09:34:36+00:00\n"
+"POT-Creation-Date: 2016-08-03 07:07:34+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -80,7 +80,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:133
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:133
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:133
-#: src/includes/classes/Utils/PostType.php:133
+#: src/includes/classes/Utils/PostType.php:134
 msgid "Knowledge Base Articles"
 msgstr ""
 
@@ -94,8 +94,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:140
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:136
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:140
-#: src/includes/classes/Utils/PostType.php:136
-#: src/includes/classes/Utils/PostType.php:140
+#: src/includes/classes/Utils/PostType.php:137
+#: src/includes/classes/Utils/PostType.php:141
 msgid "KB Articles"
 msgstr ""
 
@@ -109,8 +109,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:139
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:137
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:139
-#: src/includes/classes/Utils/PostType.php:137
-#: src/includes/classes/Utils/PostType.php:139
+#: src/includes/classes/Utils/PostType.php:138
+#: src/includes/classes/Utils/PostType.php:140
 msgid "KB Article"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:142
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:142
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:142
-#: src/includes/classes/Utils/PostType.php:142
+#: src/includes/classes/Utils/PostType.php:143
 msgid "All Articles"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:143
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:143
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:143
-#: src/includes/classes/Utils/PostType.php:143
+#: src/includes/classes/Utils/PostType.php:144
 msgid "Add Article"
 msgstr ""
 
@@ -137,7 +137,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:144
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:144
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:144
-#: src/includes/classes/Utils/PostType.php:144
+#: src/includes/classes/Utils/PostType.php:145
 msgid "Add New Article"
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:145
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:145
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:145
-#: src/includes/classes/Utils/PostType.php:145
+#: src/includes/classes/Utils/PostType.php:146
 msgid "New Article"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:146
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:146
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:146
-#: src/includes/classes/Utils/PostType.php:146
+#: src/includes/classes/Utils/PostType.php:147
 msgid "Edit Article"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:147
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:147
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:147
-#: src/includes/classes/Utils/PostType.php:147
+#: src/includes/classes/Utils/PostType.php:148
 msgid "View Article"
 msgstr ""
 
@@ -173,7 +173,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:149
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:149
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:149
-#: src/includes/classes/Utils/PostType.php:149
+#: src/includes/classes/Utils/PostType.php:150
 msgid "Search Knowledge Base"
 msgstr ""
 
@@ -182,7 +182,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:150
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:150
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:150
-#: src/includes/classes/Utils/PostType.php:150
+#: src/includes/classes/Utils/PostType.php:151
 msgid "No Articles Found"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:151
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:151
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:151
-#: src/includes/classes/Utils/PostType.php:151
+#: src/includes/classes/Utils/PostType.php:152
 msgid "No Articles Found in Trash"
 msgstr ""
 
@@ -200,7 +200,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:153
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:153
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:153
-#: src/includes/classes/Utils/PostType.php:153
+#: src/includes/classes/Utils/PostType.php:154
 msgid "Insert Into Article"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:154
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:154
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:154
-#: src/includes/classes/Utils/PostType.php:154
+#: src/includes/classes/Utils/PostType.php:155
 msgid "Upload to this Article"
 msgstr ""
 
@@ -218,7 +218,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:156
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:156
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:156
-#: src/includes/classes/Utils/PostType.php:156
+#: src/includes/classes/Utils/PostType.php:157
 msgid "Set Featured Image"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:157
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:157
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:157
-#: src/includes/classes/Utils/PostType.php:157
+#: src/includes/classes/Utils/PostType.php:158
 msgid "Remove Featured Image"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:158
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:158
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:158
-#: src/includes/classes/Utils/PostType.php:158
+#: src/includes/classes/Utils/PostType.php:159
 msgid "Use as Featured Image"
 msgstr ""
 
@@ -245,7 +245,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:160
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:160
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:160
-#: src/includes/classes/Utils/PostType.php:160
+#: src/includes/classes/Utils/PostType.php:161
 msgid "Articles List"
 msgstr ""
 
@@ -254,7 +254,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:161
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:161
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:161
-#: src/includes/classes/Utils/PostType.php:161
+#: src/includes/classes/Utils/PostType.php:162
 msgid "Articles List Navigation"
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:163
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:163
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:163
-#: src/includes/classes/Utils/PostType.php:163
+#: src/includes/classes/Utils/PostType.php:164
 msgid "Knowledge Base Archives"
 msgstr ""
 
@@ -272,7 +272,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:164
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:164
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:164
-#: src/includes/classes/Utils/PostType.php:164
+#: src/includes/classes/Utils/PostType.php:165
 msgid "Filter Articles List"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:165
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:165
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:165
-#: src/includes/classes/Utils/PostType.php:165
+#: src/includes/classes/Utils/PostType.php:166
 msgid "Parent Article:"
 msgstr ""
 
@@ -290,7 +290,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:188
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:188
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:188
-#: src/includes/classes/Utils/PostType.php:188
+#: src/includes/classes/Utils/PostType.php:220
 msgid "Knowledge Base Categories"
 msgstr ""
 
@@ -304,7 +304,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:191
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:49
-#: src/includes/classes/Utils/PostType.php:191
+#: src/includes/classes/Utils/PostType.php:223
 #: src/includes/classes/Widgets/Categories.php:49
 msgid "KB Categories"
 msgstr ""
@@ -319,8 +319,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:194
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:192
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:194
-#: src/includes/classes/Utils/PostType.php:192
-#: src/includes/classes/Utils/PostType.php:194
+#: src/includes/classes/Utils/PostType.php:224
+#: src/includes/classes/Utils/PostType.php:226
 msgid "KB Category"
 msgstr ""
 
@@ -334,7 +334,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:195
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:48
-#: src/includes/classes/Utils/PostType.php:195
+#: src/includes/classes/Utils/PostType.php:227
 #: src/includes/templates/site/shortcodes/kb.php:48
 msgid "Categories"
 msgstr ""
@@ -349,8 +349,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:215
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:197
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:215
-#: src/includes/classes/Utils/PostType.php:197
-#: src/includes/classes/Utils/PostType.php:215
+#: src/includes/classes/Utils/PostType.php:229
+#: src/includes/classes/Utils/PostType.php:247
 msgid "All Categories"
 msgstr ""
 
@@ -359,7 +359,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:198
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:198
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:198
-#: src/includes/classes/Utils/PostType.php:198
+#: src/includes/classes/Utils/PostType.php:230
 msgid "Add New Category"
 msgstr ""
 
@@ -368,7 +368,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:199
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:199
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:199
-#: src/includes/classes/Utils/PostType.php:199
+#: src/includes/classes/Utils/PostType.php:231
 msgid "New Category Name"
 msgstr ""
 
@@ -377,7 +377,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:200
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:200
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:200
-#: src/includes/classes/Utils/PostType.php:200
+#: src/includes/classes/Utils/PostType.php:232
 msgid "Add or Remove Categories"
 msgstr ""
 
@@ -386,7 +386,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:201
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:201
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:201
-#: src/includes/classes/Utils/PostType.php:201
+#: src/includes/classes/Utils/PostType.php:233
 msgid "View Category"
 msgstr ""
 
@@ -395,7 +395,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:202
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:202
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:202
-#: src/includes/classes/Utils/PostType.php:202
+#: src/includes/classes/Utils/PostType.php:234
 msgid "Edit Category"
 msgstr ""
 
@@ -404,7 +404,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:203
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:203
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:203
-#: src/includes/classes/Utils/PostType.php:203
+#: src/includes/classes/Utils/PostType.php:235
 msgid "Update Category"
 msgstr ""
 
@@ -413,7 +413,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:205
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:205
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:205
-#: src/includes/classes/Utils/PostType.php:205
+#: src/includes/classes/Utils/PostType.php:237
 msgid "Search Categories"
 msgstr ""
 
@@ -422,7 +422,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:206
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:206
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:206
-#: src/includes/classes/Utils/PostType.php:206
+#: src/includes/classes/Utils/PostType.php:238
 msgid "No Categories Found"
 msgstr ""
 
@@ -431,7 +431,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:207
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:207
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:207
-#: src/includes/classes/Utils/PostType.php:207
+#: src/includes/classes/Utils/PostType.php:239
 msgid "No Categories"
 msgstr ""
 
@@ -440,7 +440,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:209
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:209
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:209
-#: src/includes/classes/Utils/PostType.php:209
+#: src/includes/classes/Utils/PostType.php:241
 msgid "Choose From the Most Used Categories"
 msgstr ""
 
@@ -449,7 +449,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:210
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:210
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:210
-#: src/includes/classes/Utils/PostType.php:210
+#: src/includes/classes/Utils/PostType.php:242
 msgid "Separate Categories w/ Commas"
 msgstr ""
 
@@ -458,7 +458,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:212
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:212
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:212
-#: src/includes/classes/Utils/PostType.php:212
+#: src/includes/classes/Utils/PostType.php:244
 msgid "Categories List"
 msgstr ""
 
@@ -467,7 +467,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:213
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:213
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:213
-#: src/includes/classes/Utils/PostType.php:213
+#: src/includes/classes/Utils/PostType.php:245
 msgid "Categories List Navigation"
 msgstr ""
 
@@ -476,7 +476,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:216
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:216
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:216
-#: src/includes/classes/Utils/PostType.php:216
+#: src/includes/classes/Utils/PostType.php:248
 msgid "Popular Categories"
 msgstr ""
 
@@ -485,7 +485,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:217
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:217
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:217
-#: src/includes/classes/Utils/PostType.php:217
+#: src/includes/classes/Utils/PostType.php:249
 msgid "Parent Category"
 msgstr ""
 
@@ -494,7 +494,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:218
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:218
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:218
-#: src/includes/classes/Utils/PostType.php:218
+#: src/includes/classes/Utils/PostType.php:250
 msgid "Parent Category:"
 msgstr ""
 
@@ -503,7 +503,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:242
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:242
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:242
-#: src/includes/classes/Utils/PostType.php:242
+#: src/includes/classes/Utils/PostType.php:274
 msgid "Knowledge Base Tags"
 msgstr ""
 
@@ -512,7 +512,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:245
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:245
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:245
-#: src/includes/classes/Utils/PostType.php:245
+#: src/includes/classes/Utils/PostType.php:277
 msgid "KB Tags"
 msgstr ""
 
@@ -526,8 +526,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:248
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:246
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:248
-#: src/includes/classes/Utils/PostType.php:246
-#: src/includes/classes/Utils/PostType.php:248
+#: src/includes/classes/Utils/PostType.php:278
+#: src/includes/classes/Utils/PostType.php:280
 msgid "KB Tag"
 msgstr ""
 
@@ -541,7 +541,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:61
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:249
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:61
-#: src/includes/classes/Utils/PostType.php:249
+#: src/includes/classes/Utils/PostType.php:281
 #: src/includes/templates/site/shortcodes/kb.php:61
 msgid "Tags"
 msgstr ""
@@ -556,8 +556,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:269
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:251
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:269
-#: src/includes/classes/Utils/PostType.php:251
-#: src/includes/classes/Utils/PostType.php:269
+#: src/includes/classes/Utils/PostType.php:283
+#: src/includes/classes/Utils/PostType.php:301
 msgid "All Tags"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:252
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:252
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:252
-#: src/includes/classes/Utils/PostType.php:252
+#: src/includes/classes/Utils/PostType.php:284
 msgid "Add New Tag"
 msgstr ""
 
@@ -575,7 +575,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:253
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:253
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:253
-#: src/includes/classes/Utils/PostType.php:253
+#: src/includes/classes/Utils/PostType.php:285
 msgid "New Tag Name"
 msgstr ""
 
@@ -584,7 +584,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:254
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:254
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:254
-#: src/includes/classes/Utils/PostType.php:254
+#: src/includes/classes/Utils/PostType.php:286
 msgid "Add or Remove Tags"
 msgstr ""
 
@@ -593,7 +593,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:255
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:255
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:255
-#: src/includes/classes/Utils/PostType.php:255
+#: src/includes/classes/Utils/PostType.php:287
 msgid "View Tag"
 msgstr ""
 
@@ -602,7 +602,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:256
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:256
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:256
-#: src/includes/classes/Utils/PostType.php:256
+#: src/includes/classes/Utils/PostType.php:288
 msgid "Edit Tag"
 msgstr ""
 
@@ -611,7 +611,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:257
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:257
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:257
-#: src/includes/classes/Utils/PostType.php:257
+#: src/includes/classes/Utils/PostType.php:289
 msgid "Update Tag"
 msgstr ""
 
@@ -620,7 +620,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:259
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:259
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:259
-#: src/includes/classes/Utils/PostType.php:259
+#: src/includes/classes/Utils/PostType.php:291
 msgid "Search Tags"
 msgstr ""
 
@@ -629,7 +629,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:260
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:260
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:260
-#: src/includes/classes/Utils/PostType.php:260
+#: src/includes/classes/Utils/PostType.php:292
 msgid "No Tags Found"
 msgstr ""
 
@@ -638,7 +638,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:261
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:261
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:261
-#: src/includes/classes/Utils/PostType.php:261
+#: src/includes/classes/Utils/PostType.php:293
 msgid "No Tags"
 msgstr ""
 
@@ -647,7 +647,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:263
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:263
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:263
-#: src/includes/classes/Utils/PostType.php:263
+#: src/includes/classes/Utils/PostType.php:295
 msgid "Choose From the Most Used Tags"
 msgstr ""
 
@@ -656,7 +656,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:264
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:264
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:264
-#: src/includes/classes/Utils/PostType.php:264
+#: src/includes/classes/Utils/PostType.php:296
 msgid "Separate Tags w/ Commas"
 msgstr ""
 
@@ -665,7 +665,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:266
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:266
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:266
-#: src/includes/classes/Utils/PostType.php:266
+#: src/includes/classes/Utils/PostType.php:298
 msgid "Tags List"
 msgstr ""
 
@@ -674,7 +674,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:267
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:267
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:267
-#: src/includes/classes/Utils/PostType.php:267
+#: src/includes/classes/Utils/PostType.php:299
 msgid "Tags List Navigation"
 msgstr ""
 
@@ -683,7 +683,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:270
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:270
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:270
-#: src/includes/classes/Utils/PostType.php:270
+#: src/includes/classes/Utils/PostType.php:302
 msgid "Popular Tags"
 msgstr ""
 
@@ -692,7 +692,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:271
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:271
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:271
-#: src/includes/classes/Utils/PostType.php:271
+#: src/includes/classes/Utils/PostType.php:303
 msgid "Parent Tag"
 msgstr ""
 
@@ -701,7 +701,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:272
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:272
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:272
-#: src/includes/classes/Utils/PostType.php:272
+#: src/includes/classes/Utils/PostType.php:304
 msgid "Parent Tag:"
 msgstr ""
 
