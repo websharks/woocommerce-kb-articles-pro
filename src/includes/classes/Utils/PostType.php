@@ -128,9 +128,10 @@ class PostType extends SCoreClasses\SCore\Base\Core
                 ],
                 'rewrite' => false, // See below.
 
-                'menu_position' => 6,
                 'menu_icon'     => 'dashicons-book',
-                'description'   => __('Knowledge Base Articles', 'woocommerce-kb-articles'),
+                'menu_position' => null, // See below.
+
+                'description' => __('Knowledge Base Articles', 'woocommerce-kb-articles'),
 
                 'labels' => [ // See: <http://jas.xyz/244m2Sd>
                     'name'          => __('KB Articles', 'woocommerce-kb-articles'),
@@ -172,6 +173,37 @@ class PostType extends SCoreClasses\SCore\Base\Core
                 ],
             ])
         );
+        add_filter('custom_menu_order', '__return_true');
+        add_filter('menu_order', function (array $menu_items) {
+            $posts_item = 'edit.php'; // i.e., Blog posts.
+            $posts_item_key = array_search($posts_item, $menu_items, true);
+
+            $products_item = 'edit.php?post_type=product';
+            $products_item_key = array_search($products_item, $menu_items, true);
+
+            $after_item = $posts_item_key === false ? $products_item : $posts_item;
+            $after_item_key = $posts_item_key === false ? $products_item_key : $posts_item_key;
+
+            $kb_articles_item = 'edit.php?post_type=kb_article';
+            $kb_articles_key = array_search($kb_articles_item, $menu_items, true);
+
+            if ($after_item_key !== false && $kb_articles_key !== false) {
+                $new_menu_items = []; // Initialize new menu items.
+
+                foreach ($menu_items as $_key => $_item) {
+                    if ($_item !== $kb_articles_item) {
+                        $new_menu_items[] = $_item;
+                    }
+                    if ($_item === $after_item) {
+                        $new_menu_items[] = $kb_articles_item;
+                    }
+                } // unset($_key, $_item); // Housekeeping.
+
+                $menu_items = $new_menu_items;
+            }
+            return $menu_items;
+        }, 1000);
+
         # Post type category.
 
         register_taxonomy(
