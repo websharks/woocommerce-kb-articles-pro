@@ -217,6 +217,7 @@ class App extends SCoreClasses\App
         add_filter('search_template', [$this->Utils->Template, 'onSearchTemplate']);
 
         add_action('widgets_init', function () {
+            register_widget(Classes\Widgets\Meta::class);
             register_widget(Classes\Widgets\Search::class);
             register_widget(Classes\Widgets\Product::class);
             register_widget(Classes\Widgets\Authors::class);

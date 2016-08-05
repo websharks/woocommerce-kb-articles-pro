@@ -1,5 +1,6 @@
-## [coming soon]
+## $v
 
+- Adding meta widget that can be used to display article meta instead of forcing it into the content area. Props @raamdev.
 - Adding 'For Product' meta details to default singular template for Storefront-based themes for WooCommerce.
 - Adding new widget: **KB: Back to Product**, making it easier to reference the product page (for the current product), from any area of the KB.
 

@@ -113,6 +113,27 @@ $border-color: rgba(0, 0, 0, 0.05);
 /*
  * Widget styles.
  */
+.widget.#{$brand-slug}-meta {
+  > .-author,
+  > .-product,
+  > .-categories,
+  > .-tags {
+    margin-bottom:            1.618em;
+
+    &:last-child {
+      margin-bottom:          0;
+    }
+
+    .avatar {
+      width:                  64px;
+      margin-bottom:          1em;
+    }
+  }
+}
+
+/*
+ * Widget styles.
+ */
 .widget.#{$brand-slug}-authors {
   > ul,
   > ul > li {

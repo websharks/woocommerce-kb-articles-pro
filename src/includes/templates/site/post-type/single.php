@@ -39,8 +39,6 @@ $App = c::app(); // Plugin instance.
             $post_id       = (int) get_the_ID();
             $modified_date = get_the_modified_date();
             $date          = get_the_date();
-            $product_id    = s::wcProductIdBySlug((string) get_query_var('kb_product'));
-            $WC_Product    = $product_id ? wc_get_product($product_id) : null;
             ?>
 
             <article id="post-<?= $post_id; ?>" <?php post_class(); ?>>
@@ -53,35 +51,6 @@ $App = c::app(); // Plugin instance.
                         <?= a::singleTitle(); ?>
                     </h1>
                 </header>
-
-                <aside class="entry-meta">
-                    <div class="author">
-                        <?= get_avatar(get_the_author_meta('ID'), 128); ?>
-                        <div class="label"><?= __('Written by', 'woocommerce-kb-articles'); ?></div>
-                        <?= get_the_author_posts_link(); ?>
-                    </div>
-
-                    <?php if ($product_id && $WC_Product && $WC_Product->exists()) : ?>
-                        <div class="cat-links">
-                            <div class="label"><i class="fa fa-shopping-cart"></i> <?= __('For Product', 'woocommerce-kb-articles'); ?></div>
-                            <a href="<?= esc_url(get_permalink($product_id)); ?>"><?= $WC_Product->get_title(); ?></a>
-                        </div>
-                    <?php endif; ?>
-
-                    <?php if (($categories = get_the_term_list($post_id, 'kb_category', '', __(', ', 'woocommerce-kb-articles')))) : ?>
-                        <div class="cat-links">
-                            <div class="label"><?= __('Posted in', 'woocommerce-kb-articles'); ?></div>
-                            <?= $categories; ?>
-                        </div>
-                    <?php endif; ?>
-
-                    <?php if (($tags = get_the_term_list($post_id, 'kb_tag', '', __(', ', 'woocommerce-kb-articles')))) : ?>
-                        <div class="tags-links">
-                            <div class="label"><?= __('Tagged', 'woocommerce-kb-articles'); ?></div>
-                            <?= $tags; ?>
-                        </div>
-                    <?php endif; ?>
-                </aside>
 
                 <?php do_action('storefront_single_post_before'); ?>
 

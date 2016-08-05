@@ -40,21 +40,28 @@ $border-color: rgba(0, 0, 0, 0.05);
         }
       }
     }
+  }
 
-    @media (min-width: 768px) {
-      .entry-meta {
-        float:                left;
-        font-size:           .857em;
-        width:                17.6470588235%;
-        margin-right:         5.8823529412%;
-      }
-    }
+  #content #secondary {
+    .widget.#{$brand-slug}-meta {
+      > .-author,
+      > .-product,
+      > .-categories,
+      > .-tags {
+        margin-bottom:        1.618em;
 
-    @media (min-width: 768px) {
-      .entry-content {
-        margin-right:         0;
-        float:                right;
-        width:                76.4705882353%;
+        &:last-child {
+          margin-bottom:      0;
+        }
+
+        .-label {
+          font-weight:        300;
+        }
+
+        a {
+          font-weight:        600;
+          text-decoration:    none;
+        }
       }
     }
   }

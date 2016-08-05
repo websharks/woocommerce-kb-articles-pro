@@ -46,7 +46,7 @@ class Search extends SCoreClasses\SCore\Base\Widget
         $args = [
             'slug'        => 'search',
             'class'       => 'widget_search',
-            'name'        => __('KB Article Search', 'woocommerce-kb-articles'),
+            'name'        => __('KB: Article Search', 'woocommerce-kb-articles'),
             'description' => __('Search box for KB articles.', 'woocommerce-kb-articles'),
         ];
         $default_options = [

@@ -45,7 +45,7 @@ class Authors extends SCoreClasses\SCore\Base\Widget
         $App  = c::app();
         $args = [
             'slug'        => 'authors',
-            'name'        => __('KB Authors', 'woocommerce-kb-articles'),
+            'name'        => __('KB: Authors', 'woocommerce-kb-articles'),
             'description' => __('Display a list of KB authors.', 'woocommerce-kb-articles'),
         ];
         $default_options = [

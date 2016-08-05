@@ -46,7 +46,7 @@ class Categories extends SCoreClasses\SCore\Base\Widget
         $args = [
             'slug'        => 'categories',
             'class'       => 'widget_categories',
-            'name'        => __('KB Categories', 'woocommerce-kb-articles'),
+            'name'        => __('KB: Categories', 'woocommerce-kb-articles'),
             'description' => __('Display a list of KB categories.', 'woocommerce-kb-articles'),
         ];
         $default_options = [

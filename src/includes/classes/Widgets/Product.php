@@ -46,7 +46,7 @@ class Product extends SCoreClasses\SCore\Base\Widget
         $args = [
             'slug'        => 'product',
             'class'       => 'woocommerce widget_products',
-            'name'        => __('KB: Back to Product Page', 'woocommerce-kb-articles'),
+            'name'        => __('KB: Back to Product', 'woocommerce-kb-articles'),
             'description' => __('Link back to current KB product page.', 'woocommerce-kb-articles'),
         ];
         $default_options = [
