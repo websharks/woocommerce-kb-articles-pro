@@ -1,4 +1,4 @@
-## $v
+## v160805.29085
 
 - Adding meta widget that can be used to display article meta instead of forcing it into the content area. Props @raamdev.
 - Adding 'For Product' meta details to default singular template for Storefront-based themes for WooCommerce.

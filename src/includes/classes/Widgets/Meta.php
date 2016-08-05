@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Meta widget.
  *
- * @since 16xxxx Initial release.
+ * @since 160805.29085 Initial release.
  */
 class Meta extends SCoreClasses\SCore\Base\Widget
 {
     /**
      * Class constructor.
      *
-     * @since 16xxxx Initial release.
+     * @since 160805.29085 Initial release.
      */
     public function __construct()
     {
@@ -60,7 +60,7 @@ class Meta extends SCoreClasses\SCore\Base\Widget
     /**
      * Outputs the options form on admin.
      *
-     * @since 16xxxx Initial release.
+     * @since 160805.29085 Initial release.
      *
      * @param SCoreClasses\SCore\WidgetForm $Form    Instance.
      * @param array                         $options Options.
@@ -113,7 +113,7 @@ class Meta extends SCoreClasses\SCore\Base\Widget
     /**
      * Widget content markup.
      *
-     * @since 16xxxx Initial release.
+     * @since 160805.29085 Initial release.
      *
      * @param array $options Options.
      *
