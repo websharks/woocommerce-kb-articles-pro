@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WooCommerce KB Articles Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce KB Articles Pro 160805.53214\n"
+"Project-Id-Version: WooCommerce KB Articles Pro 160805.53479\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
-"POT-Creation-Date: 2016-08-05 14:46:57+00:00\n"
+"POT-Creation-Date: 2016-08-05 14:51:22+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/App.php:135
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/App.php:135
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/App.php:135
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/App.php:135
 #: .~build/woocommerce-kb-articles/src/includes/classes/App.php:135
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/App.php:135
 #: src/includes/classes/App.php:135
@@ -25,7 +24,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/App.php:136
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/App.php:136
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/App.php:136
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/App.php:136
 #: .~build/woocommerce-kb-articles/src/includes/classes/App.php:136
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/App.php:136
 #: src/includes/classes/App.php:136
@@ -35,7 +33,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/App.php:141
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/App.php:141
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/App.php:141
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/App.php:141
 #: .~build/woocommerce-kb-articles/src/includes/classes/App.php:141
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/App.php:141
 #: src/includes/classes/App.php:141
@@ -45,7 +42,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/MenuPage.php:46
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:46
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:46
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/MenuPage.php:46
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:46
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/MenuPage.php:46
 #: src/includes/classes/Utils/MenuPage.php:46
@@ -55,7 +51,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/MenuPage.php:51
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:51
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:51
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/MenuPage.php:51
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:51
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/MenuPage.php:51
 #: src/includes/classes/Utils/MenuPage.php:51
@@ -65,7 +60,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/MenuPage.php:53
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:53
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:53
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/MenuPage.php:53
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/MenuPage.php:53
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/MenuPage.php:53
 #: src/includes/classes/Utils/MenuPage.php:53
@@ -75,7 +69,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostMetaBox.php:48
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostMetaBox.php:48
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostMetaBox.php:48
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostMetaBox.php:48
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostMetaBox.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostMetaBox.php:48
 #: src/includes/classes/Utils/PostMetaBox.php:48
@@ -85,7 +78,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:134
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:134
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:134
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:134
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:134
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:134
 #: src/includes/classes/Utils/PostType.php:134
@@ -98,8 +90,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:141
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:137
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:141
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:137
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:141
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:137
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:141
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:137
@@ -115,8 +105,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:140
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:138
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:140
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:138
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:140
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:138
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:140
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:138
@@ -129,7 +117,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:143
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:143
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:143
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:143
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:143
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:143
 #: src/includes/classes/Utils/PostType.php:143
@@ -139,7 +126,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:144
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:144
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:144
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:144
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:144
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:144
 #: src/includes/classes/Utils/PostType.php:144
@@ -149,7 +135,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:145
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:145
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:145
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:145
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:145
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:145
 #: src/includes/classes/Utils/PostType.php:145
@@ -159,7 +144,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:146
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:146
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:146
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:146
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:146
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:146
 #: src/includes/classes/Utils/PostType.php:146
@@ -169,7 +153,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:147
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:147
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:147
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:147
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:147
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:147
 #: src/includes/classes/Utils/PostType.php:147
@@ -179,7 +162,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:148
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:148
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:148
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:148
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:148
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:148
 #: src/includes/classes/Utils/PostType.php:148
@@ -189,7 +171,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:150
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:150
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:150
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:150
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:150
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:150
 #: src/includes/classes/Utils/PostType.php:150
@@ -199,7 +180,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:151
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:151
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:151
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:151
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:151
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:151
 #: src/includes/classes/Utils/PostType.php:151
@@ -209,7 +189,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:152
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:152
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:152
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:152
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:152
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:152
 #: src/includes/classes/Utils/PostType.php:152
@@ -219,7 +198,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:154
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:154
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:154
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:154
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:154
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:154
 #: src/includes/classes/Utils/PostType.php:154
@@ -229,7 +207,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:155
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:155
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:155
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:155
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:155
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:155
 #: src/includes/classes/Utils/PostType.php:155
@@ -239,7 +216,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:157
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:157
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:157
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:157
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:157
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:157
 #: src/includes/classes/Utils/PostType.php:157
@@ -249,7 +225,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:158
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:158
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:158
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:158
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:158
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:158
 #: src/includes/classes/Utils/PostType.php:158
@@ -259,7 +234,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:159
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:159
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:159
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:159
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:159
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:159
 #: src/includes/classes/Utils/PostType.php:159
@@ -269,7 +243,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:161
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:161
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:161
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:161
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:161
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:161
 #: src/includes/classes/Utils/PostType.php:161
@@ -279,7 +252,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:162
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:162
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:162
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:162
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:162
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:162
 #: src/includes/classes/Utils/PostType.php:162
@@ -289,7 +261,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:164
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:164
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:164
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:164
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:164
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:164
 #: src/includes/classes/Utils/PostType.php:164
@@ -299,7 +270,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:165
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:165
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:165
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:165
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:165
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:165
 #: src/includes/classes/Utils/PostType.php:165
@@ -309,7 +279,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:166
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:166
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:166
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:166
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:166
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:166
 #: src/includes/classes/Utils/PostType.php:166
@@ -319,7 +288,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:220
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:220
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:220
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:220
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:220
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:220
 #: src/includes/classes/Utils/PostType.php:220
@@ -329,7 +297,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:223
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:223
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:223
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:223
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:223
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:223
 #: src/includes/classes/Utils/PostType.php:223
@@ -342,8 +309,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:226
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:224
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:226
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:224
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:226
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:224
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:226
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:224
@@ -359,8 +324,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:48
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:227
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:48
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:227
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/shortcodes/kb.php:48
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:227
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:227
@@ -376,8 +339,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:247
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:229
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:247
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:229
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:247
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:229
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:247
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:229
@@ -390,7 +351,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:230
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:230
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:230
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:230
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:230
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:230
 #: src/includes/classes/Utils/PostType.php:230
@@ -400,7 +360,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:231
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:231
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:231
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:231
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:231
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:231
 #: src/includes/classes/Utils/PostType.php:231
@@ -410,7 +369,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:232
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:232
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:232
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:232
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:232
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:232
 #: src/includes/classes/Utils/PostType.php:232
@@ -420,7 +378,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:233
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:233
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:233
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:233
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:233
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:233
 #: src/includes/classes/Utils/PostType.php:233
@@ -430,7 +387,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:234
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:234
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:234
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:234
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:234
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:234
 #: src/includes/classes/Utils/PostType.php:234
@@ -440,7 +396,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:235
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:235
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:235
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:235
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:235
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:235
 #: src/includes/classes/Utils/PostType.php:235
@@ -450,7 +405,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:237
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:237
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:237
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:237
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:237
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:237
 #: src/includes/classes/Utils/PostType.php:237
@@ -460,7 +414,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:238
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:238
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:238
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:238
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:238
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:238
 #: src/includes/classes/Utils/PostType.php:238
@@ -470,7 +423,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:239
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:239
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:239
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:239
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:239
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:239
 #: src/includes/classes/Utils/PostType.php:239
@@ -480,7 +432,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:241
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:241
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:241
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:241
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:241
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:241
 #: src/includes/classes/Utils/PostType.php:241
@@ -490,7 +441,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:242
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:242
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:242
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:242
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:242
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:242
 #: src/includes/classes/Utils/PostType.php:242
@@ -500,7 +450,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:244
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:244
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:244
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:244
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:244
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:244
 #: src/includes/classes/Utils/PostType.php:244
@@ -510,7 +459,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:245
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:245
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:245
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:245
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:245
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:245
 #: src/includes/classes/Utils/PostType.php:245
@@ -520,7 +468,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:248
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:248
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:248
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:248
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:248
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:248
 #: src/includes/classes/Utils/PostType.php:248
@@ -530,7 +477,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:249
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:249
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:249
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:249
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:249
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:249
 #: src/includes/classes/Utils/PostType.php:249
@@ -540,7 +486,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:250
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:250
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:250
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:250
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:250
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:250
 #: src/includes/classes/Utils/PostType.php:250
@@ -550,7 +495,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:274
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:274
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:274
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:274
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:274
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:274
 #: src/includes/classes/Utils/PostType.php:274
@@ -560,7 +504,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:277
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:277
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:277
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:277
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:277
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:277
 #: src/includes/classes/Utils/PostType.php:277
@@ -573,8 +516,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:280
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:278
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:280
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:278
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:280
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:278
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:280
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:278
@@ -590,8 +531,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:61
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:281
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:61
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:281
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/shortcodes/kb.php:61
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:281
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:61
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:281
@@ -607,8 +546,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:301
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:283
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:301
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:283
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:301
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:283
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:301
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:283
@@ -621,7 +558,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:284
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:284
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:284
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:284
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:284
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:284
 #: src/includes/classes/Utils/PostType.php:284
@@ -631,7 +567,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:285
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:285
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:285
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:285
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:285
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:285
 #: src/includes/classes/Utils/PostType.php:285
@@ -641,7 +576,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:286
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:286
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:286
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:286
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:286
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:286
 #: src/includes/classes/Utils/PostType.php:286
@@ -651,7 +585,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:287
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:287
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:287
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:287
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:287
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:287
 #: src/includes/classes/Utils/PostType.php:287
@@ -661,7 +594,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:288
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:288
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:288
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:288
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:288
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:288
 #: src/includes/classes/Utils/PostType.php:288
@@ -671,7 +603,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:289
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:289
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:289
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:289
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:289
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:289
 #: src/includes/classes/Utils/PostType.php:289
@@ -681,7 +612,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:291
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:291
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:291
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:291
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:291
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:291
 #: src/includes/classes/Utils/PostType.php:291
@@ -691,7 +621,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:292
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:292
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:292
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:292
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:292
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:292
 #: src/includes/classes/Utils/PostType.php:292
@@ -701,7 +630,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:293
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:293
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:293
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:293
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:293
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:293
 #: src/includes/classes/Utils/PostType.php:293
@@ -711,7 +639,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:295
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:295
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:295
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:295
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:295
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:295
 #: src/includes/classes/Utils/PostType.php:295
@@ -721,7 +648,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:296
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:296
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:296
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:296
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:296
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:296
 #: src/includes/classes/Utils/PostType.php:296
@@ -731,7 +657,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:298
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:298
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:298
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:298
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:298
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:298
 #: src/includes/classes/Utils/PostType.php:298
@@ -741,7 +666,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:299
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:299
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:299
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:299
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:299
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:299
 #: src/includes/classes/Utils/PostType.php:299
@@ -751,7 +675,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:302
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:302
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:302
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:302
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:302
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:302
 #: src/includes/classes/Utils/PostType.php:302
@@ -761,7 +684,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:303
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:303
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:303
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:303
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:303
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:303
 #: src/includes/classes/Utils/PostType.php:303
@@ -771,7 +693,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:304
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:304
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:304
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostType.php:304
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostType.php:304
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostType.php:304
 #: src/includes/classes/Utils/PostType.php:304
@@ -781,7 +702,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostTypeCols.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/PostTypeCols.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/PostTypeCols.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/PostTypeCols.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/PostTypeCols.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/PostTypeCols.php:49
 #: src/includes/classes/Utils/PostTypeCols.php:49
@@ -796,8 +716,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/assets/.~Title.php:252
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:146
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:211
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/Title.php:146
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/Title.php:211
 #: .~build/woocommerce-kb-articles/assets/.~Title.php:192
 #: .~build/woocommerce-kb-articles/assets/.~Title.php:252
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:146
@@ -828,11 +746,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:72
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:86
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:104
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/Title.php:149
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/Title.php:213
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/WcProduct.php:72
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/WcProduct.php:86
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/WcProduct.php:104
 #: .~build/woocommerce-kb-articles/assets/.~Title.php:250
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:149
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:213
@@ -856,7 +769,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/Title.php:232
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:232
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:232
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/Title.php:232
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:232
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/Title.php:232
 #: src/includes/classes/Utils/Title.php:232
@@ -866,7 +778,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/Title.php:235
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:235
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:235
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/Title.php:235
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/Title.php:235
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/Title.php:235
 #: src/includes/classes/Utils/Title.php:235
@@ -876,7 +787,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/WcProduct.php:108
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:108
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:108
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/WcProduct.php:108
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:108
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/WcProduct.php:108
 #: src/includes/classes/Utils/WcProduct.php:108
@@ -886,7 +796,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Utils/WcProduct.php:109
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:109
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:109
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Utils/WcProduct.php:109
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:109
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/WcProduct.php:109
 #: src/includes/classes/Utils/WcProduct.php:109
@@ -896,7 +805,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:48
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:48
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:48
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:48
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:48
 #: src/includes/classes/Widgets/Authors.php:48
@@ -906,7 +814,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:49
 #: src/includes/classes/Widgets/Authors.php:49
@@ -916,7 +823,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:72
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:72
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:72
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:72
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:72
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:72
 #: src/includes/classes/Widgets/Authors.php:72
@@ -941,12 +847,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:88
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:97
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:106
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:75
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:84
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:79
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:88
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:97
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:106
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:75
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:84
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:79
@@ -986,12 +886,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:89
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:98
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:107
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:76
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:85
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:80
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:89
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:98
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:107
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:80
@@ -1016,7 +910,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:81
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:81
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:81
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Authors.php:81
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:81
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:81
 #: src/includes/classes/Widgets/Authors.php:81
@@ -1026,7 +919,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Categories.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:49
 #: src/includes/classes/Widgets/Categories.php:49
@@ -1036,7 +928,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:50
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:50
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:50
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Categories.php:50
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:50
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:50
 #: src/includes/classes/Widgets/Categories.php:50
@@ -1046,7 +937,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:73
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:73
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:73
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Categories.php:73
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:73
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:73
 #: src/includes/classes/Widgets/Categories.php:73
@@ -1056,7 +946,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:75
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:75
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:75
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Categories.php:75
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:75
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:75
 #: src/includes/classes/Widgets/Categories.php:75
@@ -1066,7 +955,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:48
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:48
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:48
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:48
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:48
 #: src/includes/classes/Widgets/Meta.php:48
@@ -1076,7 +964,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:49
 #: src/includes/classes/Widgets/Meta.php:49
@@ -1086,7 +973,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:76
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:76
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:76
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:76
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:76
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:76
 #: src/includes/classes/Widgets/Meta.php:76
@@ -1096,7 +982,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:85
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:85
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:85
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:85
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:85
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:85
 #: src/includes/classes/Widgets/Meta.php:85
@@ -1106,7 +991,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:94
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:94
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:94
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:94
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:94
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:94
 #: src/includes/classes/Widgets/Meta.php:94
@@ -1116,7 +1000,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:103
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:103
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:103
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:103
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:103
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:103
 #: src/includes/classes/Widgets/Meta.php:103
@@ -1129,8 +1012,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:134
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:133
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:134
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:133
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:134
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:133
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:134
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:133
@@ -1143,7 +1024,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:145
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:145
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:145
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:145
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:145
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:145
 #: src/includes/classes/Widgets/Meta.php:145
@@ -1153,7 +1033,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:151
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:151
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:151
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:151
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:151
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:151
 #: src/includes/classes/Widgets/Meta.php:151
@@ -1163,7 +1042,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:157
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:157
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:157
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:157
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:157
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:157
 #: src/includes/classes/Widgets/Meta.php:157
@@ -1173,7 +1051,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:163
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:163
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:163
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Meta.php:163
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:163
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:163
 #: src/includes/classes/Widgets/Meta.php:163
@@ -1183,7 +1060,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Product.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Product.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Product.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Product.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Product.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Product.php:49
 #: src/includes/classes/Widgets/Product.php:49
@@ -1193,7 +1069,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Product.php:50
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Product.php:50
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Product.php:50
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Product.php:50
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Product.php:50
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Product.php:50
 #: src/includes/classes/Widgets/Product.php:50
@@ -1203,7 +1078,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Search.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:49
 #: src/includes/classes/Widgets/Search.php:49
@@ -1213,7 +1087,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:50
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:50
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:50
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Search.php:50
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:50
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:50
 #: src/includes/classes/Widgets/Search.php:50
@@ -1223,7 +1096,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:86
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:86
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:86
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Search.php:86
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:86
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:86
 #: src/includes/classes/Widgets/Search.php:86
@@ -1233,7 +1105,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:87
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:87
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:87
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Search.php:87
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:87
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:87
 #: src/includes/classes/Widgets/Search.php:87
@@ -1243,7 +1114,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:89
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:89
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:89
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/classes/Widgets/Search.php:89
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Search.php:89
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Search.php:89
 #: src/includes/classes/Widgets/Search.php:89
@@ -1253,7 +1123,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:37
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:37
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:37
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:37
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:37
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:37
 #: src/includes/templates/admin/menu-pages/options/default.php:37
@@ -1263,7 +1132,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:38
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:38
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:38
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:38
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:38
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:38
 #: src/includes/templates/admin/menu-pages/options/default.php:38
@@ -1273,7 +1141,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:43
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:43
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:43
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:43
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:43
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:43
 #: src/includes/templates/admin/menu-pages/options/default.php:43
@@ -1283,7 +1150,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:44
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:44
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:44
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:44
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:44
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:44
 #: src/includes/templates/admin/menu-pages/options/default.php:44
@@ -1293,7 +1159,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:51
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:51
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:51
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:51
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:51
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:51
 #: src/includes/templates/admin/menu-pages/options/default.php:51
@@ -1303,7 +1168,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:52
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:52
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:52
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:52
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:52
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:52
 #: src/includes/templates/admin/menu-pages/options/default.php:52
@@ -1313,7 +1177,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:53
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:53
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:53
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:53
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:53
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:53
 #: src/includes/templates/admin/menu-pages/options/default.php:53
@@ -1323,7 +1186,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:60
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:60
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:60
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:60
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:60
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:60
 #: src/includes/templates/admin/menu-pages/options/default.php:60
@@ -1333,7 +1195,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:61
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:61
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:61
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:61
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:61
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:61
 #: src/includes/templates/admin/menu-pages/options/default.php:61
@@ -1343,7 +1204,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:84
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:84
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:84
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:84
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:84
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:84
 #: src/includes/templates/admin/menu-pages/options/default.php:84
@@ -1353,7 +1213,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:85
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:85
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:85
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:85
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:85
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:85
 #: src/includes/templates/admin/menu-pages/options/default.php:85
@@ -1363,7 +1222,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:86
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:86
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:86
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:86
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:86
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:86
 #: src/includes/templates/admin/menu-pages/options/default.php:86
@@ -1373,7 +1231,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:90
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:90
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:90
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:90
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:90
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:90
 #: src/includes/templates/admin/menu-pages/options/default.php:90
@@ -1383,7 +1240,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:91
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:91
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:91
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:91
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:91
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:91
 #: src/includes/templates/admin/menu-pages/options/default.php:91
@@ -1393,7 +1249,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:98
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:98
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:98
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:98
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:98
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:98
 #: src/includes/templates/admin/menu-pages/options/default.php:98
@@ -1412,10 +1267,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:115
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:131
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:147
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:99
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:115
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:131
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:147
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:99
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:115
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:131
@@ -1434,7 +1285,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:106
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:106
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:106
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:106
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:106
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:106
 #: src/includes/templates/admin/menu-pages/options/default.php:106
@@ -1453,10 +1303,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:123
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:139
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:155
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:107
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:123
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:139
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:155
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:107
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:123
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:139
@@ -1475,7 +1321,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:114
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:114
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:114
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:114
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:114
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:114
 #: src/includes/templates/admin/menu-pages/options/default.php:114
@@ -1485,7 +1330,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:122
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:122
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:122
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:122
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:122
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:122
 #: src/includes/templates/admin/menu-pages/options/default.php:122
@@ -1495,7 +1339,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:130
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:130
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:130
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:130
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:130
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:130
 #: src/includes/templates/admin/menu-pages/options/default.php:130
@@ -1505,7 +1348,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:138
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:138
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:138
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:138
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:138
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:138
 #: src/includes/templates/admin/menu-pages/options/default.php:138
@@ -1515,7 +1357,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:146
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:146
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:146
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:146
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:146
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:146
 #: src/includes/templates/admin/menu-pages/options/default.php:146
@@ -1525,7 +1366,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:154
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:154
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:154
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:154
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:154
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:154
 #: src/includes/templates/admin/menu-pages/options/default.php:154
@@ -1535,7 +1375,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:166
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:166
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:166
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:166
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:166
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:166
 #: src/includes/templates/admin/menu-pages/options/default.php:166
@@ -1545,7 +1384,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:167
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:167
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:167
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:167
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:167
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:167
 #: src/includes/templates/admin/menu-pages/options/default.php:167
@@ -1555,7 +1393,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:171
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:171
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:171
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:171
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:171
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:171
 #: src/includes/templates/admin/menu-pages/options/default.php:171
@@ -1565,7 +1402,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:172
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:172
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:172
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/options/default.php:172
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/options/default.php:172
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/options/default.php:172
 #: src/includes/templates/admin/menu-pages/options/default.php:172
@@ -1575,7 +1411,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
 #: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
@@ -1585,7 +1420,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
 #: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
@@ -1595,7 +1429,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
 #: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
@@ -1605,7 +1438,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
 #: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:41
@@ -1615,7 +1447,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
 #: .~build/woocommerce-kb-articles/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
 #: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:42
@@ -1625,7 +1456,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:34
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:34
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:34
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/s-core/notices/on-install.php:34
 #: .~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:34
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:34
 #: src/includes/templates/s-core/notices/on-install.php:34
@@ -1635,7 +1465,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:35
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:35
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:35
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/s-core/notices/on-install.php:35
 #: .~build/woocommerce-kb-articles/src/includes/templates/s-core/notices/on-install.php:35
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/s-core/notices/on-install.php:35
 #: src/includes/templates/s-core/notices/on-install.php:35
@@ -1648,8 +1477,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:48
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/post-type/archive.php:60
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:48
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/post-type/archive.php:60
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/post-type/single.php:48
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/post-type/archive.php:60
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/post-type/archive.php:60
@@ -1665,8 +1492,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:48
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/post-type/archive.php:60
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:48
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/post-type/archive.php:60
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/post-type/single.php:48
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/post-type/archive.php:60
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:48
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/post-type/archive.php:60
@@ -1679,7 +1504,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/site/post-type/single.php:49
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:49
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:49
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/post-type/single.php:49
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/post-type/single.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/post-type/single.php:49
 #: src/includes/templates/site/post-type/single.php:49
@@ -1692,8 +1516,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:104
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:39
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:104
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/shortcodes/kb.php:39
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/shortcodes/kb.php:104
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:39
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:104
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:39
@@ -1706,7 +1528,6 @@ msgstr ""
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:95
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:95
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:95
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles-repo/src/includes/templates/site/shortcodes/kb.php:95
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:95
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:95
 #: src/includes/templates/site/shortcodes/kb.php:95
