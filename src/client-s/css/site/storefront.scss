@@ -73,13 +73,7 @@ $border-color: rgba(0, 0, 0, 0.05);
 .post-type-archive-#{$post-type}:not(#x) {
   #content #primary {
     .page-header {
-      padding-bottom:         1em;
-      margin-bottom:          1em;
-      border-bottom:          1px solid $border-color;
-
       .page-title {
-        margin-bottom:        0;
-
         .-s {
           line-height:        1.5;
           font-size:         .75em;
