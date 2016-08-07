@@ -1,3 +1,7 @@
+## [coming soon]
+
+- Bug fix. No need to call `stripLeadingIndents()` in product tab content filter.
+
 ## v160805.29085
 
 - Adding meta widget that can be used to display article meta instead of forcing it into the content area. Props @raamdev.
