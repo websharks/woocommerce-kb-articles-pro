@@ -46,11 +46,12 @@ class Authors extends SCoreClasses\SCore\Base\Widget
         $args = [
             'slug'        => 'authors',
             'name'        => __('KB: Authors', 'woocommerce-kb-articles'),
-            'description' => __('Display a list of KB authors.', 'woocommerce-kb-articles'),
+            'description' => __('Displays a list of KB authors.', 'woocommerce-kb-articles'),
         ];
         $default_options = [
-            'show_avatars' => true,
-            'show_counts'  => true,
+            'show_avatars'       => true,
+            'show_counts'        => true,
+            'show_multiple_only' => true,
         ];
         parent::__construct($App, $args, $default_options);
     }
@@ -80,6 +81,16 @@ class Authors extends SCoreClasses\SCore\Base\Widget
             'name'    => 'show_counts',
             'label'   => __('Show Article Counts?', 'woocommerce-kb-articles'),
             'value'   => $options['show_counts'],
+            'options' => [
+                '0' => __('No', 'woocommerce-kb-articles'),
+                '1' => __('Yes', 'woocommerce-kb-articles'),
+            ],
+        ]);
+        $markup .= $Form->selectRow([
+            'name'    => 'show_multiple_only',
+            'label'   => __('Show Multiple Authors Only?', 'woocommerce-kb-articles'),
+            'tip'     => __('If you select \'Yes\', the widget is only shown when there are multiple KB authors.', 'woocommerce-kb-articles'),
+            'value'   => $options['show_multiple_only'],
             'options' => [
                 '0' => __('No', 'woocommerce-kb-articles'),
                 '1' => __('Yes', 'woocommerce-kb-articles'),
@@ -144,6 +155,8 @@ class Authors extends SCoreClasses\SCore\Base\Widget
 
         if (!$authors) {
             return ''; // No authors; nothing to do here.
+        } elseif ($options['show_multiple_only'] && count($authors) <= 1) {
+            return ''; // Only show widget when there are multiple authors.
         }
         arsort($author_counts, SORT_NUMERIC);
         uksort($authors, function ($a, $b) use ($author_counts) {
