@@ -48,7 +48,7 @@ extract($this->vars); // Template variables.
                     <h4><?= __('Categories', 'woocommerce-kb-articles'); ?></h4>
                     <ul class="-list">
                         <?php foreach ($categories as $_WP_Term) : ?>
-                            <li class="-list-item -category">
+                            <li class="-list-item -category" title="<?= esc_attr($_WP_Term->name); ?>">
                                 <i class="fa fa-folder"></i> <a href="<?= esc_url(get_term_link($_WP_Term->term_id, $_WP_Term->taxonomy)); ?>" target="<?= esc_attr($atts['tax_link_target']); ?>"><?= $_WP_Term->name; ?></a>
                             </li>
                         <?php endforeach; ?>
@@ -61,7 +61,7 @@ extract($this->vars); // Template variables.
                     <h4><?= __('Tags', 'woocommerce-kb-articles'); ?></h4>
                     <ul class="-list">
                         <?php foreach ($tags as $_WP_Term) : ?>
-                            <li class="-list-item -tag">
+                            <li class="-list-item -tag" title="<?= esc_attr($_WP_Term->name); ?>">
                                 <a href="<?= esc_url(get_term_link($_WP_Term->term_id, $_WP_Term->taxonomy)); ?>" target="<?= esc_attr($atts['tax_link_target']); ?>">
                                     <i class="fa fa-tag"></i> <?= $_WP_Term->name; ?>
                                 </a>
@@ -77,8 +77,8 @@ extract($this->vars); // Template variables.
         <?php if ($WP_Query->have_posts()) : ?>
             <ul class="-list">
                 <?php while ($WP_Query->have_posts()) : $WP_Query->the_post(); ?>
-                    <li class="-list-item -article">
-                        <h4 class="-title">
+                    <li class="-list-item -article<?= $atts['show_excerpts'] ? ' -with-excerpt' : ''; ?>">
+                        <h4 class="-title" title="<?= esc_attr(get_the_title()); ?>">
                             <i class="fa fa-file-text"></i> <a href="<?= esc_url(get_permalink()); ?>" target="<?= esc_attr($atts['link_target']); ?>"><?= get_the_title(); ?></a>
                         </h4>
                         <?php if ($atts['show_excerpts']) : ?>

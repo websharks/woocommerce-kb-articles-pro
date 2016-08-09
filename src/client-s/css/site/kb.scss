@@ -98,10 +98,16 @@ $border-color: rgba(0, 0, 0, 0.05);
       .-title {
         margin:               0;
         padding:              0;
+        line-height:          1;
         width:                100%;
-        white-space:          nowrap;
-        text-overflow:        ellipsis;
-        overflow:             hidden;
+      }
+
+      &:not(.-with-excerpt) {
+        .-title {
+          white-space:        nowrap;
+          text-overflow:      ellipsis;
+          overflow:           hidden;
+        }
       }
 
       .-excerpt {
