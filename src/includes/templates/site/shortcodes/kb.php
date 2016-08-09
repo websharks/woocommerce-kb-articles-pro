@@ -81,9 +81,11 @@ extract($this->vars); // Template variables.
                         <h4 class="-title">
                             <i class="fa fa-file-text"></i> <a href="<?= esc_url(get_permalink()); ?>" target="<?= esc_attr($atts['link_target']); ?>"><?= get_the_title(); ?></a>
                         </h4>
-                        <div class="-excerpt">
-                            <?php the_excerpt(); ?>
-                        </div>
+                        <?php if ($atts['show_excerpts']) : ?>
+                            <div class="-excerpt">
+                                <?php the_excerpt(); ?>
+                            </div>
+                        <?php endif; ?>
                     </li>
                 <?php endwhile; ?>
             </ul>

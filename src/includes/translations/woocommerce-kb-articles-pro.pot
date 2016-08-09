@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WooCommerce KB Articles Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce KB Articles Pro 160808.7487\n"
+"Project-Id-Version: WooCommerce KB Articles Pro 160809.73839\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
-"POT-Creation-Date: 2016-08-08 02:04:50+00:00\n"
+"POT-Creation-Date: 2016-08-09 20:30:42+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -816,44 +816,50 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:49
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:49
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:49
-msgid "Display a list of KB authors."
+#: src/includes/classes/Widgets/Authors.php:49
+msgid "Displays a list of KB authors."
 msgstr ""
 
-#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:72
-#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:72
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:72
-#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:72
-#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:72
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:73
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:73
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:73
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:73
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:73
 #: src/includes/classes/Widgets/Authors.php:73
 msgid "Show Avatars?"
 msgstr ""
 
-#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:75
-#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:84
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:76
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:85
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:95
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:79
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:88
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:97
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:106
-#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:75
-#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:84
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:95
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:79
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:88
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:97
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:106
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:75
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:84
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:95
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:79
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:88
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:97
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:106
-#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:75
-#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:84
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:95
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:79
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:88
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:97
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:106
-#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:75
-#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:84
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:76
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:95
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:79
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:88
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:97
@@ -868,32 +874,37 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:76
-#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:85
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:77
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:86
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:96
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:80
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:89
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:98
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:107
-#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
-#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:77
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:86
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:96
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:80
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:89
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:98
 #: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:107
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:77
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:86
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:96
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:80
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:89
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:98
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:107
-#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:76
-#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:77
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:86
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:96
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:80
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:89
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:98
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Meta.php:107
-#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:76
-#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:85
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:77
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:86
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:96
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:80
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:89
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Meta.php:98
@@ -908,13 +919,31 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:81
-#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:81
-#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:81
-#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:81
-#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:81
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:82
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:82
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:82
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:82
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:82
 #: src/includes/classes/Widgets/Authors.php:82
 msgid "Show Article Counts?"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:91
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:91
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:91
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:91
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:91
+#: src/includes/classes/Widgets/Authors.php:91
+msgid "Show Multiple Authors Only?"
+msgstr ""
+
+#: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:92
+#: .~build/woocommerce-kb-articles/.~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:92
+#: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:92
+#: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Authors.php:92
+#: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Authors.php:92
+#: src/includes/classes/Widgets/Authors.php:92
+msgid "If you select 'Yes', the widget is only shown when there are multiple KB authors."
 msgstr ""
 
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:49
@@ -931,7 +960,8 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:50
 #: .~build/woocommerce-kb-articles/src/includes/classes/Widgets/Categories.php:50
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:50
-msgid "Display a list of KB categories."
+#: src/includes/classes/Widgets/Categories.php:50
+msgid "Displays a list of KB categories."
 msgstr ""
 
 #: .~build/.~/pkg-dirs/for-zip-tgz/woocommerce-kb-articles-pro/src/includes/classes/Widgets/Categories.php:73
@@ -1521,7 +1551,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:39
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:104
 #: src/includes/templates/site/shortcodes/kb.php:39
-#: src/includes/templates/site/shortcodes/kb.php:104
+#: src/includes/templates/site/shortcodes/kb.php:106
 msgid "🔎 Search KB Articles &hellip;"
 msgstr ""
 
@@ -1530,7 +1560,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:95
 #: .~build/woocommerce-kb-articles/src/includes/templates/site/shortcodes/kb.php:95
 #: .~build/woocommerce-kb-articles-pro/src/includes/templates/site/shortcodes/kb.php:95
-#: src/includes/templates/site/shortcodes/kb.php:95
+#: src/includes/templates/site/shortcodes/kb.php:97
 msgid "More Knowledge Base Articles"
 msgstr ""
 
@@ -1539,22 +1569,6 @@ msgstr ""
 #: .~build/woocommerce-kb-articles-pro/assets/.~Title.php:271
 #: assets/.~Title.php:271
 msgid "Search Results: <code>%1$s</code>"
-msgstr ""
-
-#: src/includes/classes/Widgets/Authors.php:49
-msgid "Displays a list of KB authors."
-msgstr ""
-
-#: src/includes/classes/Widgets/Authors.php:91
-msgid "Show Multiple Authors Only?"
-msgstr ""
-
-#: src/includes/classes/Widgets/Authors.php:92
-msgid "If you select 'Yes', the widget is only shown when there are multiple KB authors."
-msgstr ""
-
-#: src/includes/classes/Widgets/Categories.php:50
-msgid "Displays a list of KB categories."
 msgstr ""
 
 #. Plugin Name of the plugin/theme

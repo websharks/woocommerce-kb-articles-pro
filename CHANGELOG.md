@@ -1,6 +1,8 @@
 ## [coming soon]
 
 - Bug fix. No need to call `stripLeadingIndents()` in product tab content filter.
+- Bug fix. Overflow and whitespace styles applied to the `[kb /]` shortcode were inadvertenly hiding excerpts in the list of the articles.
+- Adding new `[kb /]` shortcode attribute: `show_excerpts="true"`.
 
 ## v160805.29085
 

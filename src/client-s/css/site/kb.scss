@@ -30,9 +30,12 @@ $border-color: rgba(0, 0, 0, 0.05);
 
     .-list-item {
       width:                  100%;
-      white-space:            nowrap;
-      text-overflow:          ellipsis;
-      overflow:               hidden;
+
+      &:not(.-article) {
+        white-space:          nowrap;
+        text-overflow:        ellipsis;
+        overflow:             hidden;
+      }
 
       .fa {
         opacity:              0.25;
@@ -95,6 +98,10 @@ $border-color: rgba(0, 0, 0, 0.05);
       .-title {
         margin:               0;
         padding:              0;
+        width:                100%;
+        white-space:          nowrap;
+        text-overflow:        ellipsis;
+        overflow:             hidden;
       }
 
       .-excerpt {
