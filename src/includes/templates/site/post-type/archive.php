@@ -56,7 +56,7 @@ $is_search = is_search(); // A search query?
                 <article id="post-<?= $post_id; ?>" <?php post_class(); ?>>
 
                     <header class="entry-header">
-                        <h1 class="entry-title">
+                        <h1 class="entry-title" title="<?= esc_attr(get_the_title()); ?>">
                             <span class="entry-modified" title="<?= sprintf(__('Last Modified: %1$s', 'woocommerce-kb-articles'), esc_attr($modified_date)); ?> / <?= sprintf(__('Published: %1$s', 'woocommerce-kb-articles'), esc_attr($date)); ?>">
                                 <time class="entry-date"><?= esc_html($modified_date); ?></time>
                             </span>
