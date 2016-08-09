@@ -82,7 +82,8 @@ class Shortcode extends SCoreClasses\SCore\Base\Core
             'order_by' => 'comment_count:DESC,modified:DESC',
             'max'      => '25', // -1 = all.
 
-            'show_excerpts' => 'true',
+            'one_line_titles' => 'true',
+            'show_excerpts'   => 'false',
 
             'show_search_box'    => 'true',
             'search_link_target' => '_self',
@@ -120,7 +121,8 @@ class Shortcode extends SCoreClasses\SCore\Base\Core
         $atts['order_by'] = preg_split('/[\s,]+/u', $atts['order_by'], -1, PREG_SPLIT_NO_EMPTY);
         $atts['max']      = max(-1, (int) $atts['max']);
 
-        $atts['show_excerpts'] = filter_var($atts['show_excerpts'], FILTER_VALIDATE_BOOLEAN);
+        $atts['one_line_titles'] = filter_var($atts['one_line_titles'], FILTER_VALIDATE_BOOLEAN);
+        $atts['show_excerpts']   = filter_var($atts['show_excerpts'], FILTER_VALIDATE_BOOLEAN);
 
         if (!in_array(mb_strtolower($atts['show_search_box']), ['top', 'bottom'], true)) {
             $atts['show_search_box'] = filter_var($atts['show_search_box'], FILTER_VALIDATE_BOOLEAN);

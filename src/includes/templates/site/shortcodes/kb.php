@@ -77,8 +77,8 @@ extract($this->vars); // Template variables.
         <?php if ($WP_Query->have_posts()) : ?>
             <ul class="-list">
                 <?php while ($WP_Query->have_posts()) : $WP_Query->the_post(); ?>
-                    <li class="-list-item -article<?= $atts['show_excerpts'] ? ' -with-excerpt' : ''; ?>">
-                        <h4 class="-title" title="<?= esc_attr(get_the_title()); ?>">
+                    <li class="-list-item -article">
+                        <h4 class="-title<?= $atts['one_line_titles'] ? ' -one-line' : ''; ?>" title="<?= esc_attr(get_the_title()); ?>">
                             <i class="fa fa-file-text"></i> <a href="<?= esc_url(get_permalink()); ?>" target="<?= esc_attr($atts['link_target']); ?>"><?= get_the_title(); ?></a>
                         </h4>
                         <?php if ($atts['show_excerpts']) : ?>
