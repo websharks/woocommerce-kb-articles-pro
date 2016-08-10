@@ -99,12 +99,12 @@ $border-color: rgba(0, 0, 0, 0.05);
           font-size:          1.8em;
 
           > .entry-modified {
-            opacity:          0.75;
             font-size:       .5em;
-            margin-top:      .5em;
+            opacity:          0.75;
             float:            right;
             font-weight:      normal;
             cursor:           default;
+            margin:          .5em 0 0 3em;
 
             > time {
               font-weight:    bold;
@@ -116,15 +116,6 @@ $border-color: rgba(0, 0, 0, 0.05);
           }
 
           > a {
-            width:            80%;
-
-            &.-one-line {
-              white-space:    nowrap;
-              text-overflow:  ellipsis;
-              overflow:       hidden;
-              display:        inline-block;
-            }
-
             .fa {
               opacity:        0.25;
               text-decoration: none;
