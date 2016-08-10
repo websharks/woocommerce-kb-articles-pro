@@ -117,6 +117,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
                     'editor',
                     'excerpt',
                     'revisions',
+                    'publicize',
                     'wpcom-markdown',
 
                     'author',
