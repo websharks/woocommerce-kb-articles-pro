@@ -1,6 +1,6 @@
 === WooCommerce KB Articles Pro ===
 
-Stable tag: 160809.76221
+Stable tag: 160810.26866
 
 Tested up to: 4.6
 Requires at least: 4.5.3
