@@ -56,7 +56,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
     /**
      * Permalink options.
      *
-     * @since 16xxxxx
+     * @since 160731.38548 Initial release.
      *
      * @var array Permalink options.
      */
