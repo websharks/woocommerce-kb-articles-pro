@@ -36,7 +36,7 @@ extract($this->vars); // Template variables.
     <?php if ($atts['show_search_box'] === 'top') : ?>
         <div class="-search-box --top">
             <form role="search" method="get" class="-form" action="<?= esc_url(get_post_type_archive_link('kb_article')); ?>" target="<?= esc_attr($atts['search_link_target']); ?>">
-                <input type="search" name="s" class="-s" value="<?= esc_attr(get_search_query()); ?>" placeholder="<?= _('🔎  Search KB Articles &hellip;'); ?>" />
+                <input type="search" name="s" class="-s" value="<?= esc_attr(get_search_query()); ?>" placeholder="<?= _('🔎   Search KB Articles &hellip;'); ?>" />
             </form>
         </div>
     <?php endif; ?>
@@ -103,7 +103,7 @@ extract($this->vars); // Template variables.
     <?php if ($atts['show_search_box'] === 'bottom') : ?>
         <div class="-search-box --bottom">
             <form role="search" method="get" class="-form" action="<?= esc_url(get_post_type_archive_link('kb_article')); ?>" target="<?= esc_attr($atts['search_link_target']); ?>">
-                <input type="search" name="s" class="-s" value="<?= esc_attr(get_search_query()); ?>" placeholder="<?= _('🔎  Search KB Articles &hellip;'); ?>" />
+                <input type="search" name="s" class="-s" value="<?= esc_attr(get_search_query()); ?>" placeholder="<?= _('🔎   Search KB Articles &hellip;'); ?>" />
             </form>
         </div>
     <?php endif; ?>
