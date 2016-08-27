@@ -99,19 +99,28 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
      */
     public function onWcProductTabs(array $tabs): array
     {
+        if (s::postMetaExists(null, '_tab_content')) {
+            $tab_content = (string) s::getPostMeta(null, '_tab_content');
+        } else {
+            $tab_content = s::getOption('product_tab_default_content');
+        } // Only use default value if no meta values exist yet.
+
+        $tab_content = s::applyFilters('product_tab_content', $tab_content);
+
+        if (!$tab_content || !is_string($tab_content)) {
+            return $tabs; // If empty, do not show.
+        }
         $tabs['kb'] = [
             'priority' => (int) s::getOption('product_tab_priority'),
             'title'    => __('Knowledge Base', 'woocommerce-kb-articles'),
 
-            'callback' => function () {
+            'callback' => function () use (&$tab_content) {
                 echo '<h2>'; // Title with link to open in new tab.
                 echo    '<a href="'.esc_url(wc_get_endpoint_url('kb')).'" target="_blank" class="-stand-alone-link">'.__('Open in New Tab', 'woocommerce-kb-articles').'</a>';
                 echo    __('Product Knowledge Base', 'woocommerce-kb-articles');
                 echo '</h2>';
 
-                $default_tab_content = s::getOption('product_tab_default_content');
-                $tab_content = (string) s::getPostMeta(null, '_tab_content', $default_tab_content);
-                echo $tab_content = s::applyFilters('product_tab_content', $tab_content);
+                echo $tab_content;
             },
         ];
         return $tabs; // Tabs can be filtered again by other plugins/extensions.

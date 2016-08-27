@@ -34,12 +34,15 @@ $Form = $this->s::postMetaBoxForm('product-tab-content');
 <?= $Form->openTable('', '', ['class' => '-block-display']); ?>
 
     <?php // Current tab content.
-    $default_tab_content = s::getOption('product_tab_default_content');
-    $_tab_content        = (string) s::getPostMeta(null, '_tab_content', $default_tab_content);
+    if (s::postMetaExists(null, '_tab_content')) {
+        $_tab_content = (string) s::getPostMeta(null, '_tab_content');
+    } else {
+        $_tab_content = s::getOption('product_tab_default_content');
+    } // Only use default value if no meta values exist yet.
     ?>
     <?= $Form->textareaRow([
-        'label' => __('Tab Content', 'woocommerce-kb-articles'),
-        'tip'   => __('Content displayed in the Knowledge Base tab.', 'woocommerce-kb-articles'),
+        'label' => __('Tab Content (e.g., <code>[kb /]</code>)', 'woocommerce-kb-articles'),
+        'tip'   => __('Content displayed in the Knowledge Base tab.<hr />If empty, the Knowledge Base tab will simply not be shown.', 'woocommerce-kb-articles'),
         'name'  => '_tab_content', 'value' => $_tab_content,
     ]); ?>
 
