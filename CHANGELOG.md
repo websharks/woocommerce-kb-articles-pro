@@ -1,4 +1,4 @@
-## $v
+## v160827.7973
 
 - Bug fix. No need to call `stripLeadingIndents()` in product tab content filter.
 - Bug fix. Overflow and whitespace styles applied to the `[kb /]` shortcode were inadvertenly hiding excerpts in the list of the articles.
