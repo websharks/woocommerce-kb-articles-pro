@@ -1,4 +1,4 @@
-## $v
+## v160828.49551
 
 - New Facade for developers: `a::articleUrl()` (by slug).
 - New Facade for developers: `a::stylesScriptsMayApply()`.
