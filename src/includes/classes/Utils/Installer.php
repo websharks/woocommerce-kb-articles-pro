@@ -36,13 +36,29 @@ use function get_defined_vars as vars;
 class Installer extends SCoreClasses\SCore\Base\Core
 {
     /**
+     * Version-specific upgrades.
+     *
+     * @since 160826 New permalink option keys.
+     *
+     * @param array $history Install history.
+     */
+    public function onVsUpgrades(array $history)
+    {
+        if (version_compare($history['last_version'], '160826', '<')) {
+            $this->App->Utils->VsUpgrades->fromLt160826();
+        }
+    }
+
+    /**
      * Other install routines.
      *
      * @since 160731.38548 Initial release.
+     *
+     * @param array $history Install history.
      */
-    public function onOtherInstallRoutines()
+    public function onOtherInstallRoutines(array $history)
     {
-        $this->addCaps();
+        $this->addCaps(); // Install caps.
     }
 
     /**

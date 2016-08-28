@@ -1,3 +1,9 @@
+## [coming soon]
+
+- New Facade for developers: `a::articleUrl()` (by slug).
+- New Facade for developers: `a::stylesScriptsMayApply()`.
+- New Product Endpoint: `/product/kb-article/[slug]` allows for product-specific KBA redirects. This Endpoint, like all others, can be configured from the KB Article options page.
+
 ## v160827.7973
 
 - Bug fix. No need to call `stripLeadingIndents()` in product tab content filter.

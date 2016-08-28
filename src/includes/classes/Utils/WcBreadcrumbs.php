@@ -53,15 +53,7 @@ class WcBreadcrumbs extends SCoreClasses\SCore\Base\Core
         $¤current = max(0, $¤next - 1);
         $¤prev    = max(0, $¤current - 1);
 
-        if (is_singular('product') && is_wc_endpoint_url('kb')) {
-            // Link the product up.
-            $crumbs[$¤current][$¤url] = get_permalink();
-
-            $crumbs[$¤next] = [ // Next crumb as endpoint indicator.
-                $¤title => strip_tags(WC()->query->get_endpoint_title('kb')),
-                $¤url   => '', // Current endpoint indicator (not linked).
-            ];
-        } elseif (is_singular('kb_article')) {
+        if (is_singular('kb_article')) {
             $crumbs = array_slice($crumbs, 0, 1);
             $parts  = a::singleTitleParts();
 

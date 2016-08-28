@@ -42,7 +42,7 @@ class App extends SCoreClasses\App
      *
      * @var string Version.
      */
-    const VERSION = '160827.9967'; //v//
+    const VERSION = '160828.36018'; //v//
 
     /**
      * Constructor.
@@ -95,7 +95,8 @@ class App extends SCoreClasses\App
                     'tag_base'      => 'kb-tag',
                     'author_base'   => 'kb-author',
 
-                    'product_endpoint' => 'kb',
+                    'product_base_endpoint'    => 'kb',
+                    'product_article_endpoint' => 'kb-article',
                 ],
                 'product_tab_priority'        => 22,
                 'product_tab_default_content' => '[kb /]',
@@ -159,6 +160,7 @@ class App extends SCoreClasses\App
     {
         parent::onSetupEarlyHooks();
 
+        s::addAction('vs_upgrades', [$this->Utils->Installer, 'onVsUpgrades']);
         s::addAction('other_install_routines', [$this->Utils->Installer, 'onOtherInstallRoutines']);
         s::addAction('other_uninstall_routines', [$this->Utils->Uninstaller, 'onOtherUninstallRoutines']);
     }
@@ -188,7 +190,7 @@ class App extends SCoreClasses\App
         add_filter('author_link', [$this->Utils->Urls, 'onAuthorLink'], 10, 3);
         add_action('template_redirect', [$this->Utils->Urls, 'onTemplateRedirect']);
 
-        add_action('init', [$this->Utils->WcProduct, 'onInit']);
+        add_action('init', [$this->Utils->WcProduct, 'onInit']); // After `WC_Query::add_endpoints()`.
         add_filter('woocommerce_product_tabs', [$this->Utils->WcProduct, 'onWcProductTabs']);
         add_filter('woocommerce_get_breadcrumb', [$this->Utils->WcBreadcrumbs, 'onWcGetBreadcrumb']);
 

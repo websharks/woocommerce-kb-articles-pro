@@ -40,7 +40,7 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
 
         <?= $Form->inputRow([
             'type'  => 'number',
-            'label' => __('Tab Priority (Position)', 'woocommerce-kb-articles'),
+            'label' => __('Priority (Position)', 'woocommerce-kb-articles'),
             'tip'   => __('This controls the tab display position in WooCommerce.<hr />You should only need to change this if you have another plugin that adds a new tab with the same (i.e., a conflicting) priority.', 'woocommerce-kb-articles'),
 
             'name'  => 'product_tab_priority',
@@ -49,7 +49,7 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
 
         <?= $Form->textareaRow([
             'label' => __('Default Content', 'woocommerce-kb-articles'),
-            'tip'   => __('When you add a new product, this will be the default Knowledge Base tab content.<hr />Setting this to <code>[kb /]</code> is a suggested default, but you can learn more about the shortcode and customize it further if you like.', 'woocommerce-kb-articles'),
+            'tip'   => __('When you add a new Product, this will be the default Knowledge Base tab content.<hr />Setting this to <code>[kb /]</code> is a suggested default, but you can learn more about the shortcode and customize it further if you like.', 'woocommerce-kb-articles'),
             'note'  => __('e.g., <code>[kb show_search_box="yes" max="25" /]</code> and many other supported attributes.', 'woocommerce-kb-articles'),
 
             'name'  => 'product_tab_default_content',
@@ -82,8 +82,8 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
 
     <?= $Form->openTable(
         __('Permalink Options', 'woocommerce-kb-articles'),
-        __('This controls URLs that lead to KB indexes, articles, categories, tags, etc. The defaults are usually just fine, but you can adjust if necessary.', 'woocommerce-kb-articles').
-        ' '.__('If you do customize these, be sure to use <strong>unique</strong> values; i.e., none of these can be the same as any other.', 'woocommerce-kb-articles')
+        __('This controls URLs that lead to KB Indexes, Articles, Categories, Tags, etc. The defaults are usually just fine, but you can adjust if necessary.', 'woocommerce-kb-articles').
+        ' '.__('If you do customize these, be sure to use <strong>unique</strong> values; i.e., none of these can be the same as any other, or you will have problems.', 'woocommerce-kb-articles')
     ); ?>
 
         <?= $Form->inputRow([
@@ -163,16 +163,24 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
     <hr />
 
     <?= $Form->openTable(
-        __('Permalink Endpoint Options', 'woocommerce-kb-articles'),
-        __('An Endpoint adds a new behavhior to an existing Permalink structure in WooCommerce.', 'woocommerce-kb-articles')
+        __('Product Permalink Endpoint Options', 'woocommerce-kb-articles'),
+        __('These Endpoints add new behavhiors to the existing Product Permalink structure in WooCommerce.', 'woocommerce-kb-articles')
     ); ?>
 
         <?= $Form->inputRow([
-            'label' => __('Product Endpoint Redirect', 'woocommerce-kb-articles'),
-            'tip'   => sprintf(__('This is a product endpoint that, if accessed, will redirect a visitor to the KB index for a specific product.<hr />e.g., %1$s/product/[slug]/<code>kb</code>', 'woocommerce-kb-articles'), esc_html($root_host), esc_html($permalink_options['product_endpoint'])),
+            'label' => __('Endpoint for Index Redirect', 'woocommerce-kb-articles'),
+            'tip'   => sprintf(__('This is a Product Endpoint that, if accessed, will redirect a visitor to the KB Index for a specific Product.<hr />e.g., %1$s/product/[slug]/<code>%2$s</code>', 'woocommerce-kb-articles'), esc_html($root_host), esc_html($permalink_options['product_base_endpoint'])),
 
-            'name'  => '[permalinks][product_endpoint]',
-            'value' => $permalink_options['product_endpoint'],
+            'name'  => '[permalinks][product_base_endpoint]',
+            'value' => $permalink_options['product_base_endpoint'],
+        ]); ?>
+
+        <?= $Form->inputRow([
+            'label' => __('Endpoint for Article Redirect', 'woocommerce-kb-articles'),
+            'tip'   => sprintf(__('This is a Product Endpoint that, if accessed, will redirect a visitor to a specific KB Article for a specific Product.<hr />e.g., %1$s/product/[slug]/<code>%2$s</code>/[slug]', 'woocommerce-kb-articles'), esc_html($root_host), esc_html($permalink_options['product_article_endpoint'])),
+
+            'name'  => '[permalinks][product_article_endpoint]',
+            'value' => $permalink_options['product_article_endpoint'],
         ]); ?>
 
     <?= $Form->closeTable(); ?>

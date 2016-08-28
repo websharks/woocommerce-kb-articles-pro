@@ -65,8 +65,14 @@ class Urls extends SCoreClasses\SCore\Base\Core
      */
     public function onTemplateRedirect()
     {
-        if (is_singular('product') && is_wc_endpoint_url('kb')) {
+        if (!is_singular('product')) {
+            return; // Not applicable.
+        }
+        if (is_wc_endpoint_url('kb')) {
             wp_redirect($this->index(get_the_ID())).exit();
+        } elseif (is_wc_endpoint_url('kb-article')) {
+            $kb_article = (string) get_query_var('kb-article');
+            wp_redirect($this->article($kb_article, get_the_ID())).exit();
         }
     }
 
@@ -197,6 +203,26 @@ class Urls extends SCoreClasses\SCore\Base\Core
             return user_trailingslashit(home_url('/'.$this->permalink_options['base'].'/'.urlencode($WC_Product->post->post_name)));
         }
         return user_trailingslashit(home_url('/'.$this->permalink_options['base']));
+    }
+
+    /**
+     * KB article URL.
+     *
+     * @since 160826 KB article redirects.
+     *
+     * @param string   $slug       KB article slug.
+     * @param int|null $product_id Product ID.
+     *
+     * @return string KB article URL.
+     */
+    public function article(string $slug, int $product_id = null): string
+    {
+        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && $WC_Product->exists()) {
+            $url = home_url('/'.$this->permalink_options['article_base'].'/'.urlencode($WC_Product->post->post_name));
+        } else {
+            $url = home_url('/'.$this->permalink_options['articles_base']);
+        }
+        return user_trailingslashit(c::mbRTrim($url, '/').'/'.urlencode($slug));
     }
 
     /**

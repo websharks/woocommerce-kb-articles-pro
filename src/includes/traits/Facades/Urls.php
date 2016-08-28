@@ -48,6 +48,18 @@ trait Urls
     }
 
     /**
+     * @since 160826 KB article redirects.
+     *
+     * @param mixed ...$args Variadic args to underlying utility.
+     *
+     * @see Classes\Utils\PostType::article()
+     */
+    public static function articleUrl(...$args)
+    {
+        return $GLOBALS[static::class]->Utils->Urls->article(...$args);
+    }
+
+    /**
      * @since 160731.38548 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.

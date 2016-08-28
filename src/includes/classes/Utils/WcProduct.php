@@ -65,12 +65,18 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
      */
     public function onInit()
     {
-        WC()->query->query_vars['kb'] = $this->permalink_options['product_endpoint'];
-        add_rewrite_endpoint($this->permalink_options['product_endpoint'], EP_PERMALINK);
+        // This runs after `WC_Query:add_endpoints()` on purpose.
+        // WooCommerce adds endpoints using `EP_PAGE`, but these use `EP_PERMALINK`.
 
-        add_filter('woocommerce_endpoint_kb_title', function () {
-            return __('Knowledge Base', 'woocommerce-kb-articles');
-        });
+        // Must use dashes to avoid conflicting w/ query vars in KB articles themselves.
+        // Title filters are not necessary because each of these are redirects.
+
+        $WC_Query                           = WC()->query;
+        $WC_Query->query_vars['kb']         = $this->permalink_options['product_base_endpoint'];
+        $WC_Query->query_vars['kb-article'] = $this->permalink_options['product_article_endpoint'];
+
+        add_rewrite_endpoint($WC_Query->query_vars['kb'], EP_PERMALINK);
+        add_rewrite_endpoint($WC_Query->query_vars['kb-article'], EP_PERMALINK);
     }
 
     /**
