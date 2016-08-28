@@ -128,7 +128,7 @@ $border-color: rgba(0, 0, 0, 0.05);
 /*
  * Widget styles.
  */
-.widget.#{$brand-slug}-meta {
+.widget.#{$brand-slug}-meta-widget:not(#x) {
   > .-author,
   > .-product,
   > .-categories,
@@ -149,7 +149,7 @@ $border-color: rgba(0, 0, 0, 0.05);
 /*
  * Widget styles.
  */
-.widget.#{$brand-slug}-authors {
+.widget.#{$brand-slug}-authors-widget:not(#x) {
   > ul,
   > ul > li {
     margin:                   0;
