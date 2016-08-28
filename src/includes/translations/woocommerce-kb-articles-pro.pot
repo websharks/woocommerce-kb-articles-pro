@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WooCommerce KB Articles Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce KB Articles Pro 160828.37084\n"
+"Project-Id-Version: WooCommerce KB Articles Pro 160828.39509\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
-"POT-Creation-Date: 2016-08-28 10:18:07+00:00\n"
+"POT-Creation-Date: 2016-08-28 10:58:33+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -756,7 +756,7 @@ msgstr ""
 #: assets/.~Title.php:250 src/includes/classes/Utils/Title.php:149
 #: src/includes/classes/Utils/Title.php:213
 #: src/includes/classes/Utils/WcProduct.php:92
-#: src/includes/classes/Utils/WcProduct.php:121
+#: src/includes/classes/Utils/WcProduct.php:119
 msgid "Knowledge Base"
 msgstr ""
 
@@ -783,7 +783,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:125
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:125
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/WcProduct.php:125
-#: src/includes/classes/Utils/WcProduct.php:125
+#: src/includes/classes/Utils/WcProduct.php:123
 msgid "Open in New Tab"
 msgstr ""
 
@@ -792,7 +792,7 @@ msgstr ""
 #: .~build/woocommerce-kb-articles/.~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:126
 #: .~build/woocommerce-kb-articles/src/includes/classes/Utils/WcProduct.php:126
 #: .~build/woocommerce-kb-articles-pro/src/includes/classes/Utils/WcProduct.php:126
-#: src/includes/classes/Utils/WcProduct.php:126
+#: src/includes/classes/Utils/WcProduct.php:124
 msgid "Product Knowledge Base"
 msgstr ""
 

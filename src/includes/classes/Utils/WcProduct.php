@@ -111,9 +111,7 @@ class WcProduct extends SCoreClasses\SCore\Base\Core
             $tab_content = s::getOption('product_tab_default_content');
         } // Only use default value if no meta values exist yet.
 
-        $tab_content = s::applyFilters('product_tab_content', $tab_content);
-
-        if (!$tab_content || !is_string($tab_content)) {
+        if (!($tab_content = (string) s::applyFilters('product_tab_content', $tab_content))) {
             return $tabs; // If empty, do not show.
         }
         $tabs['kb'] = [

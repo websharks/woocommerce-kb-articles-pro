@@ -134,7 +134,7 @@ class Meta extends SCoreClasses\SCore\Base\Widget
         $tags       = $options['show_tags'] ? get_the_term_list($post_id, 'kb_tag', '', __(', ', 'woocommerce-kb-articles')) : [];
 
         $markup .= '<style type="text/css">';
-        $markup .=      '.widget.'.$this->App->Config->©brand['©slug'].'-meta a { ';
+        $markup .=      '.widget.'.$this->App->Config->©brand['©slug'].'-meta-widget a { ';
         $markup .=          'color: '.get_theme_mod('storefront_accent_color').';';
         $markup .=      '}';
         $markup .= '</style>';
