@@ -74,8 +74,8 @@ class App extends SCoreClasses\App
                 '©slug' => 'woocommerce-kb-articles',
                 '©var'  => 'woocommerce_kb_articles',
 
-                '©short_slug' => 'wc-kb-as',
-                '©short_var'  => 'wc_kb_as',
+                '©short_slug' => 'wc-kb',
+                '©short_var'  => 'wc_kb',
 
                 '©text_domain' => 'woocommerce-kb-articles',
             ],
