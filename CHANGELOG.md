@@ -1,4 +1,4 @@
-## [coming soon]
+## $v
 
 - Article icon more opaque.
 - Short slug/var changed to `wp_kb`.
