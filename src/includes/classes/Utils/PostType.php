@@ -5,7 +5,7 @@
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
-declare (strict_types = 1);
+declare(strict_types=1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
@@ -40,7 +40,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
      *
      * @since 160731.38548
      *
-     * @var array All caps.
+     * @type array All caps.
      */
     public $caps;
 
@@ -49,7 +49,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
      *
      * @since 160731.38548
      *
-     * @var array All vendor caps.
+     * @type array All vendor caps.
      */
     public $vendor_caps;
 
@@ -58,7 +58,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
      *
      * @since 160827.7973
      *
-     * @var array Permalink options.
+     * @type array Permalink options.
      */
     protected $permalink_options;
 
@@ -91,6 +91,7 @@ class PostType extends SCoreClasses\SCore\Base\Core
             'read_private_kb_articles',
         ];
         $this->vendor_caps = $this->caps;
+
         $this->caps        = s::applyFilters('caps', $this->caps);
         $this->vendor_caps = s::applyFilters('vendor_caps', $this->vendor_caps);
 
