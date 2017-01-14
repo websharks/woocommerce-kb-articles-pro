@@ -1,3 +1,7 @@
+## $v
+
+- Enhancing security by removing `basename(__FILE__)` from direct access notices.
+
 ## v160919.20254
 
 - Article icon more opaque.
