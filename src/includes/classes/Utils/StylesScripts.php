@@ -5,7 +5,7 @@
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
-declare (strict_types = 1);
+declare(strict_types=1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
@@ -46,15 +46,19 @@ class StylesScripts extends SCoreClasses\SCore\Base\Core
             return; // Not applicable.
         }
         wp_enqueue_style($this->App->Config->©brand['©slug'], c::appUrl('/client-s/css/site/kb.min.css'), [], $this->App::VERSION);
-
         wp_enqueue_script($this->App->Config->©brand['©slug'], c::appUrl('/client-s/js/site/kb.min.js'), ['jquery'], $this->App::VERSION, true);
-        wp_localize_script($this->App->Config->©brand['©slug'], 'wubXJBTLnHvFXQfaEehKKyrNtYFxmygsData', [
-            'brand' => [
-                'slug' => $this->App->Config->©brand['©slug'],
-                'var'  => $this->App->Config->©brand['©var'],
-            ],
-            'i18n' => [],
-        ]);
+
+        wp_localize_script(
+            $this->App->Config->©brand['©slug'],
+            'cxzaxakfkwzewb4g2c2mthw937pa6nnyData',
+            [
+                'brand' => [
+                    'slug' => $this->App->Config->©brand['©slug'],
+                    'var'  => $this->App->Config->©brand['©var'],
+                ],
+                'i18n' => [],
+            ]
+        );
     }
 
     /**

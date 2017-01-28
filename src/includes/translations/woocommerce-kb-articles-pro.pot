@@ -1,14 +1,14 @@
-# Copyright (C) 2016 WooCommerce KB Articles Pro
+# Copyright (C) 2017 WooCommerce KB Articles Pro
 # This file is distributed under the same license as the WooCommerce KB Articles Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce KB Articles Pro 160919.20254\n"
+"Project-Id-Version: WooCommerce KB Articles Pro 170128.1890\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
-"POT-Creation-Date: 2016-09-19 05:38:41+00:00\n"
+"POT-Creation-Date: 2017-01-28 00:31:34+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -29,15 +29,15 @@ msgstr ""
 msgid "Search Results: <code>%1$s</code>"
 msgstr ""
 
-#: src/includes/classes/App.php:136
+#: src/includes/classes/App.php:137
 msgid "Fancy Permalinks"
 msgstr ""
 
-#: src/includes/classes/App.php:137
+#: src/includes/classes/App.php:138
 msgid "a Permalink Structure other than <em>plain</em>"
 msgstr ""
 
-#: src/includes/classes/App.php:142
+#: src/includes/classes/App.php:143
 msgid "<a href=\"%1$s\">change your Permalink settings</a> to anything but <em>plain</em>"
 msgstr ""
 
@@ -57,267 +57,267 @@ msgstr ""
 msgid "Product-Specific KB"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:135
+#: src/includes/classes/Utils/PostType.php:136
 msgid "Knowledge Base Articles"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:138
-#: src/includes/classes/Utils/PostType.php:142
+#: src/includes/classes/Utils/PostType.php:139
+#: src/includes/classes/Utils/PostType.php:143
 msgid "KB Articles"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:139
-#: src/includes/classes/Utils/PostType.php:141
+#: src/includes/classes/Utils/PostType.php:140
+#: src/includes/classes/Utils/PostType.php:142
 msgid "KB Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:144
+#: src/includes/classes/Utils/PostType.php:145
 msgid "All Articles"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:145
+#: src/includes/classes/Utils/PostType.php:146
 msgid "Add Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:146
+#: src/includes/classes/Utils/PostType.php:147
 msgid "Add New Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:147
+#: src/includes/classes/Utils/PostType.php:148
 msgid "New Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:148
+#: src/includes/classes/Utils/PostType.php:149
 msgid "Edit Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:149
+#: src/includes/classes/Utils/PostType.php:150
 msgid "View Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:151
+#: src/includes/classes/Utils/PostType.php:152
 msgid "Search Knowledge Base"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:152
+#: src/includes/classes/Utils/PostType.php:153
 msgid "No Articles Found"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:153
+#: src/includes/classes/Utils/PostType.php:154
 msgid "No Articles Found in Trash"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:155
+#: src/includes/classes/Utils/PostType.php:156
 msgid "Insert Into Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:156
+#: src/includes/classes/Utils/PostType.php:157
 msgid "Upload to this Article"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:158
+#: src/includes/classes/Utils/PostType.php:159
 msgid "Set Featured Image"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:159
+#: src/includes/classes/Utils/PostType.php:160
 msgid "Remove Featured Image"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:160
+#: src/includes/classes/Utils/PostType.php:161
 msgid "Use as Featured Image"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:162
+#: src/includes/classes/Utils/PostType.php:163
 msgid "Articles List"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:163
+#: src/includes/classes/Utils/PostType.php:164
 msgid "Articles List Navigation"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:165
+#: src/includes/classes/Utils/PostType.php:166
 msgid "Knowledge Base Archives"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:166
+#: src/includes/classes/Utils/PostType.php:167
 msgid "Filter Articles List"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:167
+#: src/includes/classes/Utils/PostType.php:168
 msgid "Parent Article:"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:221
+#: src/includes/classes/Utils/PostType.php:222
 msgid "Knowledge Base Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:224
+#: src/includes/classes/Utils/PostType.php:225
 msgid "KB Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:225
-#: src/includes/classes/Utils/PostType.php:227
+#: src/includes/classes/Utils/PostType.php:226
+#: src/includes/classes/Utils/PostType.php:228
 msgid "KB Category"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:228
-#: src/includes/templates/site/shortcodes/kb.php:48
+#: src/includes/classes/Utils/PostType.php:229
+#: src/includes/templates/site/shortcodes/kb.php:51
 msgid "Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:230
-#: src/includes/classes/Utils/PostType.php:248
+#: src/includes/classes/Utils/PostType.php:231
+#: src/includes/classes/Utils/PostType.php:249
 msgid "All Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:231
+#: src/includes/classes/Utils/PostType.php:232
 msgid "Add New Category"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:232
+#: src/includes/classes/Utils/PostType.php:233
 msgid "New Category Name"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:233
+#: src/includes/classes/Utils/PostType.php:234
 msgid "Add or Remove Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:234
+#: src/includes/classes/Utils/PostType.php:235
 msgid "View Category"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:235
+#: src/includes/classes/Utils/PostType.php:236
 msgid "Edit Category"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:236
+#: src/includes/classes/Utils/PostType.php:237
 msgid "Update Category"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:238
+#: src/includes/classes/Utils/PostType.php:239
 msgid "Search Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:239
+#: src/includes/classes/Utils/PostType.php:240
 msgid "No Categories Found"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:240
+#: src/includes/classes/Utils/PostType.php:241
 msgid "No Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:242
+#: src/includes/classes/Utils/PostType.php:243
 msgid "Choose From the Most Used Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:243
+#: src/includes/classes/Utils/PostType.php:244
 msgid "Separate Categories w/ Commas"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:245
+#: src/includes/classes/Utils/PostType.php:246
 msgid "Categories List"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:246
+#: src/includes/classes/Utils/PostType.php:247
 msgid "Categories List Navigation"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:249
+#: src/includes/classes/Utils/PostType.php:250
 msgid "Popular Categories"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:250
+#: src/includes/classes/Utils/PostType.php:251
 msgid "Parent Category"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:251
+#: src/includes/classes/Utils/PostType.php:252
 msgid "Parent Category:"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:275
+#: src/includes/classes/Utils/PostType.php:276
 msgid "Knowledge Base Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:278
+#: src/includes/classes/Utils/PostType.php:279
 msgid "KB Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:279
-#: src/includes/classes/Utils/PostType.php:281
+#: src/includes/classes/Utils/PostType.php:280
+#: src/includes/classes/Utils/PostType.php:282
 msgid "KB Tag"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:282
-#: src/includes/templates/site/shortcodes/kb.php:61
+#: src/includes/classes/Utils/PostType.php:283
+#: src/includes/templates/site/shortcodes/kb.php:64
 msgid "Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:284
-#: src/includes/classes/Utils/PostType.php:302
+#: src/includes/classes/Utils/PostType.php:285
+#: src/includes/classes/Utils/PostType.php:303
 msgid "All Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:285
+#: src/includes/classes/Utils/PostType.php:286
 msgid "Add New Tag"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:286
+#: src/includes/classes/Utils/PostType.php:287
 msgid "New Tag Name"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:287
+#: src/includes/classes/Utils/PostType.php:288
 msgid "Add or Remove Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:288
+#: src/includes/classes/Utils/PostType.php:289
 msgid "View Tag"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:289
+#: src/includes/classes/Utils/PostType.php:290
 msgid "Edit Tag"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:290
+#: src/includes/classes/Utils/PostType.php:291
 msgid "Update Tag"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:292
+#: src/includes/classes/Utils/PostType.php:293
 msgid "Search Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:293
+#: src/includes/classes/Utils/PostType.php:294
 msgid "No Tags Found"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:294
+#: src/includes/classes/Utils/PostType.php:295
 msgid "No Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:296
+#: src/includes/classes/Utils/PostType.php:297
 msgid "Choose From the Most Used Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:297
+#: src/includes/classes/Utils/PostType.php:298
 msgid "Separate Tags w/ Commas"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:299
+#: src/includes/classes/Utils/PostType.php:300
 msgid "Tags List"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:300
+#: src/includes/classes/Utils/PostType.php:301
 msgid "Tags List Navigation"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:303
+#: src/includes/classes/Utils/PostType.php:304
 msgid "Popular Tags"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:304
+#: src/includes/classes/Utils/PostType.php:305
 msgid "Parent Tag"
 msgstr ""
 
-#: src/includes/classes/Utils/PostType.php:305
+#: src/includes/classes/Utils/PostType.php:306
 msgid "Parent Tag:"
 msgstr ""
 
@@ -474,180 +474,180 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:37
+#: src/includes/templates/admin/menu-pages/options/default.php:40
 msgid "Product Tab Options"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:38
+#: src/includes/templates/admin/menu-pages/options/default.php:41
 msgid "These allow you to customize the 'Knowledge Base' product tab added by this plugin. The defaults are usually just fine, but you can customize further if you like. You can also browse <em>our</em> <a href=\"%1$s\" target=\"_blank\">knowledge base</a> to learn more about these options."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:43
+#: src/includes/templates/admin/menu-pages/options/default.php:46
 msgid "Priority (Position)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:44
+#: src/includes/templates/admin/menu-pages/options/default.php:47
 msgid "This controls the tab display position in WooCommerce.<hr />You should only need to change this if you have another plugin that adds a new tab with the same (i.e., a conflicting) priority."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:51
+#: src/includes/templates/admin/menu-pages/options/default.php:54
 msgid "Default Content"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:52
+#: src/includes/templates/admin/menu-pages/options/default.php:55
 msgid "When you add a new Product, this will be the default Knowledge Base tab content.<hr />Setting this to <code>[kb /]</code> is a suggested default, but you can learn more about the shortcode and customize it further if you like."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:53
+#: src/includes/templates/admin/menu-pages/options/default.php:56
 msgid "e.g., <code>[kb show_search_box=\"yes\" max=\"25\" /]</code> and many other supported attributes."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:60
+#: src/includes/templates/admin/menu-pages/options/default.php:63
 msgid "Content Filters"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:61
-msgid "This controls which built-in WordPress content filters are applied to content in the 'Knowledge Base' Product tab. All content filters suggested.<hr />Note: <code>jetpack-markdown</code> is only possible if you have Jetpack installed with Markdown enabled. The same is true for <code>jetpack-latex</code>."
+#: src/includes/templates/admin/menu-pages/options/default.php:64
+msgid "This controls which built-in WordPress content filters are applied to content in the 'Knowledge Base' Product tab. All content filters suggested.<hr />Note: <code>wp-markdown-extra</code> is only possible if you have WP Markdown Extra installed.<hr /><code>jetpack-markdown</code> is only possible if you have Jetpack installed with Markdown enabled. The same is true for <code>jetpack-latex</code>."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:84
+#: src/includes/templates/admin/menu-pages/options/default.php:88
 msgid "Permalink Options"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:85
+#: src/includes/templates/admin/menu-pages/options/default.php:89
 msgid "This controls URLs that lead to KB Indexes, Articles, Categories, Tags, etc. The defaults are usually just fine, but you can adjust if necessary."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:86
+#: src/includes/templates/admin/menu-pages/options/default.php:90
 msgid "If you do customize these, be sure to use <strong>unique</strong> values; i.e., none of these can be the same as any other, or you will have problems."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:90
+#: src/includes/templates/admin/menu-pages/options/default.php:94
 msgid "Root Index Base"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:91
+#: src/includes/templates/admin/menu-pages/options/default.php:95
 msgid "%1$s/<code>%2$s</code>"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:98
+#: src/includes/templates/admin/menu-pages/options/default.php:102
 msgid "Articles Base"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:99
-#: src/includes/templates/admin/menu-pages/options/default.php:115
-#: src/includes/templates/admin/menu-pages/options/default.php:131
-#: src/includes/templates/admin/menu-pages/options/default.php:147
+#: src/includes/templates/admin/menu-pages/options/default.php:103
+#: src/includes/templates/admin/menu-pages/options/default.php:119
+#: src/includes/templates/admin/menu-pages/options/default.php:135
+#: src/includes/templates/admin/menu-pages/options/default.php:151
 msgid "%1$s/<code>%2$s</code>/[slug]"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:106
+#: src/includes/templates/admin/menu-pages/options/default.php:110
 msgid "Product-Specific Article"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:107
-#: src/includes/templates/admin/menu-pages/options/default.php:123
-#: src/includes/templates/admin/menu-pages/options/default.php:139
-#: src/includes/templates/admin/menu-pages/options/default.php:155
+#: src/includes/templates/admin/menu-pages/options/default.php:111
+#: src/includes/templates/admin/menu-pages/options/default.php:127
+#: src/includes/templates/admin/menu-pages/options/default.php:143
+#: src/includes/templates/admin/menu-pages/options/default.php:159
 msgid "%1$s/<code>%2$s</code>/[product]/[slug]"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:114
+#: src/includes/templates/admin/menu-pages/options/default.php:118
 msgid "Categories Base"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:122
+#: src/includes/templates/admin/menu-pages/options/default.php:126
 msgid "Product-Specific Category"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:130
+#: src/includes/templates/admin/menu-pages/options/default.php:134
 msgid "Tags Base"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:138
+#: src/includes/templates/admin/menu-pages/options/default.php:142
 msgid "Product-Specific Tag"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:146
+#: src/includes/templates/admin/menu-pages/options/default.php:150
 msgid "Authors Base"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:154
+#: src/includes/templates/admin/menu-pages/options/default.php:158
 msgid "Product-Specific Author"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:166
+#: src/includes/templates/admin/menu-pages/options/default.php:170
 msgid "Product Permalink Endpoint Options"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:167
+#: src/includes/templates/admin/menu-pages/options/default.php:171
 msgid "These Endpoints add new behavhiors to the existing Product Permalink structure in WooCommerce."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:171
+#: src/includes/templates/admin/menu-pages/options/default.php:175
 msgid "Endpoint for Index Redirect"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:172
+#: src/includes/templates/admin/menu-pages/options/default.php:176
 msgid "This is a Product Endpoint that, if accessed, will redirect a visitor to the KB Index for a specific Product.<hr />e.g., %1$s/product/[slug]/<code>%2$s</code>"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:179
+#: src/includes/templates/admin/menu-pages/options/default.php:183
 msgid "Endpoint for Article Redirect"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:180
+#: src/includes/templates/admin/menu-pages/options/default.php:184
 msgid "This is a Product Endpoint that, if accessed, will redirect a visitor to a specific KB Article for a specific Product.<hr />e.g., %1$s/product/[slug]/<code>%2$s</code>/[slug]"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:40
+#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:43
 msgid "WooCommerce Product"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:41
+#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:44
 msgid "Connects article to a specific WooCommerce product."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:42
+#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:45
 msgid "Product-specific KB article permalinks are prefixed with the product slug."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:44
+#: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:47
 msgid "Tab Content (e.g., <code>[kb /]</code>)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:45
+#: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:48
 msgid "Content displayed in the Knowledge Base tab.<hr />If empty, the Knowledge Base tab will simply not be shown."
 msgstr ""
 
-#: src/includes/templates/s-core/notices/on-install.php:34
+#: src/includes/templates/s-core/notices/on-install.php:37
 msgid "<strong>%1$s</strong> v%2$s installed successfully."
 msgstr ""
 
-#: src/includes/templates/s-core/notices/on-install.php:35
+#: src/includes/templates/s-core/notices/on-install.php:38
 msgid "~ Start by creating your first KB Article: <a href=\"%1$s\" class=\"button\" style=\"text-decoration:none;\">Create KB Article</a>"
 msgstr ""
 
-#: src/includes/templates/site/post-type/archive.php:60
-#: src/includes/templates/site/post-type/single.php:48
+#: src/includes/templates/site/post-type/archive.php:63
+#: src/includes/templates/site/post-type/single.php:51
 msgid "Last Modified: %1$s"
 msgstr ""
 
-#: src/includes/templates/site/post-type/archive.php:60
-#: src/includes/templates/site/post-type/single.php:48
+#: src/includes/templates/site/post-type/archive.php:63
+#: src/includes/templates/site/post-type/single.php:51
 msgid "Published: %1$s"
 msgstr ""
 
-#: src/includes/templates/site/post-type/single.php:49
+#: src/includes/templates/site/post-type/single.php:52
 msgid "Last Modified:"
 msgstr ""
 
-#: src/includes/templates/site/shortcodes/kb.php:39
-#: src/includes/templates/site/shortcodes/kb.php:106
+#: src/includes/templates/site/shortcodes/kb.php:42
+#: src/includes/templates/site/shortcodes/kb.php:109
 msgid "🔎   Search KB Articles &hellip;"
 msgstr ""
 
-#: src/includes/templates/site/shortcodes/kb.php:97
+#: src/includes/templates/site/shortcodes/kb.php:100
 msgid "More Knowledge Base Articles"
 msgstr ""
 

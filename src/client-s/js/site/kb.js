@@ -1,5 +1,5 @@
 (function ($) {
   $(document).ready(function () {
-    // Write code here.
+    var x = cxzaxakfkwzewb4g2c2mthw937pa6nnyData;
   });
 })(jQuery);

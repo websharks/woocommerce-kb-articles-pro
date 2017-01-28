@@ -5,7 +5,7 @@
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
-declare (strict_types = 1);
+declare(strict_types=1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
@@ -40,9 +40,9 @@ class App extends SCoreClasses\App
      *
      * @since 160731.38548
      *
-     * @var string Version.
+     * @type string Version.
      */
-    const VERSION = '160919.20254'; //v//
+    const VERSION = '170128.1890'; //v//
 
     /**
      * Constructor.
@@ -101,6 +101,7 @@ class App extends SCoreClasses\App
                 'product_tab_priority'        => 22,
                 'product_tab_default_content' => '[kb /]',
                 'product_tab_content_filters' => [
+                    'wp-markdown-extra',
                     'jetpack-markdown',
                     'jetpack-latex',
                     'wptexturize',
@@ -229,6 +230,9 @@ class App extends SCoreClasses\App
 
         $product_tab_content_filters = s::getOption('product_tab_content_filters');
 
+        if (in_array('wp-markdown-extra', $product_tab_content_filters, true) && s::canWpMdExtra()) {
+            s::addFilter('product_tab_content', s::class.'::wpMdExtra', -10000);
+        }
         if (in_array('jetpack-markdown', $product_tab_content_filters, true) && s::jetpackCanMarkdown()) {
             s::addFilter('product_tab_content', s::class.'::jetpackMarkdown', -10000);
         }

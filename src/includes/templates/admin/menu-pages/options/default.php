@@ -5,7 +5,7 @@
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
-declare (strict_types = 1);
+declare(strict_types=1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
@@ -61,12 +61,13 @@ $root_host         = $this->App->Config->©urls['©hosts']['©roots']['©app'];
 
         <?= $Form->selectRow([
             'label' => __('Content Filters', 'woocommerce-kb-articles'),
-            'tip'   => __('This controls which built-in WordPress content filters are applied to content in the \'Knowledge Base\' Product tab. All content filters suggested.<hr />Note: <code>jetpack-markdown</code> is only possible if you have Jetpack installed with Markdown enabled. The same is true for <code>jetpack-latex</code>.', 'woocommerce-kb-articles'),
+            'tip'   => __('This controls which built-in WordPress content filters are applied to content in the \'Knowledge Base\' Product tab. All content filters suggested.<hr />Note: <code>wp-markdown-extra</code> is only possible if you have WP Markdown Extra installed.<hr /><code>jetpack-markdown</code> is only possible if you have Jetpack installed with Markdown enabled. The same is true for <code>jetpack-latex</code>.', 'woocommerce-kb-articles'),
 
             'name'     => 'product_tab_content_filters',
             'multiple' => true, // i.e., An array.
             'value'    => s::getOption('product_tab_content_filters'),
             'options'  => [
+                'wp-markdown-extra'                 => 'wp-markdown-extra',
                 'jetpack-markdown'                  => 'jetpack-markdown',
                 'jetpack-latex'                     => 'jetpack-latex',
                 'wptexturize'                       => 'wptexturize',
