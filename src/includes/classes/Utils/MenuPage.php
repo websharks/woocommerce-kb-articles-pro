@@ -5,7 +5,7 @@
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
-declare (strict_types = 1);
+declare(strict_types=1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
@@ -47,12 +47,9 @@ class MenuPage extends SCoreClasses\SCore\Base\Core
             'parent_page'   => 'edit.php?post_type=kb_article',
             'template_file' => 'admin/menu-pages/options/default.php',
 
-            'tabs' => [
+            'meta_links' => ['restore' => true],
+            'tabs'       => [
                 'default' => sprintf(__('%1$s', 'woocommerce-kb-articles'), esc_html($this->App->Config->©brand['©name'])),
-                'restore' => [
-                    'label' => __('Restore Default Options', 'woocommerce-kb-articles'),
-                    'url'   => s::restoreDefaultOptionsUrl(), 'onclick' => 'confirm',
-                ],
             ],
         ]);
     }

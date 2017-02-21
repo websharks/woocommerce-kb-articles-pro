@@ -1,9 +1,11 @@
 ## $v
 
+- Updating to latest WP Sharks Core SCSS framework.
 - Updating minimum required version of the WP Sharks Core.
 - Updating scripts/styles to bring them inline with core standards.
 - Adding support for `wp-markdown-extra` filter configuration.
 - Enhancing security by removing `basename(__FILE__)` from direct access notices.
+- Using `Restore Default Options` meta link instead of tab; i.e., bringing this plugin up-to-date with other WPSC projects.
 
 ## v160919.20254
 
