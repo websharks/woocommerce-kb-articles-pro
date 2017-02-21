@@ -1,8 +1,8 @@
 === WooCommerce KB Articles Pro ===
 
-Stable tag: 170128.1890
+Stable tag: 170221.4945
 
-Tested up to: 4.8-alpha
+Tested up to: 4.8
 Requires at least: 4.5.3
 
 Text Domain: woocommerce-kb-articles
