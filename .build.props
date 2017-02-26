@@ -2,6 +2,7 @@ project_title                               = WooCommerce KB Articles Pro
 
 project_owner                               = websharks
 project_slug                                = woocommerce-kb-articles-pro
+
 project_text_domain                         = woocommerce-kb-articles
 project_slack_channel                       = wc-kb-articles
 

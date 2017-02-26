@@ -42,7 +42,7 @@ class App extends SCoreClasses\App
      *
      * @type string Version.
      */
-    const VERSION = '170221.4945'; //v//
+    const VERSION = '170226.27847'; //v//
 
     /**
      * Constructor.
@@ -56,7 +56,13 @@ class App extends SCoreClasses\App
         $instance_base = [
             '©di' => [
                 '©default_rule' => [
-                    'new_instances' => [],
+                    'new_instances' => [
+                        Classes\Widgets\Meta::class,
+                        Classes\Widgets\Search::class,
+                        Classes\Widgets\Product::class,
+                        Classes\Widgets\Authors::class,
+                        Classes\Widgets\Categories::class,
+                    ],
                 ],
             ],
 

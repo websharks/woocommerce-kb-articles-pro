@@ -7,6 +7,7 @@
 - Enhancing security by removing `basename(__FILE__)` from direct access notices.
 - Using `Restore Default Options` meta link instead of tab; i.e., bringing this plugin up-to-date with other WPSC projects.
 - Removing unnecessary lite build variation from `.build.props` file.
+- Bug fix. Declare new instances widget classes properly.
 
 ## v160919.20254
 
