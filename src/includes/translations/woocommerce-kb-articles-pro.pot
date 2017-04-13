@@ -2,32 +2,15 @@
 # This file is distributed under the same license as the WooCommerce KB Articles Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce KB Articles Pro 170226.27847\n"
+"Project-Id-Version: WooCommerce KB Articles Pro 170413.79203\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
-"POT-Creation-Date: 2017-02-26 07:44:11+00:00\n"
+"POT-Creation-Date: 2017-04-13 22:00:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-
-#: assets/.~Title.php:192 assets/.~Title.php:252
-#: src/includes/classes/Utils/Title.php:146
-#: src/includes/classes/Utils/Title.php:211
-msgid "KB"
-msgstr ""
-
-#: assets/.~Title.php:250 src/includes/classes/Utils/Title.php:149
-#: src/includes/classes/Utils/Title.php:213
-#: src/includes/classes/Utils/WcProduct.php:92
-#: src/includes/classes/Utils/WcProduct.php:119
-msgid "Knowledge Base"
-msgstr ""
-
-#: assets/.~Title.php:271
-msgid "Search Results: <code>%1$s</code>"
-msgstr ""
 
 #: src/includes/classes/App.php:143
 msgid "Fancy Permalinks"
@@ -319,6 +302,18 @@ msgstr ""
 
 #: src/includes/classes/Utils/PostTypeCols.php:49
 msgid "Product"
+msgstr ""
+
+#: src/includes/classes/Utils/Title.php:146
+#: src/includes/classes/Utils/Title.php:211
+msgid "KB"
+msgstr ""
+
+#: src/includes/classes/Utils/Title.php:149
+#: src/includes/classes/Utils/Title.php:213
+#: src/includes/classes/Utils/WcProduct.php:92
+#: src/includes/classes/Utils/WcProduct.php:119
+msgid "Knowledge Base"
 msgstr ""
 
 #: src/includes/classes/Utils/Title.php:232

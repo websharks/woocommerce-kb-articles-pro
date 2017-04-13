@@ -1,4 +1,4 @@
-## $v
+## v170413.79203
 
 - Updating to latest WP Sharks Core SCSS framework.
 - Updating minimum required version of the WP Sharks Core.
