@@ -4,7 +4,7 @@
  *
  * @wp-plugin
  *
- * Version: 170226.27847
+ * Version: 170419.40192
  * Text Domain: woocommerce-kb-articles
  * Plugin Name: WooCommerce KB Articles Pro
  *

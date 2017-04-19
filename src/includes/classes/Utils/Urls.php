@@ -5,7 +5,7 @@
  * @author @jaswsinc
  * @copyright WP Sharks™
  */
-declare (strict_types = 1);
+declare(strict_types=1);
 namespace WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes\Utils;
 
 use WebSharks\WpSharks\WooCommerceKBArticles\Pro\Classes;
@@ -40,7 +40,7 @@ class Urls extends SCoreClasses\SCore\Base\Core
      *
      * @since 160731.38548 Initial release.
      *
-     * @var array Permalink options.
+     * @type array Permalink options.
      */
     protected $permalink_options;
 
@@ -93,11 +93,12 @@ class Urls extends SCoreClasses\SCore\Base\Core
         if ($WP_Post->post_type !== 'kb_article') {
             return $link; // Not applicable.
         }
-        $product_id = s::getPostMeta($WP_Post->ID, '_product_id');
-        $WC_Product = $product_id ? wc_get_product($product_id) : null;
+        $product_id      = s::getPostMeta($WP_Post->ID, '_product_id');
+        $WC_Product      = $product_id ? wc_get_product($product_id) : null;
+        $WC_Product_Post = $WC_Product ? s::wcProductPost($WC_Product) : null;
 
-        if ($WC_Product && $WC_Product->exists()) {
-            $link = str_replace('%kb_product%', urlencode($WC_Product->post->post_name), $link);
+        if ($WC_Product && $WC_Product_Post) {
+            $link = str_replace('%kb_product%', urlencode($WC_Product_Post->post_name), $link);
         } else { // `/kb-article/%kb_product%/article-slug` becomes `/kb-articles/article-slug`.
             $link = str_replace('/'.$this->permalink_options['article_base'].'/', '/'.$this->permalink_options['articles_base'].'/', $link);
             $link = str_replace('/%kb_product%', '', $link);
@@ -199,8 +200,8 @@ class Urls extends SCoreClasses\SCore\Base\Core
      */
     public function index(int $product_id = null): string
     {
-        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && $WC_Product->exists()) {
-            return user_trailingslashit(home_url('/'.$this->permalink_options['base'].'/'.urlencode($WC_Product->post->post_name)));
+        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && ($WC_Product_Post = s::wcProductPost($WC_Product))) {
+            return user_trailingslashit(home_url('/'.$this->permalink_options['base'].'/'.urlencode($WC_Product_Post->post_name)));
         }
         return user_trailingslashit(home_url('/'.$this->permalink_options['base']));
     }
@@ -217,8 +218,8 @@ class Urls extends SCoreClasses\SCore\Base\Core
      */
     public function article(string $slug, int $product_id = null): string
     {
-        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && $WC_Product->exists()) {
-            $url = home_url('/'.$this->permalink_options['article_base'].'/'.urlencode($WC_Product->post->post_name));
+        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && ($WC_Product_Post = s::wcProductPost($WC_Product))) {
+            $url = home_url('/'.$this->permalink_options['article_base'].'/'.urlencode($WC_Product_Post->post_name));
         } else {
             $url = home_url('/'.$this->permalink_options['articles_base']);
         }
@@ -240,8 +241,8 @@ class Urls extends SCoreClasses\SCore\Base\Core
         if (!$user_id || !($WP_User = get_user_by('ID', $user_id)) || !$WP_User->exists()) {
             return ''; // Not possible.
         }
-        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && $WC_Product->exists()) {
-            $url = home_url('/'.$this->permalink_options['author_base'].'/'.urlencode($WC_Product->post->post_name));
+        if (isset($product_id) && ($WC_Product = wc_get_product($product_id)) && ($WC_Product_Post = s::wcProductPost($WC_Product))) {
+            $url = home_url('/'.$this->permalink_options['author_base'].'/'.urlencode($WC_Product_Post->post_name));
         } else {
             $url = home_url('/'.$this->permalink_options['authors_base']);
         }

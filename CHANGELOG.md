@@ -1,5 +1,6 @@
 ## $v
 
+- Adding support for WooCommerce 3.0+.
 - Updating to latest WP Sharks Core SCSS framework.
 - Updating minimum required version of the WP Sharks Core.
 - Updating scripts/styles to bring them inline with core standards.
