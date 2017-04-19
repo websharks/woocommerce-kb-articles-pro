@@ -1,0 +1,668 @@
+# Copyright (C) 2017 WooCommerce KB Articles Pro
+# This file is distributed under the same license as the WooCommerce KB Articles Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce KB Articles Pro 170419.40322\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-kb-articles-pro\n"
+"POT-Creation-Date: 2017-04-19 11:12:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: assets/.~Title.php:192 assets/.~Title.php:252
+#: src/includes/classes/Utils/Title.php:146
+#: src/includes/classes/Utils/Title.php:211
+msgid "KB"
+msgstr ""
+
+#: assets/.~Title.php:250 src/includes/classes/Utils/Title.php:149
+#: src/includes/classes/Utils/Title.php:213
+#: src/includes/classes/Utils/WcProduct.php:92
+#: src/includes/classes/Utils/WcProduct.php:119
+msgid "Knowledge Base"
+msgstr ""
+
+#: assets/.~Title.php:271
+msgid "Search Results: <code>%1$s</code>"
+msgstr ""
+
+#: src/includes/classes/App.php:143
+msgid "Fancy Permalinks"
+msgstr ""
+
+#: src/includes/classes/App.php:144
+msgid "a Permalink Structure other than <em>plain</em>"
+msgstr ""
+
+#: src/includes/classes/App.php:149
+msgid "<a href=\"%1$s\">change your Permalink settings</a> to anything but <em>plain</em>"
+msgstr ""
+
+#: src/includes/classes/Utils/MenuPage.php:46
+msgid "Options"
+msgstr ""
+
+#: src/includes/classes/Utils/MenuPage.php:52
+msgid "%1$s"
+msgstr ""
+
+#: src/includes/classes/Utils/PostMetaBox.php:48
+msgid "Product-Specific KB"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:136
+msgid "Knowledge Base Articles"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:139
+#: src/includes/classes/Utils/PostType.php:143
+msgid "KB Articles"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:140
+#: src/includes/classes/Utils/PostType.php:142
+msgid "KB Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:145
+msgid "All Articles"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:146
+msgid "Add Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:147
+msgid "Add New Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:148
+msgid "New Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:149
+msgid "Edit Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:150
+msgid "View Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:152
+msgid "Search Knowledge Base"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:153
+msgid "No Articles Found"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:154
+msgid "No Articles Found in Trash"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:156
+msgid "Insert Into Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:157
+msgid "Upload to this Article"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:159
+msgid "Set Featured Image"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:160
+msgid "Remove Featured Image"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:161
+msgid "Use as Featured Image"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:163
+msgid "Articles List"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:164
+msgid "Articles List Navigation"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:166
+msgid "Knowledge Base Archives"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:167
+msgid "Filter Articles List"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:168
+msgid "Parent Article:"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:222
+msgid "Knowledge Base Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:225
+msgid "KB Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:226
+#: src/includes/classes/Utils/PostType.php:228
+msgid "KB Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:229
+#: src/includes/templates/site/shortcodes/kb.php:51
+msgid "Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:231
+#: src/includes/classes/Utils/PostType.php:249
+msgid "All Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:232
+msgid "Add New Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:233
+msgid "New Category Name"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:234
+msgid "Add or Remove Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:235
+msgid "View Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:236
+msgid "Edit Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:237
+msgid "Update Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:239
+msgid "Search Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:240
+msgid "No Categories Found"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:241
+msgid "No Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:243
+msgid "Choose From the Most Used Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:244
+msgid "Separate Categories w/ Commas"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:246
+msgid "Categories List"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:247
+msgid "Categories List Navigation"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:250
+msgid "Popular Categories"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:251
+msgid "Parent Category"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:252
+msgid "Parent Category:"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:276
+msgid "Knowledge Base Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:279
+msgid "KB Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:280
+#: src/includes/classes/Utils/PostType.php:282
+msgid "KB Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:283
+#: src/includes/templates/site/shortcodes/kb.php:64
+msgid "Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:285
+#: src/includes/classes/Utils/PostType.php:303
+msgid "All Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:286
+msgid "Add New Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:287
+msgid "New Tag Name"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:288
+msgid "Add or Remove Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:289
+msgid "View Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:290
+msgid "Edit Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:291
+msgid "Update Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:293
+msgid "Search Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:294
+msgid "No Tags Found"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:295
+msgid "No Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:297
+msgid "Choose From the Most Used Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:298
+msgid "Separate Tags w/ Commas"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:300
+msgid "Tags List"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:301
+msgid "Tags List Navigation"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:304
+msgid "Popular Tags"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:305
+msgid "Parent Tag"
+msgstr ""
+
+#: src/includes/classes/Utils/PostType.php:306
+msgid "Parent Tag:"
+msgstr ""
+
+#: src/includes/classes/Utils/PostTypeCols.php:49
+msgid "Product"
+msgstr ""
+
+#: src/includes/classes/Utils/Title.php:232
+msgid "Author"
+msgstr ""
+
+#: src/includes/classes/Utils/Title.php:235
+msgid "🔎 Results for: <tt class=\"-s\">%1$s</tt>"
+msgstr ""
+
+#: src/includes/classes/Utils/WcProduct.php:123
+msgid "Open in New Tab"
+msgstr ""
+
+#: src/includes/classes/Utils/WcProduct.php:124
+msgid "Product Knowledge Base"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:48
+msgid "KB: Authors"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:49
+msgid "Displays a list of KB authors."
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:73
+msgid "Show Avatars?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:76
+#: src/includes/classes/Widgets/Authors.php:85
+#: src/includes/classes/Widgets/Authors.php:95
+#: src/includes/classes/Widgets/Meta.php:79
+#: src/includes/classes/Widgets/Meta.php:88
+#: src/includes/classes/Widgets/Meta.php:97
+#: src/includes/classes/Widgets/Meta.php:106
+msgid "No"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:77
+#: src/includes/classes/Widgets/Authors.php:86
+#: src/includes/classes/Widgets/Authors.php:96
+#: src/includes/classes/Widgets/Meta.php:80
+#: src/includes/classes/Widgets/Meta.php:89
+#: src/includes/classes/Widgets/Meta.php:98
+#: src/includes/classes/Widgets/Meta.php:107
+msgid "Yes"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:82
+msgid "Show Article Counts?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:91
+msgid "Show Multiple Authors Only?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Authors.php:92
+msgid "If you select 'Yes', the widget is only shown when there are multiple KB authors."
+msgstr ""
+
+#: src/includes/classes/Widgets/Categories.php:49
+msgid "KB: Categories"
+msgstr ""
+
+#: src/includes/classes/Widgets/Categories.php:50
+msgid "Displays a list of KB categories."
+msgstr ""
+
+#: src/includes/classes/Widgets/Categories.php:73
+msgid "Depth:"
+msgstr ""
+
+#: src/includes/classes/Widgets/Categories.php:75
+msgid "e.g., Setting this to <code>1</code> will show parent categories only. <code>0</code> shows all categories."
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:48
+msgid "KB: Article Meta"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:49
+msgid "Displays single article meta."
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:76
+msgid "Show Author?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:85
+msgid "Show Product?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:94
+msgid "Show Categories?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:103
+msgid "Show Tags?"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:133
+#: src/includes/classes/Widgets/Meta.php:134
+msgid ", "
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:145
+msgid "Written By"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:151
+msgid "For Product"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:157
+msgid "Posted in"
+msgstr ""
+
+#: src/includes/classes/Widgets/Meta.php:163
+msgid "Tagged"
+msgstr ""
+
+#: src/includes/classes/Widgets/Product.php:49
+msgid "KB: Back to Product"
+msgstr ""
+
+#: src/includes/classes/Widgets/Product.php:50
+msgid "Link back to current KB product page."
+msgstr ""
+
+#: src/includes/classes/Widgets/Search.php:49
+msgid "KB: Article Search"
+msgstr ""
+
+#: src/includes/classes/Widgets/Search.php:50
+msgid "Search box for KB articles."
+msgstr ""
+
+#: src/includes/classes/Widgets/Search.php:86
+msgid "Search KB Articles:"
+msgstr ""
+
+#: src/includes/classes/Widgets/Search.php:87
+msgid "Search KB Articles &hellip;"
+msgstr ""
+
+#: src/includes/classes/Widgets/Search.php:89
+msgid "Search"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:40
+msgid "Product Tab Options"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:41
+msgid "These allow you to customize the 'Knowledge Base' product tab added by this plugin. The defaults are usually just fine, but you can customize further if you like. You can also browse <em>our</em> <a href=\"%1$s\" target=\"_blank\">knowledge base</a> to learn more about these options."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:46
+msgid "Priority (Position)"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:47
+msgid "This controls the tab display position in WooCommerce.<hr />You should only need to change this if you have another plugin that adds a new tab with the same (i.e., a conflicting) priority."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:54
+msgid "Default Content"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:55
+msgid "When you add a new Product, this will be the default Knowledge Base tab content.<hr />Setting this to <code>[kb /]</code> is a suggested default, but you can learn more about the shortcode and customize it further if you like."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:56
+msgid "e.g., <code>[kb show_search_box=\"yes\" max=\"25\" /]</code> and many other supported attributes."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:63
+msgid "Content Filters"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:64
+msgid "This controls which built-in WordPress content filters are applied to content in the 'Knowledge Base' Product tab. All content filters suggested.<hr />Note: <code>wp-markdown-extra</code> is only possible if you have WP Markdown Extra installed.<hr /><code>jetpack-markdown</code> is only possible if you have Jetpack installed with Markdown enabled. The same is true for <code>jetpack-latex</code>."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:88
+msgid "Permalink Options"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:89
+msgid "This controls URLs that lead to KB Indexes, Articles, Categories, Tags, etc. The defaults are usually just fine, but you can adjust if necessary."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:90
+msgid "If you do customize these, be sure to use <strong>unique</strong> values; i.e., none of these can be the same as any other, or you will have problems."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:94
+msgid "Root Index Base"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:95
+msgid "%1$s/<code>%2$s</code>"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:102
+msgid "Articles Base"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:103
+#: src/includes/templates/admin/menu-pages/options/default.php:119
+#: src/includes/templates/admin/menu-pages/options/default.php:135
+#: src/includes/templates/admin/menu-pages/options/default.php:151
+msgid "%1$s/<code>%2$s</code>/[slug]"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:110
+msgid "Product-Specific Article"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:111
+#: src/includes/templates/admin/menu-pages/options/default.php:127
+#: src/includes/templates/admin/menu-pages/options/default.php:143
+#: src/includes/templates/admin/menu-pages/options/default.php:159
+msgid "%1$s/<code>%2$s</code>/[product]/[slug]"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:118
+msgid "Categories Base"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:126
+msgid "Product-Specific Category"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:134
+msgid "Tags Base"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:142
+msgid "Product-Specific Tag"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:150
+msgid "Authors Base"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:158
+msgid "Product-Specific Author"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:170
+msgid "Product Permalink Endpoint Options"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:171
+msgid "These Endpoints add new behavhiors to the existing Product Permalink structure in WooCommerce."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:175
+msgid "Endpoint for Index Redirect"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:176
+msgid "This is a Product Endpoint that, if accessed, will redirect a visitor to the KB Index for a specific Product.<hr />e.g., %1$s/product/[slug]/<code>%2$s</code>"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:183
+msgid "Endpoint for Article Redirect"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/options/default.php:184
+msgid "This is a Product Endpoint that, if accessed, will redirect a visitor to a specific KB Article for a specific Product.<hr />e.g., %1$s/product/[slug]/<code>%2$s</code>/[slug]"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:43
+msgid "WooCommerce Product"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:44
+msgid "Connects article to a specific WooCommerce product."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/post-meta-box/article-product-id.php:45
+msgid "Product-specific KB article permalinks are prefixed with the product slug."
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:47
+msgid "Tab Content (e.g., <code>[kb /]</code>)"
+msgstr ""
+
+#: src/includes/templates/admin/menu-pages/post-meta-box/product-tab-content.php:48
+msgid "Content displayed in the Knowledge Base tab.<hr />If empty, the Knowledge Base tab will simply not be shown."
+msgstr ""
+
+#: src/includes/templates/s-core/notices/on-install.php:37
+msgid "<strong>%1$s</strong> v%2$s installed successfully."
+msgstr ""
+
+#: src/includes/templates/s-core/notices/on-install.php:38
+msgid "~ Start by creating your first KB Article: <a href=\"%1$s\" class=\"button\" style=\"text-decoration:none;\">Create KB Article</a>"
+msgstr ""
+
+#: src/includes/templates/site/post-type/archive.php:63
+#: src/includes/templates/site/post-type/single.php:51
+msgid "Last Modified: %1$s"
+msgstr ""
+
+#: src/includes/templates/site/post-type/archive.php:63
+#: src/includes/templates/site/post-type/single.php:51
+msgid "Published: %1$s"
+msgstr ""
+
+#: src/includes/templates/site/post-type/single.php:52
+msgid "Last Modified:"
+msgstr ""
+
+#: src/includes/templates/site/shortcodes/kb.php:42
+#: src/includes/templates/site/shortcodes/kb.php:109
+msgid "🔎   Search KB Articles &hellip;"
+msgstr ""
+
+#: src/includes/templates/site/shortcodes/kb.php:100
+msgid "More Knowledge Base Articles"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce KB Articles Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpsharks.com/product/woocommerce-kb-articles-pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WP Sharks™ plugin woocommerce-kb-articles."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Sharks™"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpsharks.com"
+msgstr ""
